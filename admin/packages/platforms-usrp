@@ -1,0 +1,9 @@
+
+[Global]
+Buildorder=1000
+Version=1
+Lock=asim-platforms-usrp
+Description=Description of platforms-usrp
+Name=platforms-usrp
+Tag=HEAD
+CSN=CSN-platforms-usrp-0
