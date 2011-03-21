@@ -1,0 +1,51 @@
+Release 12.3 ngdbuild M.70d (lin64)
+Copyright (c) 1995-2010 Xilinx, Inc.  All rights reserved.
+
+Command Line:
+/afs/csail.mit.edu/group/csg/tools/tools_lx86/xilinx/12.1/ISE_DS/ISE/bin/lin64/u
+nwrapped/ngdbuild -intstyle ise -dd _ngo -sd ../../../coregen -nt timestamp -uc
+/afs/csail.mit.edu/u/m/mcn02/airblue2_hw_sw/uhd/fpga/usrp2/top/u1e/u1e.ucf -uc
+/afs/csail.mit.edu/u/m/mcn02/airblue2_hw_sw/uhd/fpga/usrp2/top/u1e/timing.ucf -p
+xc3sd1800a-cs484-4 u1e.ngc u1e.ngd
+
+Reading NGO file
+"/afs/csail.mit.edu/u/m/mcn02/airblue2_hw_sw/uhd/fpga/usrp2/top/u1e/build/u1e.ng
+c" ...
+Gathering constraint information from source properties...
+Done.
+
+Annotating constraints to design from ucf file
+"/afs/csail.mit.edu/u/m/mcn02/airblue2_hw_sw/uhd/fpga/usrp2/top/u1e/u1e.ucf" ...
+Annotating constraints to design from ucf file
+"/afs/csail.mit.edu/u/m/mcn02/airblue2_hw_sw/uhd/fpga/usrp2/top/u1e/timing.ucf"
+...
+Resolving constraint associations...
+Checking Constraint Associations...
+INFO:ConstraintSystem:178 - TNM 'CLK_FPGA_P', used in period specification
+   'TS_clk_fpga_p', was traced into DCM_SP instance DCM_SP. The following new
+   TNM groups and period specifications were generated at the DCM_SP output(s): 
+   CLK90: <TIMESPEC TS_clk_fpga1 = PERIOD "clk_fpga1" TS_clk_fpga_p PHASE 3906
+   ps HIGH 50%>
+
+Done...
+
+Checking expanded design ...
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+NGDBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings:   0
+
+Total memory usage is 349688 kilobytes
+
+Writing NGD file "u1e.ngd" ...
+Total REAL time to NGDBUILD completion:  12 sec
+Total CPU time to NGDBUILD completion:   11 sec
+
+Writing NGDBUILD log file "u1e.bld"...

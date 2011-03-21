@@ -1,0 +1,81 @@
+Release 12.3 Map M.70d (lin64)
+Xilinx Map Application Log File for Design 'passthru'
+
+Design Information
+------------------
+Command Line   : map -intstyle ise -p xc3sd1800a-cs484-4 -timing -logic_opt on
+-ol high -xe n -t 1 -register_duplication on -cm speed -ir off
+-ignore_keep_hierarchy -pr b -power off -o passthru_map.ncd passthru.ngd
+passthru.pcf 
+Target Device  : xc3sd1800a
+Target Package : cs484
+Target Speed   : -4
+Mapper Version : spartan3adsp -- $Revision: 1.52 $
+Mapped Date    : Fri Mar 11 22:25:51 2011
+
+Mapping design into LUTs...
+Running directed packing...
+Running delay-based LUT packing...
+Updating timing models...
+Running timing-driven placement...
+Total REAL time at the beginning of Placer: 5 secs 
+Total CPU  time at the beginning of Placer: 3 secs 
+
+Phase 1.1  Initial Placement Analysis
+Phase 1.1  Initial Placement Analysis (Checksum:83065b58) REAL time: 7 secs 
+
+Phase 2.7  Design Feasibility Check
+Phase 2.7  Design Feasibility Check (Checksum:83065b58) REAL time: 7 secs 
+
+Phase 3.31  Local Placement Optimization
+Phase 3.31  Local Placement Optimization (Checksum:83065b58) REAL time: 7 secs 
+
+Phase 4.2  Initial Clock and IO Placement
+Phase 4.2  Initial Clock and IO Placement (Checksum:83065b58) REAL time: 7 secs 
+
+Phase 5.30  Global Clock Region Assignment
+Phase 5.30  Global Clock Region Assignment (Checksum:83065b58) REAL time: 7 secs 
+
+Phase 6.36  Local Placement Optimization
+Phase 6.36  Local Placement Optimization (Checksum:83065b58) REAL time: 7 secs 
+
+Phase 7.8  Global Placement
+Phase 7.8  Global Placement (Checksum:83065b58) REAL time: 7 secs 
+
+Phase 8.5  Local Placement Optimization
+Phase 8.5  Local Placement Optimization (Checksum:83065b58) REAL time: 7 secs 
+
+Phase 9.18  Placement Optimization
+Phase 9.18  Placement Optimization (Checksum:83065b58) REAL time: 7 secs 
+
+Phase 10.5  Local Placement Optimization
+Phase 10.5  Local Placement Optimization (Checksum:83065b58) REAL time: 7 secs 
+
+Total REAL time to Placer completion: 7 secs 
+Total CPU  time to Placer completion: 4 secs 
+Running physical synthesis...
+
+Physical synthesis completed.
+Running post-placement packing...
+
+Design Summary
+--------------
+
+Design Summary:
+Number of errors:      0
+Number of warnings:    0
+Logic Utilization:
+Logic Distribution:
+    Number of Slices containing only related logic:       0 out of       0   0%
+    Number of Slices containing unrelated logic:          0 out of       0   0%
+      *See NOTES below for an explanation of the effects of unrelated logic.
+  Number of bonded IOBs:                  6 out of     309    1%
+
+Average Fanout of Non-Clock Nets:                1.00
+
+Peak Memory Usage:  587 MB
+Total REAL time to MAP completion:  10 secs 
+Total CPU time to MAP completion:   7 secs 
+
+Mapping completed.
+See MAP report file "passthru_map.mrp" for details.

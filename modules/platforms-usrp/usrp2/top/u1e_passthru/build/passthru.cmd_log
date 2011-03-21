@@ -1,0 +1,6 @@
+xst -intstyle ise -ifn "/afs/csail.mit.edu/u/m/mcn02/airblue2_hw_sw/uhd/fpga/usrp2/top/u1e_passthru/build/passthru.xst" -ofn "/afs/csail.mit.edu/u/m/mcn02/airblue2_hw_sw/uhd/fpga/usrp2/top/u1e_passthru/build/passthru.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../../../coregen -nt timestamp -uc /afs/csail.mit.edu/u/m/mcn02/airblue2_hw_sw/uhd/fpga/usrp2/top/u1e_passthru/passthru.ucf -p xc3sd1800a-cs484-4 passthru.ngc passthru.ngd  
+map -intstyle ise -p xc3sd1800a-cs484-4 -timing -logic_opt on -ol high -xe n -t 1 -register_duplication on -cm speed -ir off -ignore_keep_hierarchy -pr b -power off -o passthru_map.ncd passthru.ngd passthru.pcf 
+par -w -intstyle ise -ol high -t 1 passthru_map.ncd passthru.ncd passthru.pcf 
+trce -intstyle ise -e 10 -s 4 -n 3 -fastpaths -xml passthru.twx passthru.ncd -o passthru.twr passthru.pcf 
+bitgen -intstyle ise -f passthru.ut passthru.ncd 

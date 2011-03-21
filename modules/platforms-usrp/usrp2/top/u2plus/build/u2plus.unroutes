@@ -1,0 +1,22 @@
+Release 12.3 - par M.70d (lin64)
+Copyright (c) 1995-2010 Xilinx, Inc.  All rights reserved.
+
+Fri Mar 11 22:12:49 2011
+
+All signals are completely routed.
+
+WARNING:ParHelpers:361 - There are 10 loadless signals in this design. This design will cause Bitgen to issue DRC
+   warnings.
+
+   ADC_clkout_n_IBUF
+   ADC_clkout_p_IBUF
+   CLK_FUNC_IBUF
+   DAC_LOCK_IBUF
+   GMII_COL_IBUF
+   GMII_CRS_IBUF
+   GMII_TX_CLK_IBUF
+   PPS2_IN_IBUF
+   exp_user_in_n_IBUF
+   exp_user_in_p_IBUF
+
+

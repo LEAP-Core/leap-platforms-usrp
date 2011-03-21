@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=/afs/csail.mit.edu/u/m/mcn02/airblue2_hw_sw/uhd/fpga/usrp2/top/u1e_passthru/build/passthru.ncd
+OUTFILE=/afs/csail.mit.edu/u/m/mcn02/airblue2_hw_sw/uhd/fpga/usrp2/top/u1e_passthru/build/passthru.bit
+FAMILY=Spartan-3A DSP
+PART=xc3sd1800a-4cs484
+WORKINGDIR=/afs/csail.mit.edu/u/m/mcn02/airblue2_hw_sw/uhd/fpga/usrp2/top/u1e_passthru/build
+LICENSE=ISE
+USER_INFO=176705590_176019658_176019660

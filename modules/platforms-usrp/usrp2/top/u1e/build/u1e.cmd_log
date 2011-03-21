@@ -1,0 +1,6 @@
+xst -intstyle ise -ifn "/afs/csail.mit.edu/u/m/mcn02/airblue2_hw_sw/uhd/fpga/usrp2/top/u1e/build/u1e.xst" -ofn "/afs/csail.mit.edu/u/m/mcn02/airblue2_hw_sw/uhd/fpga/usrp2/top/u1e/build/u1e.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../../../coregen -nt timestamp -uc /afs/csail.mit.edu/u/m/mcn02/airblue2_hw_sw/uhd/fpga/usrp2/top/u1e/u1e.ucf -uc /afs/csail.mit.edu/u/m/mcn02/airblue2_hw_sw/uhd/fpga/usrp2/top/u1e/timing.ucf -p xc3sd1800a-cs484-4 u1e.ngc u1e.ngd  
+map -intstyle ise -p xc3sd1800a-cs484-4 -timing -logic_opt on -ol high -xe n -t 1 -register_duplication on -cm speed -ir off -ignore_keep_hierarchy -pr b -power off -o u1e_map.ncd u1e.ngd u1e.pcf 
+par -w -intstyle ise -ol high -t 1 u1e_map.ncd u1e.ncd u1e.pcf 
+trce -intstyle ise -e 10 -s 4 -n 3 -fastpaths -xml u1e.twx u1e.ncd -o u1e.twr u1e.pcf 
+bitgen -intstyle ise -f u1e.ut u1e.ncd 

@@ -1,0 +1,13 @@
+//! **************************************************************************
+// Written by: Map M.70d on Fri Mar 11 22:26:00 2011
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "fpga_cfg_cclk" LOCATE = SITE "V17" LEVEL 1;
+COMP "cgen_sen_b" LOCATE = SITE "H20" LEVEL 1;
+COMP "fpga_cfg_din" LOCATE = SITE "W17" LEVEL 1;
+COMP "overo_gpio145" LOCATE = SITE "C7" LEVEL 1;
+COMP "cgen_sclk" LOCATE = SITE "J19" LEVEL 1;
+COMP "cgen_mosi" LOCATE = SITE "E22" LEVEL 1;
+SCHEMATIC END;
+
