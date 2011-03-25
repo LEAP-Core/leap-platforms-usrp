@@ -1,0 +1,37 @@
+WARNING:PhysDesignRules:367 - The signal <PHY_CLK_IBUF> is incomplete. The
+   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <PHY_INTn_IBUF> is incomplete. The
+   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <adc_ovf_a_IBUF> is incomplete. The
+   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <adc_ovf_b_IBUF> is incomplete. The
+   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <POR_IBUF> is incomplete. The signal
+   does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <GMII_TX_CLK_IBUF> is incomplete. The
+   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <dac_lock_IBUF> is incomplete. The
+   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <clk_func_IBUF> is incomplete. The
+   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <GMII_COL_IBUF> is incomplete. The
+   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <GMII_CRS_IBUF> is incomplete. The
+   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <u2_core/ila0/U0/I_NO_D.U_ILA/U_STAT/iSTAT<11>_wg_lut<7>> is incomplete. The
+   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:1060 - Dangling pins on
+   block:<u2_core/tx_control/txctrlfifo/middle_fifo/ram/Mram_ram1.A>:<RAMB16_RAM
+   B16A>.  The block is configured to use input parity pins. There are dangling
+   output parity pins.
+WARNING:PhysDesignRules:1060 - Dangling pins on
+   block:<u2_core/rx_control/rxfifo/middle_fifo/ram/Mram_ram1.A>:<RAMB16_RAMB16A
+   >.  The block is configured to use input parity pins. There are dangling
+   output parity pins.
+WARNING:PhysDesignRules:1060 - Dangling pins on
+   block:<u2_core/rx_control/rxfifo/middle_fifo/ram/Mram_ram2.A>:<RAMB16_RAMB16A
+   >.  The block is configured to use input parity pins. There are dangling
+   output parity pins.
+DRC detected 0 errors and 14 warnings.  Please see the previously displayed
+individual error or warning messages for more details.

@@ -1,0 +1,6 @@
+CommandLine
+/afs/csail.mit.edu/group/csg/tools/tools_lx86/xilinx/10.1/ISE/bin/lin64/unwrapped/trce -ise /afs/csail.mit.edu/u/k/kfleming/fpgaTXStripped/usrp2/top/u2_rev3/build/u2_rev3.ise -intstyle ise -e 10 -s 5 -xml u2_rev3 u2_rev3.ncd -o u2_rev3.twr u2_rev3.pcf -ucf /afs/csail.mit.edu/u/k/kfleming/fpgaTXStripped/usrp2/top/u2_rev3/u2_rev3.ucf
+s
+FormatString
+trce ([-e|-v [<limit:0,2000000000>]] [-l <limit:0,2000000000>] [-n [<limit:0,2000000000>]] [-u [<limit:0,2000000000>]] [-skew] [-a] [--p] [-s <speed>] [-o <report[.twr]>] [--m] [-stamp <stampfile>] [-tsi <tsifile[.tsi]>] [-xml <report[.twx]>] [-nodatasheet] [-timegroups] [-fastpaths] [-intstyle ise|xflow|silent] [-ise <projectfile>] [--ucf <constraint[.ucf]>] <design[.ncd]> [<constraint[.pcf]>]) | ([-run <macro[.xtm]> [<design[.ncd]> [<constraint[.pcf]>]]] [-intstyle ise|xflow|silent] [-ise <projectfile>])
+s

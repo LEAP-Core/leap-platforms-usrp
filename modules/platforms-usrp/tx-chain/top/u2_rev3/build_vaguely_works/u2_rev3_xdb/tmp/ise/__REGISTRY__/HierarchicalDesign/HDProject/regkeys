@@ -1,0 +1,24 @@
+CommandLine-Map
+
+s
+CommandLine-Ngdbuild
+/afs/csail.mit.edu/group/csg/tools/tools_lx86/xilinx/10.1/ISE/bin/lin64/unwrapped/ngdbuild -ise /afs/csail.mit.edu/u/k/kfleming/fpgaTXStripped/usrp2/top/u2_rev3/build/u2_rev3.ise -intstyle ise -dd _ngo -sd /afs/csail.mit.edu/u/k/kfleming/fpgaTXStripped/usrp2/top/u2_rev3/../../coregen/ -nt timestamp -i -p xc3s2000-fg456-5 u2_rev3.ngc u2_rev3.ngd
+s
+CommandLine-Par
+
+s
+CommandLine-Xst
+
+s
+Previous-NGD
+u2_rev3_prev_built.ngd
+s
+Previous-NGM
+
+s
+Previous-Packed-NCD
+
+s
+Previous-Routed-NCD
+
+s

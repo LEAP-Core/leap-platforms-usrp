@@ -1,0 +1,6 @@
+CommandLine
+/afs/csail.mit.edu/group/csg/tools/tools_lx86/xilinx/10.1/ISE/bin/lin64/unwrapped/bitgen -ise /afs/csail.mit.edu/u/k/kfleming/fpgaTXStripped/usrp2/top/u2_rev3/build/u2_rev3.ise -intstyle ise -f u2_rev3.ut u2_rev3.ncd
+s
+FormatString
+bitgen [-d] [-j] [-b] [-w] [-l] [-m] [-t] [-n] [-u] [-a] [--p] [-r <bitFile>] [-intstyle ise|xflow|silent] [-ise <projectrepositoryfile>] {-bd <BRAM_data_file> [tag <tagname>]} {-g <setting_value>} <infile[.ncd]> [<outfile>] [<pcffile[.pcf]>]
+s

@@ -1,0 +1,23 @@
+Release 10.1 - par K.31 (lin64)
+Copyright (c) 1995-2008 Xilinx, Inc.  All rights reserved.
+
+Mon Mar 21 20:54:56 2011
+
+All signals are completely routed.
+
+WARNING:ParHelpers:361 - There are 11 loadless signals in this design. This design will cause Bitgen to issue DRC
+   warnings.
+
+   GMII_COL_IBUF
+   GMII_CRS_IBUF
+   GMII_TX_CLK_IBUF
+   PHY_CLK_IBUF
+   PHY_INTn_IBUF
+   POR_IBUF
+   adc_ovf_a_IBUF
+   adc_ovf_b_IBUF
+   clk_func_IBUF
+   dac_lock_IBUF
+   u2_core/ila0/U0/I_NO_D.U_ILA/U_STAT/iSTAT<11>_wg_lut<7>
+
+

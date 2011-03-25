@@ -1,0 +1,209 @@
+Release 10.1 par K.31 (lin64)
+Copyright (c) 1995-2008 Xilinx, Inc.  All rights reserved.
+
+wisdom::  Mon Mar 21 20:52:57 2011
+
+par -w -intstyle ise -ol high -t 1 u2_rev3_map.ncd u2_rev3.ncd u2_rev3.pcf 
+
+
+Constraints file: u2_rev3.pcf.
+Loading device for application Rf_Device from file '3s2000.nph' in environment
+/afs/csail.mit.edu/group/csg/tools/tools_lx86/xilinx/10.1/ISE.
+   "u2_rev3" is an NCD, version 3.2, device xc3s2000, package fg456, speed -5
+
+Initializing temperature to 85.000 Celsius. (default - Range: 0.000 to 85.000 Celsius)
+Initializing voltage to 1.140 Volts. (default - Range: 1.140 to 1.260 Volts)
+
+INFO:Timing:3377 - Intersecting Constraints found and resolved.  For more information see the TSI report.
+
+Device speed data version:  "PRODUCTION 1.39 2008-01-09".
+
+
+
+Device Utilization Summary:
+
+   Number of BSCANs                          1 out of 1     100%
+   Number of BUFGMUXs                        6 out of 8      75%
+   Number of DCMs                            1 out of 4      25%
+   Number of External DIFFMs                 3 out of 152     1%
+      Number of LOCed DIFFMs                 3 out of 3     100%
+
+   Number of External DIFFSs                 3 out of 151     1%
+      Number of LOCed DIFFSs                 3 out of 3     100%
+
+   Number of External IOBs                 301 out of 333    90%
+      Number of LOCed IOBs                 301 out of 301   100%
+
+   Number of MULT18X18s                     16 out of 40     40%
+   Number of RAMB16s                        30 out of 40     75%
+   Number of Slices                      11512 out of 20480  56%
+      Number of SLICEMs                   1278 out of 10240  12%
+
+
+
+Overall effort level (-ol):   High 
+Router effort level (-rl):    High 
+
+Starting initial Timing Analysis.  REAL time: 19 secs 
+Finished initial Timing Analysis.  REAL time: 20 secs 
+
+WARNING:Par:288 - The signal PHY_CLK_IBUF has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal PHY_INTn_IBUF has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal adc_ovf_a_IBUF has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal adc_ovf_b_IBUF has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal POR_IBUF has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal GMII_TX_CLK_IBUF has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal dac_lock_IBUF has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal clk_func_IBUF has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal GMII_COL_IBUF has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal GMII_CRS_IBUF has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal u2_core/ila0/U0/I_NO_D.U_ILA/U_STAT/iSTAT<11>_wg_lut<7> has no load.  PAR will not attempt
+   to route this signal.
+Starting Router
+
+Phase 1: 87977 unrouted;       REAL time: 21 secs 
+
+Phase 2: 76968 unrouted;       REAL time: 29 secs 
+
+Phase 3: 22664 unrouted;       REAL time: 38 secs 
+
+Phase 4: 22664 unrouted; (23000)      REAL time: 39 secs 
+
+Phase 5: 22713 unrouted; (10)      REAL time: 40 secs 
+
+Phase 6: 22720 unrouted; (0)      REAL time: 41 secs 
+
+Phase 7: 0 unrouted; (0)      REAL time: 1 mins 11 secs 
+
+Phase 8: 0 unrouted; (0)      REAL time: 1 mins 19 secs 
+
+Phase 9: 0 unrouted; (0)      REAL time: 1 mins 41 secs 
+
+WARNING:Route:455 - CLK Net:wb_clk may have excessive skew because 
+      0 CLK pins and 1 NON_CLK pins failed to route using a CLK template.
+WARNING:Route:455 - CLK Net:u2_core/control0<0> may have excessive skew because 
+      0 CLK pins and 1 NON_CLK pins failed to route using a CLK template.
+WARNING:Route:455 - CLK Net:ser_tx_clk_OBUF may have excessive skew because 
+      0 CLK pins and 1 NON_CLK pins failed to route using a CLK template.
+
+Total REAL time to Router completion: 1 mins 49 secs 
+Total CPU time to Router completion: 1 mins 48 secs 
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+Generating "PAR" statistics.
+
+**************************
+Generating Clock Report
+**************************
+
++---------------------+--------------+------+------+------------+-------------+
+|        Clock Net    |   Resource   |Locked|Fanout|Net Skew(ns)|Max Delay(ns)|
++---------------------+--------------+------+------+------------+-------------+
+|              wb_clk |      BUFGMUX2| No   | 3093 |  0.684     |  1.373      |
++---------------------+--------------+------+------+------------+-------------+
+|             dsp_clk |      BUFGMUX0| No   | 5814 |  0.629     |  1.313      |
++---------------------+--------------+------+------+------------+-------------+
+| u2_core/control0<0> |      BUFGMUX7| No   |   85 |  0.412     |  1.096      |
++---------------------+--------------+------+------+------------+-------------+
+|      ser_rx_clk_buf |      BUFGMUX3| No   |   62 |  0.348     |  1.085      |
++---------------------+--------------+------+------+------------+-------------+
+|      cpld_clk_BUFGP |      BUFGMUX1| No   |   34 |  0.244     |  1.092      |
++---------------------+--------------+------+------+------------+-------------+
+|     ser_tx_clk_OBUF |      BUFGMUX6| No   |    6 |  0.013     |  0.932      |
++---------------------+--------------+------+------+------------+-------------+
+|u2_core/icon0/U0/iUP |              |      |      |            |             |
+|            DATE_OUT |         Local|      |    1 |  0.000     |  0.923      |
++---------------------+--------------+------+------+------------+-------------+
+
+* Net Skew is the difference between the minimum and maximum routing
+only delays for the net. Note this is different from Clock Skew which
+is reported in TRCE timing report. Clock Skew is the difference between
+the minimum and maximum path delays which includes logic delays.
+
+Timing Score: 0
+
+INFO:Timing:2761 - N/A entries in the Constraints list may indicate that the constraint does not cover any paths or that it has no
+   requested value.
+Number of Timing Constraints that were not applied: 2
+
+Asterisk (*) preceding a constraint indicates it was not met.
+   This may be due to a setup or hold violation.
+
+------------------------------------------------------------------------------------------------------
+  Constraint                                |  Check  | Worst Case |  Best Case | Timing |   Timing   
+                                            |         |    Slack   | Achievable | Errors |    Score   
+------------------------------------------------------------------------------------------------------
+  TS_dcm_out = PERIOD TIMEGRP "dcm_out" TS_ | SETUP   |     0.022ns|     9.978ns|       0|           0
+  clk_fpga_p HIGH 50%                       | HOLD    |     0.617ns|            |       0|           0
+------------------------------------------------------------------------------------------------------
+  TS_clk_div = PERIOD TIMEGRP "clk_div" TS_ | SETUP   |     0.253ns|    19.747ns|       0|           0
+  clk_fpga_p * 2 HIGH 50%                   | HOLD    |     0.636ns|            |       0|           0
+------------------------------------------------------------------------------------------------------
+  TS_clk_div_to_dsp_clk = MAXDELAY FROM TIM | SETUP   |     0.391ns|     9.609ns|       0|           0
+  EGRP "clk_div" TO TIMEGRP "dcm_out"       |         |            |            |        |            
+     10 ns                                  |         |            |            |        |            
+------------------------------------------------------------------------------------------------------
+  TS_ser_rx_clk = PERIOD TIMEGRP "ser_rx_cl | SETUP   |     1.665ns|     8.335ns|       0|           0
+  k" 10 ns HIGH 50%                         | HOLD    |     0.703ns|            |       0|           0
+------------------------------------------------------------------------------------------------------
+  TS_clk_fpga_p = PERIOD TIMEGRP "clk_fpga_ | SETUP   |     7.862ns|     2.138ns|       0|           0
+  p" 10 ns HIGH 50%                         | HOLD    |     0.720ns|            |       0|           0
+------------------------------------------------------------------------------------------------------
+  TS_cpld_clk = PERIOD TIMEGRP "cpld_clk" 4 | SETUP   |    32.539ns|     7.461ns|       0|           0
+  0 ns HIGH 50%                             | HOLD    |     0.763ns|            |       0|           0
+------------------------------------------------------------------------------------------------------
+  TS_clk_to_mac = PERIOD TIMEGRP "clk_to_ma | N/A     |         N/A|         N/A|     N/A|         N/A
+  c" 8 ns HIGH 50%                          |         |            |            |        |            
+------------------------------------------------------------------------------------------------------
+  TS_GMII_RX_CLK = PERIOD TIMEGRP "GMII_RX_ | N/A     |         N/A|         N/A|     N/A|         N/A
+  CLK" 8 ns HIGH 50%                        |         |            |            |        |            
+------------------------------------------------------------------------------------------------------
+
+
+Derived Constraint Report
+Derived Constraints for TS_clk_fpga_p
++-------------------------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+
+|                               |   Period    |       Actual Period       |      Timing Errors        |      Paths Analyzed       |
+|           Constraint          | Requirement |-------------+-------------|-------------+-------------|-------------+-------------|
+|                               |             |   Direct    | Derivative  |   Direct    | Derivative  |   Direct    | Derivative  |
++-------------------------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+
+|TS_clk_fpga_p                  |     10.000ns|      2.138ns|      9.978ns|            0|            0|            6|      2718157|
+| TS_dcm_out                    |     10.000ns|      9.978ns|          N/A|            0|            0|       449421|            0|
+| TS_clk_div                    |     20.000ns|     19.747ns|          N/A|            0|            0|      2268736|            0|
++-------------------------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+
+
+All constraints were met.
+INFO:Timing:2761 - N/A entries in the Constraints list may indicate that the 
+   constraint does not cover any paths or that it has no requested value.
+
+
+Generating Pad Report.
+
+All signals are completely routed.
+
+WARNING:Par:283 - There are 11 loadless signals in this design. This design will cause Bitgen to issue DRC warnings.
+
+Total REAL time to PAR completion: 1 mins 59 secs 
+Total CPU time to PAR completion: 1 mins 57 secs 
+
+Peak Memory Usage:  926 MB
+
+Placer: Placement generated during map.
+Routing: Completed - No errors found.
+Timing: Completed - No errors found.
+
+Number of error messages: 0
+Number of warning messages: 16
+Number of info messages: 2
+
+Writing design to file u2_rev3.ncd
+
+
+
+PAR done!
