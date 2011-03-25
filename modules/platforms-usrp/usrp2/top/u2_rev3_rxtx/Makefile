@@ -50,6 +50,12 @@ u2_core.v \
 u2_rev3.v \
 fifo_in_32_out_16.v \
 my_serdes_tx.v \
+my_serdes_rx.v \
+my_tx_control.v \
+mkFIFO16to32ToCC.v \
+mkFIFO1to2ToCC.v \
+SyncFIFO.v \
+byte_align.v \
 SizedFIFO.v \
 u2_rev3.ucf
 
