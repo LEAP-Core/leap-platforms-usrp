@@ -159,7 +159,7 @@ module tx_control
 
    wire [7:0]  interp_rate;
 
-   assign      sample = data_o;
+   assign      sample = (ibs_state == IBS_RUNNING)?data_o:0; // zero things out when not running...
 
 /*   assign      debug = { {12'b0}, 
 	
