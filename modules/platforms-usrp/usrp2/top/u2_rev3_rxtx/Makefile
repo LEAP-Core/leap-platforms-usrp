@@ -85,6 +85,7 @@ MAP_PROPERTIES = \
 "Map to Input Functions" 4 \
 "Optimization Strategy (Cover Mode)" Speed \
 "Pack I/O Registers/Latches into IOBs" "For Inputs and Outputs" \
+"Starting Placer Cost Table (1-100) Map" 2 \
 "Perform Timing-Driven Packing and Placement" TRUE \
 "Map Effort Level" High \
 "Extra Effort" Normal \
@@ -93,8 +94,8 @@ MAP_PROPERTIES = \
 
 PLACE_ROUTE_PROPERTIES = \
 "Place And Route Mode" "Reentrant Route" \
-"Place & Route Effort Level (Overall)" High \
-"Starting Placer Cost Table (1-100)" 1 
+"Place & Route Effort Level (Overall)" High #\
+#"Starting Placer Cost Table (1-100)" 2
 
 STATIC_TIMING_PROPERTIES = \
 "Number of Paths in Error/Verbose Report" 10 \
