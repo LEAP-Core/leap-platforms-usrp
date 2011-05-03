@@ -24,11 +24,14 @@ module byte_align
    wire [15:0] rx_odd_aligned_data;
    wire [15:0] rx_aligned_data;
    wire [15:0] rxdata0_i;
-   wire [1:0] rx_aligned_charisk ;
-
+   wire [1:0]  rx_aligned_charisk ;
+   wire        lsb_is_comma;
+   wire        msb_is_comma;
    
    assign rxdata0_i = ser_r_int;
-   assign rxcharisk0_i = {ser_rkmsb_int, ser_rklsb_int}; 
+   assign rxcharisk0_i = {ser_rkmsb_int, ser_rklsb_int};
+   assign lsb_is_comma = (ser_rklsb_int == 1) && (rxdata0_i[7:0] == 8'h3c);
+   assign msb_is_comma = (ser_rkmsb_int == 1) && (rxdata0_i[15:8] == 8'h3c);
   // assign rx_odd_aligned_data = {last_rxdata[7:0],ser_r_int[15:8]};
   // assign rx_odd_aligned_charisk = {last_rklsb,  ser_rkmsb_int};
    assign rx_odd_aligned_data = {ser_r_int[7:0],last_rxdata[15:8]};
@@ -54,12 +57,12 @@ module byte_align
 	     last_rkmsb <= ser_rkmsb_int;
 	     last_rxdata <= ser_r_int;
 	     
-             if (rxcharisk0_i == 2'b11 && rxdata0_i == 16'h3C3C) // assume comma is only 3C
+             if (lsb_is_comma && msb_is_comma) // assume comma is only 3C
                begin
                   rx_odd_aligned <= 1'b0;
                end
-             else
-               if (rxcharisk0_i == 2'b01 && rxdata0_i[7:0] == 8'h3c)
+             else // If one or the other are comma then we are odd aligned
+               if (lsb_is_comma || msb_is_comma)
                  begin
                     rx_odd_aligned <= 1'b1;
                  end

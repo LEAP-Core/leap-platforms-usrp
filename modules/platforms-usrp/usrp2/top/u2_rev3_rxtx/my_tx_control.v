@@ -87,6 +87,7 @@ module my_tx_control
    assign rd_ready_o  = ~full_data & rd_ready_i & ~clear_state; // need to follow bluespec protocol
    
    wire [31:0] data_o;
+   reg  [31:0] data_last;
    wire        eop_o, eob, sob, send_imm;
    wire [31:0] sendtime;
    wire [4:0]  occ_ctrl;
@@ -110,12 +111,33 @@ module my_tx_control
 
    // Internal FIFO to DSP interface
    reg [2:0]   ibs_state;
+   reg [8:0]   run_count;
    
    localparam  IBS_IDLE = 0;
    localparam  IBS_WAIT = 1;
    localparam  IBS_RUNNING = 2;
    localparam  IBS_CONT_BURST = 3;
    localparam  IBS_UNDERRUN = 7;
+
+   // we need to keep transmitting for a little while to make sure the final samples get out. 
+   always @(posedge clk)
+     begin
+	if(rst)
+	  begin
+             run_count <= 0;	 
+	  end
+	else
+	  begin
+	     if(ibs_state == IBS_RUNNING)
+	       begin
+		  run_count <= ~0;
+	       end
+	     else if (run_count != 0)
+	       begin
+		  run_count <= run_count - 1;		  
+	       end
+	  end // UNMATCHED !!
+     end
 
    always @(posedge clk)
      if(rst)
@@ -151,15 +173,23 @@ module my_tx_control
 	   end
        endcase // case(ibs_state)
 
+   always@(posedge clk)
+     begin
+	if(read_data)
+	  begin
+	     data_last <= data_o;
+	  end
+     end
+
    assign      read_data = (ibs_state == IBS_RUNNING) & strobe & ~empty_data;
-   assign      run = (ibs_state == IBS_RUNNING);
+   assign      run = (ibs_state == IBS_RUNNING) || (run_count != 0);
    assign      underrun = 0;
    assign      underrun_dbg = ibs_state == IBS_UNDERRUN ; 
    assign      underrun = 0;
 
    wire [7:0]  interp_rate;
 
-   assign      sample = (ibs_state == IBS_RUNNING)?data_o:0; // zero things out when not running...
+   assign      sample = (ibs_state == IBS_RUNNING)?data_o:data_last; // zero things out when not running...
 
 /*   assign      debug = { {12'b0}, 
 	

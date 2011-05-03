@@ -32,7 +32,7 @@ module my_serdes_tx
    reg        ser_tklsb_int, ser_tkmsb_int;
    reg [15:0] ser_t_int;
    wire        dsp_rst_n;
-   wire [17:0] fifo_d_out;
+   wire [15:0] fifo_d_out;
    wire        fifo_deq_en;
    wire        fifo_deq_rdy;
    reg         parity; // This parity represents the sample level parity
@@ -45,13 +45,13 @@ module my_serdes_tx
    assign     dsp_rst_n = !dsp_rst;
    assign     ser_tx_clk = dsp_clk;
    
-   SizedFIFO #(.p1width(18),
+   SizedFIFO #(.p1width(16),
                .p2depth(FIFOSIZE),
                .p3cntr_width(CNTR_WIDTH)) fifo_buf
      (.CLK(dsp_clk),
       .RST_N(dsp_rst_n),
-      .CLR(),
-      .D_IN({tx_kmsb_i,tx_klsb_i,tx_dat_i}),
+      .CLR(0),
+      .D_IN(tx_dat_i),
       .ENQ(tx_en),
       .FULL_N(tx_rdy),
       .D_OUT(fifo_d_out),
@@ -60,16 +60,24 @@ module my_serdes_tx
 
    assign      fifo_deq_en   = ((state == SEND_DATA) && fifo_deq_rdy);
 
-   always@(*)
+    always@(*)
      begin
-	ser_t_int = {8'd60,8'd60};
+	ser_t_int = {8'h1c,8'h1c};
 	ser_tkmsb_int = 1;
 	ser_tklsb_int = 1;
 	
 	if(state == SEND_SYNC)
 	  begin
 	     ser_t_int = {8'd156,8'd156};
+	     ser_tkmsb_int = 1;
+	     ser_tklsb_int = 1;
 	    // else do nothing, so as not to confuse other side
+	  end
+	else if (state == SEND_COMMA)
+	  begin
+	     ser_t_int = {8'd60,8'd60};
+	     ser_tkmsb_int = 1;
+	     ser_tklsb_int = 1;
 	  end
 	else if (fifo_deq_en)
 	  begin

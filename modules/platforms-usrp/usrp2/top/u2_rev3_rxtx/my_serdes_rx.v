@@ -152,8 +152,8 @@ module my_serdes_rx
    
    always@(*)
      begin
-        if((((ser_rklsb_reg == 1) && (ser_rkmsb_reg == 1) && (ser_r_reg[7:0] == {8'd124})) ||
-	   ((ser_rklsb_reg == 1) && (ser_rkmsb_reg == 1) && (ser_r_reg[7:0] == {8'd156}) && (odd_parity)) || // This one will fix odd parity 
+        if((((ser_rklsb_reg == 1) && (ser_rkmsb_reg == 1) && (ser_r_reg[7:0] == {8'd124}) && (ser_r_reg[15:8] == {8'd124})) ||
+	   ((ser_rklsb_reg == 1) && (ser_rkmsb_reg == 1) && (ser_r_reg[7:0] == {8'd156}) && (ser_r_reg[15:8] == {8'd156}) && (odd_parity)) || // This one will fix odd parity 
            ((ser_rklsb_reg == 0) && (ser_rkmsb_reg == 0)))
             && rdy_ctrl && rdy_data)
           begin
