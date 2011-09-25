@@ -3982,3 +3982,22 @@ Added intial build environment to install package. Moved firmware
 and related tools out of module directory and into tools
 area for proper a system install. Completed rename of
 package to leap-platforms-usrp.
+
+----------
+emer        Date: Sun Sep 25 10:27:05 EDT 2011  CSN: CSN-leap-platforms-usrp-17
+                  Sun Sep 25 14:27:05 UTC 2011
+
+
+Directory debian
+ control                   Locally Added               0 
+ compat                    Locally Added               0 
+ changelog                 Locally Added               0 
+ copyright                 Locally Added               0 
+ rules                     Locally Added               0 
+ README.Debian             Locally Added               0 
+
+Directory .
+ debian/                   Locally Added               0 
+ ./                        Locally Modified           16 
+
+Added debian control files to build a .deb.
