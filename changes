@@ -1,0 +1,3984 @@
+
+----------
+emer        Date: Sun Sep 25 10:09:26 EDT 2011  CSN: CSN-leap-platforms-usrp-1
+                  Sun Sep 25 14:09:26 UTC 2011
+
+
+Directory .
+ configure                 Locally Added               0 
+ Makefile.in               Locally Added               0 
+
+Directory aux-scripts
+ missing                   Locally Added               0 
+ install-sh                Locally Added               0 
+
+Directory .
+ aux-scripts/              Locally Added               0 
+
+Directory include
+ config.h.in               Locally Added               0 
+
+Directory .
+ include/                  Locally Added               0 
+ configure.in              Locally Added               0 
+
+Directory admin/packages
+ leap-platforms-usrp       Locally Added               - 
+ platforms-usrp            Locally Removed            15 
+
+Directory .
+ tools/                    Locally Added               0 
+
+Directory modules
+ platforms-usrp/           Locally Removed            15 
+
+Directory modules/platforms-usrp
+ tx-chain/                 Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain
+ testbench/                Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/testbench
+ cmdfile                   Locally Removed            15 
+ .gitignore                Locally Removed            15 
+ Makefile                  Locally Removed            15 
+ README                    Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain
+ coregen/                  Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/coregen
+ fifo_xlnx_16x40_2clk.ngc  Locally Removed            15 
+ icon.veo                  Locally Removed            15 
+ icon.asy                  Locally Removed            15 
+ fifo_xlnx_64x36_2clk.v    Locally Removed            15 
+ fifo_xlnx_512x36_2clk.xco Locally Removed            15 
+ fifo_xlnx_512x36_2clk_readme.txt Locally Removed            15 
+ coregen.cgp               Locally Removed            15 
+ fifo_xlnx_16x40_2clk_fifo_generator_v4_3_xst_1.ngc_xst.xrpt Locally Removed            15 
+ fifo_xlnx_2Kx36_2clk.veo  Locally Removed            15 
+ ila.xco                   Locally Removed            15 
+ fifo_xlnx_64x36_2clk_fifo_generator_v4_3_xst_1.lso Locally Removed            15 
+ fifo_xlnx_2Kx36_2clk.asy  Locally Removed            15 
+ fifo_xlnx_16x40_2clk.xco  Locally Removed            15 
+ fifo_xlnx_512x36_2clk.sym Locally Removed            15 
+ fifo_xlnx_16x40_2clk_xmdf.tcl Locally Removed            15 
+ fifo_xlnx_512x36_2clk.vhd Locally Removed            15 
+ fifo_generator_release_notes.txt Locally Removed            15 
+ u2_rev3.edf               Locally Removed            15 
+ fifo_xlnx_64x36_2clk.ngc  Locally Removed            15 
+ fifo_xlnx_512x36_2clk.vho Locally Removed            15 
+ icon.ncf                  Locally Removed            15 
+ icon.ngc                  Locally Removed            15 
+ fifo_xlnx_16x19_2clk_flist.txt Locally Removed            15 
+ fifo_xlnx_2Kx36_2clk_readme.txt Locally Removed            15 
+ fifo_xlnx_16x19_2clk_fifo_generator_v4_3_xst_1.ngc_xst.xrpt Locally Removed            15 
+ ila_xdb/                  Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/coregen/ila_xdb
+ tmp/                      Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/coregen
+ fifo_xlnx_64x36_2clk_fifo_generator_v4_3_xst_1.ngc_xst.xrpt Locally Removed            15 
+ fifo_xlnx_2Kx36_2clk_xmdf.tcl Locally Removed            15 
+ fifo_xlnx_16x19_2clk.veo  Locally Removed            15 
+ my_serdes_tx.v            Locally Removed            15 
+ fifo_xlnx_64x36_2clk.xco  Locally Removed            15 
+ fifo_xlnx_2Kx36_2clk.ngc  Locally Removed            15 
+ ila.xise                  Locally Removed            15 
+ fifo_xlnx_512x36_2clk_flist.txt Locally Removed            15 
+ fifo_xlnx_16x19_2clk_xmdf.tcl Locally Removed            15 
+ fifo_xlnx_64x36_2clk_xmdf.tcl Locally Removed            15 
+ icon.xco                  Locally Removed            15 
+ fifo_xlnx_512x36_2clk_fifo_generator_v4_3_xst_1.ngc_xst.xrpt Locally Removed            15 
+ fifo_xlnx_2Kx36_2clk_flist.txt Locally Removed            15 
+ fifo_xlnx_16x19_2clk.v    Locally Removed            15 
+ ila.ise                   Locally Removed            15 
+ mkFIFO1to2.v              Locally Removed            15 
+ Makefile.srcs             Locally Removed            15 
+ fifo_xlnx_512x36_2clk.veo Locally Removed            15 
+ fifo_xlnx_16x40_2clk_flist.txt Locally Removed            15 
+ fifo_generator_ug175.pdf  Locally Removed            15 
+ fifo_xlnx_512x36_2clk.asy Locally Removed            15 
+ ila.gise                  Locally Removed            15 
+ fifo_xlnx_2Kx36_2clk.xco  Locally Removed            15 
+ icon.v                    Locally Removed            15 
+ fifo_xlnx_16x19_2clk_fifo_generator_v4_3_xst_1.lso Locally Removed            15 
+ ila.cdc                   Locally Removed            15 
+ ila.veo                   Locally Removed            15 
+ fifo_xlnx_512x36_2clk_xmdf.tcl Locally Removed            15 
+ icon.xise                 Locally Removed            15 
+ ila.asy                   Locally Removed            15 
+ fifo_xlnx_16x40_2clk.veo  Locally Removed            15 
+ fifo_xlnx_512x36_2clk.v   Locally Removed            15 
+ fifo_xlnx_16x40_2clk_readme.txt Locally Removed            15 
+ fifo_xlnx_2Kx36_2clk.v    Locally Removed            15 
+ ila.v                     Locally Removed            15 
+ fifo_xlnx_2Kx36_2clk.sym  Locally Removed            15 
+ fifo_xlnx_16x40_2clk.v    Locally Removed            15 
+ fifo_xlnx_512x36_2clk_fifo_generator_v4_3_xst_1.lso Locally Removed            15 
+ icon.gise                 Locally Removed            15 
+ fifo_xlnx_2Kx36_2clk_fifo_generator_v4_3_xst_1.lso Locally Removed            15 
+ fifo_xlnx_2Kx36_2clk.vhd  Locally Removed            15 
+ fifo_xlnx_16x19_2clk.ngc  Locally Removed            15 
+ fifo_xlnx_2Kx36_2clk_fifo_generator_v4_3_xst_1.ngc_xst.xrpt Locally Removed            15 
+ mkFIFO16to32.v            Locally Removed            15 
+ fifo_xlnx_2Kx36_2clk.vho  Locally Removed            15 
+ _xmsgs/                   Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/coregen/_xmsgs
+ pn_parser.xmsgs           Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/coregen
+ fifo_xlnx_64x36_2clk_flist.txt Locally Removed            15 
+ u2_core.v                 Locally Removed            15 
+ fifo_xlnx_512x36_2clk.ngc Locally Removed            15 
+ .gitignore                Locally Removed            15 
+ icon.ise                  Locally Removed            15 
+ fifo_xlnx_16x19_2clk.xco  Locally Removed            15 
+ my_serdes_rx.v            Locally Removed            15 
+ fifo_xlnx_64x36_2clk.veo  Locally Removed            15 
+ fifo_xlnx_16x19_2clk_readme.txt Locally Removed            15 
+ ila.ncf                   Locally Removed            15 
+ ila.ngc                   Locally Removed            15 
+ fifo_xlnx_64x36_2clk_readme.txt Locally Removed            15 
+ fifo_in_32_out_16.v       Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain
+ models/                   Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/models
+ miim_model.v              Locally Removed            15 
+ SRL16E.v                  Locally Removed            15 
+ RAMB16_S36_S36.v          Locally Removed            15 
+ MULT18X18S.v              Locally Removed            15 
+ SRLC16E.v                 Locally Removed            15 
+ BUFG.v                    Locally Removed            15 
+ CY7C1356C/                Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/models/CY7C1356C
+ cy1356.inp                Locally Removed            15 
+ testbench.v               Locally Removed            15 
+ readme.txt                Locally Removed            15 
+ cy1356.v                  Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/models
+ uart_rx.v                 Locally Removed            15 
+ FIFO_GENERATOR_V4_3.v     Locally Removed            15 
+ M24LC02B.v                Locally Removed            15 
+ xlnx_glbl.v               Locally Removed            15 
+ math_real.v               Locally Removed            15 
+ cpld_model.v              Locally Removed            15 
+ serdes_model.v            Locally Removed            15 
+ adc_model.v               Locally Removed            15 
+ phy_sim.v                 Locally Removed            15 
+ M24LC024B.v               Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain
+ fifo/                     Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/fifo
+ fifo36_to_fifo19.v        Locally Removed            15 
+ fifo19_to_fifo36.v        Locally Removed            15 
+ fifo36_to_ll8.v           Locally Removed            15 
+ ll8_to_fifo36.v           Locally Removed            15 
+ fifo19_to_ll8.v           Locally Removed            15 
+ ll8_to_fifo19.v           Locally Removed            15 
+ fifo_2clock.v             Locally Removed            15 
+ Makefile.srcs             Locally Removed            15 
+ ll8_shortfifo.v           Locally Removed            15 
+ fifo_2clock_cascade.v     Locally Removed            15 
+ buffer_int.v              Locally Removed            15 
+ fifo_cascade.v            Locally Removed            15 
+ buffer_pool_tb.v          Locally Removed            15 
+ fifo_new_tb.vcd           Locally Removed            15 
+ .gitignore                Locally Removed            15 
+ fifo_long.v               Locally Removed            15 
+ buffer_pool.v             Locally Removed            15 
+ fifo_short.v              Locally Removed            15 
+ fifo_spec.txt             Locally Removed            15 
+ buffer_int_tb.v           Locally Removed            15 
+ fifo_tb.v                 Locally Removed            15 
+ fifo36_to_fifo18.v        Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain
+ simple_gemac/             Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/simple_gemac
+ simple_gemac_wb.v         Locally Removed            15 
+ simple_gemac_wrapper.build Locally Removed            15 
+ test_packet.mem           Locally Removed            15 
+ Makefile.srcs             Locally Removed            15 
+ simple_gemac_wrapper19_tb.v Locally Removed            15 
+ simple_gemac.v            Locally Removed            15 
+ eth_tasks.v               Locally Removed            15 
+ simple_gemac_wrapper.v    Locally Removed            15 
+ miim/                     Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/simple_gemac/miim
+ eth_miim.v                Locally Removed            15 
+ eth_shiftreg.v            Locally Removed            15 
+ eth_outputcontrol.v       Locally Removed            15 
+ eth_clockgen.v            Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/simple_gemac
+ simple_gemac_wrapper_f36_tb.v Locally Removed            15 
+ simple_gemac_wrapper19.build Locally Removed            15 
+ address_filter.v          Locally Removed            15 
+ rxmac_to_ll8.v            Locally Removed            15 
+ ll8_to_txmac.v            Locally Removed            15 
+ simple_gemac_rx.v         Locally Removed            15 
+ simple_gemac_wrapper19.v  Locally Removed            15 
+ simple_gemac_tx.v         Locally Removed            15 
+ .gitignore                Locally Removed            15 
+ eth_tasks_f36.v           Locally Removed            15 
+ flow_ctrl_rx.v            Locally Removed            15 
+ eth_tasks_f19.v           Locally Removed            15 
+ delay_line.v              Locally Removed            15 
+ flow_ctrl_tx.v            Locally Removed            15 
+ crc.v                     Locally Removed            15 
+ simple_gemac_tb.v         Locally Removed            15 
+ simple_gemac_wrapper_tb.v Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain
+ serdes/                   Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/serdes
+ serdes_rx.v               Locally Removed            15 
+ serdes_tx.v               Locally Removed            15 
+ Makefile.srcs             Locally Removed            15 
+ serdes.v                  Locally Removed            15 
+ serdes_fc_rx.v            Locally Removed            15 
+ serdes_fc_tx.v            Locally Removed            15 
+ serdes_tb.v               Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain
+ timing/                   Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/timing
+ time_sender.v             Locally Removed            15 
+ timer.v                   Locally Removed            15 
+ .gitignore                Locally Removed            15 
+ Makefile.srcs             Locally Removed            15 
+ time_receiver.v           Locally Removed            15 
+ time_compare.v            Locally Removed            15 
+ time_64bit.v              Locally Removed            15 
+ time_transfer_tb.v        Locally Removed            15 
+ simple_timer.v            Locally Removed            15 
+ time_sync.v               Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain
+ udp/                      Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/udp
+ add_onescomp.v            Locally Removed            15 
+ prot_eng_tx_tb.v          Locally Removed            15 
+ Makefile.srcs             Locally Removed            15 
+ prot_eng_rx.v             Locally Removed            15 
+ fifo19_rxrealign.v        Locally Removed            15 
+ prot_eng_tx.v             Locally Removed            15 
+ udp_wrapper.v             Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain
+ opencores/                Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/opencores
+ aemb/                     Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/opencores/aemb
+ rtl/                      Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/opencores/aemb/rtl
+ verilog/                  Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/opencores/aemb/rtl/verilog
+ aeMB_core.v               Locally Removed            15 
+ aeMB_edk32.v              Locally Removed            15 
+ aeMB_sim.v                Locally Removed            15 
+ aeMB_bpcu.v               Locally Removed            15 
+ .gitignore                Locally Removed            15 
+ aeMB_core_BE.v            Locally Removed            15 
+ aeMB_regf.v               Locally Removed            15 
+ aeMB_ctrl.v               Locally Removed            15 
+ aeMB_xecu.v               Locally Removed            15 
+ aeMB_ibuf.v               Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/opencores/aemb
+ doc/                      Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/opencores/aemb/doc
+ aeMB_datasheet.pdf        Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/opencores/aemb
+ sim/                      Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/opencores/aemb/sim
+ .gitignore                Locally Removed            15 
+ verilog/                  Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/opencores/aemb/sim/verilog
+ aemb2.v                   Locally Removed            15 
+ edk32.v                   Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/opencores/aemb/sim
+ CODE_DEBUG.sav            Locally Removed            15 
+ cversim                   Locally Removed            15 
+ iversim                   Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/opencores/aemb
+ sw/                       Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/opencores/aemb/sw
+ c/                        Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/opencores/aemb/sw/c
+ libaemb.h                 Locally Removed            15 
+ aeMB_testbench.c          Locally Removed            15 
+ endian-test.c             Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/opencores/aemb/sw
+ gccrom                    Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/opencores
+ simple_pic/               Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/opencores/simple_pic
+ rtl/                      Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/opencores/simple_pic/rtl
+ simple_pic.v              Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/opencores
+ Makefile.srcs             Locally Removed            15 
+ simple_gpio/              Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/opencores/simple_gpio
+ rtl/                      Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/opencores/simple_gpio/rtl
+ simple_gpio.v             Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/opencores
+ wb_zbt/                   Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/opencores/wb_zbt
+ wb_zbt.v                  Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/opencores
+ spi/                      Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/opencores/spi
+ bench/                    Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/opencores/spi/bench
+ verilog/                  Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/opencores/spi/bench/verilog
+ tb_spi_top.v              Locally Removed            15 
+ wb_master_model.v         Locally Removed            15 
+ spi_slave_model.v         Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/opencores/spi
+ rtl/                      Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/opencores/spi/rtl
+ verilog/                  Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/opencores/spi/rtl/verilog
+ spi_top.v                 Locally Removed            15 
+ spi_clgen.v               Locally Removed            15 
+ timescale.v               Locally Removed            15 
+ spi_defines.v             Locally Removed            15 
+ spi_shift.v               Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/opencores/spi
+ doc/                      Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/opencores/spi/doc
+ spi.pdf                   Locally Removed            15 
+ src/                      Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/opencores/spi/doc/src
+ spi.doc                   Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/opencores/spi
+ sim/                      Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/opencores/spi/sim
+ rtl_sim/                  Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/opencores/spi/sim/rtl_sim
+ run/                      Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/opencores/spi/sim/rtl_sim/run
+ rtl.fl                    Locally Removed            15 
+ sim.fl                    Locally Removed            15 
+ run_sim                   Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/opencores
+ 8b10b/                    Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/opencores/8b10b
+ decode_8b10b.v            Locally Removed            15 
+ .gitignore                Locally Removed            15 
+ 8b10b_a.mem               Locally Removed            15 
+ validate_8b10b.v          Locally Removed            15 
+ README                    Locally Removed            15 
+ encode_8b10b.v            Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/opencores
+ i2c/                      Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/opencores/i2c
+ bench/                    Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/opencores/i2c/bench
+ verilog/                  Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/opencores/i2c/bench/verilog
+ tst_bench_top.v           Locally Removed            15 
+ wb_master_model.v         Locally Removed            15 
+ spi_slave_model.v         Locally Removed            15 
+ i2c_slave_model.v         Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/opencores/i2c
+ rtl/                      Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/opencores/i2c/rtl
+ verilog/                  Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/opencores/i2c/rtl/verilog
+ i2c_master_byte_ctrl.v    Locally Removed            15 
+ i2c_master_defines.v      Locally Removed            15 
+ timescale.v               Locally Removed            15 
+ i2c_master_bit_ctrl.v     Locally Removed            15 
+ i2c_master_top.v          Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/opencores/i2c/rtl
+ vhdl/                     Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/opencores/i2c/rtl/vhdl
+ i2c_master_byte_ctrl.vhd  Locally Removed            15 
+ i2c_master_bit_ctrl.vhd   Locally Removed            15 
+ i2c_master_top.vhd        Locally Removed            15 
+ tst_ds1621.vhd            Locally Removed            15 
+ I2C.VHD                   Locally Removed            15 
+ readme                    Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/opencores/i2c
+ doc/                      Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/opencores/i2c/doc
+ i2c_specs.pdf             Locally Removed            15 
+ src/                      Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/opencores/i2c/doc/src
+ I2C_specs.doc             Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/opencores/i2c
+ sim/                      Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/opencores/i2c/sim
+ i2c_verilog/              Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/opencores/i2c/sim/i2c_verilog
+ run/                      Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/opencores/i2c/sim/i2c_verilog/run
+ ncverilog.key             Locally Removed            15 
+ run                       Locally Removed            15 
+ bench.vcd                 Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/opencores/i2c
+ software/                 Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/opencores/i2c/software
+ include/                  Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/opencores/i2c/software/include
+ oc_i2c_master.h           Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/opencores
+ README                    Locally Removed            15 
+ spi_boot/                 Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/opencores/spi_boot
+ bench/                    Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/opencores/spi_boot/bench
+ vhdl/                     Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/opencores/spi_boot/bench/vhdl
+ tb_pack-p.vhd             Locally Removed            15 
+ tb_elem-mmc-c.vhd         Locally Removed            15 
+ tb_rl-c.vhd               Locally Removed            15 
+ tb_rl.vhd                 Locally Removed            15 
+ tb-c.vhd                  Locally Removed            15 
+ tb.vhd                    Locally Removed            15 
+ tb_elem-full-c.vhd        Locally Removed            15 
+ tb_elem.vhd               Locally Removed            15 
+ card-c.vhd                Locally Removed            15 
+ card.vhd                  Locally Removed            15 
+ tb_elem-minimal-c.vhd     Locally Removed            15 
+ tb_elem-sd-c.vhd          Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/opencores/spi_boot
+ rtl/                      Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/opencores/spi_boot/rtl
+ vhdl/                     Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/opencores/spi_boot/rtl/vhdl
+ chip-full-a.vhd           Locally Removed            15 
+ sample/                   Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/opencores/spi_boot/rtl/vhdl/sample
+ ram_loader-c.vhd          Locally Removed            15 
+ ram_loader.vhd            Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/opencores/spi_boot/rtl/vhdl
+ chip-full-c.vhd           Locally Removed            15 
+ chip-sd-a.vhd             Locally Removed            15 
+ chip-e.vhd                Locally Removed            15 
+ chip-sd-c.vhd             Locally Removed            15 
+ spi_boot_pack-p.vhd       Locally Removed            15 
+ spi_counter-c.vhd         Locally Removed            15 
+ chip-mmc-a.vhd            Locally Removed            15 
+ chip-mmc-c.vhd            Locally Removed            15 
+ spi_boot.vhd              Locally Removed            15 
+ chip-minimal-a.vhd        Locally Removed            15 
+ chip-minimal-c.vhd        Locally Removed            15 
+ spi_counter.vhd           Locally Removed            15 
+ spi_boot-c.vhd            Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/opencores/spi_boot
+ COMPILE_LIST              Locally Removed            15 
+ doc/                      Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/opencores/spi_boot/doc
+ spi_boot.pdf              Locally Removed            15 
+ spi_boot_schematic.pdf    Locally Removed            15 
+ src/                      Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/opencores/spi_boot/doc/src
+ memory_organization.fig   Locally Removed            15 
+ memory_organization.eps   Locally Removed            15 
+ architecture.fig          Locally Removed            15 
+ architecture.eps          Locally Removed            15 
+ transfer.fig              Locally Removed            15 
+ transfer.eps              Locally Removed            15 
+ initialization.fig        Locally Removed            15 
+ initialization.eps        Locally Removed            15 
+ spi_boot.sxw              Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/opencores/spi_boot
+ sim/                      Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/opencores/spi_boot/sim
+ rtl_sim/                  Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/opencores/spi_boot/sim/rtl_sim
+ Makefile                  Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/opencores/spi_boot
+ COPYING                   Locally Removed            15 
+ sw/                       Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/opencores/spi_boot/sw
+ misc/                     Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/opencores/spi_boot/sw/misc
+ bit_reverse.c             Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/opencores/spi_boot
+ KNOWN_BUGS                Locally Removed            15 
+ README                    Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain
+ extram/                   Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/extram
+ wb_zbt16_b.v              Locally Removed            15 
+ extram_interface.v        Locally Removed            15 
+ .gitignore                Locally Removed            15 
+ Makefile.srcs             Locally Removed            15 
+ extram_wb.v               Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain
+ top/                      Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/top
+ eth_test/                 Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/top/eth_test
+ .gitignore                Locally Removed            15 
+ eth_tb.v                  Locally Removed            15 
+ eth_sim_top.v             Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/top
+ single_u2_sim/            Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/top/single_u2_sim
+ single_u2_sim.v           Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/top
+ tcl/                      Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/top/tcl
+ ise_helper.tcl            Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/top
+ u2_rev3_iad/              Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/top/u2_rev3_iad
+ impulse.v                 Locally Removed            15 
+ cmdfile                   Locally Removed            15 
+ .gitignore                Locally Removed            15 
+ dsp_core_tb.v             Locally Removed            15 
+ dsp_core_rx.v             Locally Removed            15 
+ dsp_core_tb.sav           Locally Removed            15 
+ wave.sh                   Locally Removed            15 
+ Makefile                  Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/top
+ Makefile.common           Locally Removed            15 
+ u2_rev3/                  Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/top/u2_rev3
+ build_vaguely_works/      Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/top/u2_rev3/build_vaguely_works
+ u2_rev3.prj               Locally Removed            15 
+ fifo_xlnx_16x40_2clk.ngc  Locally Removed            15 
+ u2_rev3_xst.xrpt          Locally Removed            15 
+ u2_rev3_xdb/              Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/top/u2_rev3/build_vaguely_works/u2_rev3_xdb
+ tmp/                      Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/top/u2_rev3/build_vaguely_works/u2_rev3_xdb/tmp
+ ise/                      Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/top/u2_rev3/build_vaguely_works/u2_rev3_xdb/tmp/ise
+ __OBJSTORE__/             Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/top/u2_rev3/build_vaguely_works/u2_rev3_xdb/tmp/ise/__OBJSTORE__
+ ProjectNavigator/         Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/top/u2_rev3/build_vaguely_works/u2_rev3_xdb/tmp/ise/__OBJSTORE__/ProjectNavigator
+ __stored_objects___StrTbl Locally Removed            15 
+ __stored_objects__        Locally Removed            15 
+ __stored_object_table__   Locally Removed            15 
+ dpm_project_main/         Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/top/u2_rev3/build_vaguely_works/u2_rev3_xdb/tmp/ise/__OBJSTORE__/ProjectNavigator/dpm_project_main
+ dpm_project_main_StrTbl   Locally Removed            15 
+ NameMap_StrTbl            Locally Removed            15 
+ dpm_project_main          Locally Removed            15 
+ NameMap                   Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/top/u2_rev3/build_vaguely_works/u2_rev3_xdb/tmp/ise/__OBJSTORE__
+ HierarchicalDesign/       Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/top/u2_rev3/build_vaguely_works/u2_rev3_xdb/tmp/ise/__OBJSTORE__/HierarchicalDesign
+ HDProject/                Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/top/u2_rev3/build_vaguely_works/u2_rev3_xdb/tmp/ise/__OBJSTORE__/HierarchicalDesign/HDProject
+ HDProject                 Locally Removed            15 
+ HDProject_StrTbl          Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/top/u2_rev3/build_vaguely_works/u2_rev3_xdb/tmp/ise/__OBJSTORE__/HierarchicalDesign
+ __stored_object_table__   Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/top/u2_rev3/build_vaguely_works/u2_rev3_xdb/tmp/ise/__OBJSTORE__
+ common/                   Locally Removed            15 
+ PnAutoRun/                Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/top/u2_rev3/build_vaguely_works/u2_rev3_xdb/tmp/ise/__OBJSTORE__/PnAutoRun
+ Scripts/                  Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/top/u2_rev3/build_vaguely_works/u2_rev3_xdb/tmp/ise/__OBJSTORE__/PnAutoRun/Scripts
+ RunOnce_tcl_StrTbl        Locally Removed            15 
+ RunOnce_tcl               Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/top/u2_rev3/build_vaguely_works/u2_rev3_xdb/tmp/ise/__OBJSTORE__
+ STE/                      Locally Removed            15 
+ _ProjRepoInternal_/       Locally Removed            15 
+ Autonym/                  Locally Removed            15 
+ SrcCtrl/                  Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/top/u2_rev3/build_vaguely_works/u2_rev3_xdb/tmp/ise/__OBJSTORE__/SrcCtrl
+ SavedOptions/             Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/top/u2_rev3/build_vaguely_works/u2_rev3_xdb/tmp/ise
+ __REGISTRY__/             Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/top/u2_rev3/build_vaguely_works/u2_rev3_xdb/tmp/ise/__REGISTRY__
+ netgen/                   Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/top/u2_rev3/build_vaguely_works/u2_rev3_xdb/tmp/ise/__REGISTRY__/netgen
+ regkeys                   Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/top/u2_rev3/build_vaguely_works/u2_rev3_xdb/tmp/ise/__REGISTRY__
+ ProjectNavigator/         Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/top/u2_rev3/build_vaguely_works/u2_rev3_xdb/tmp/ise/__REGISTRY__/ProjectNavigator
+ regkeys                   Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/top/u2_rev3/build_vaguely_works/u2_rev3_xdb/tmp/ise/__REGISTRY__
+ ngc2edif/                 Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/top/u2_rev3/build_vaguely_works/u2_rev3_xdb/tmp/ise/__REGISTRY__/ngc2edif
+ regkeys                   Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/top/u2_rev3/build_vaguely_works/u2_rev3_xdb/tmp/ise/__REGISTRY__
+ par/                      Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/top/u2_rev3/build_vaguely_works/u2_rev3_xdb/tmp/ise/__REGISTRY__/par
+ regkeys                   Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/top/u2_rev3/build_vaguely_works/u2_rev3_xdb/tmp/ise/__REGISTRY__
+ cpldfit/                  Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/top/u2_rev3/build_vaguely_works/u2_rev3_xdb/tmp/ise/__REGISTRY__/cpldfit
+ regkeys                   Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/top/u2_rev3/build_vaguely_works/u2_rev3_xdb/tmp/ise/__REGISTRY__
+ dumpngdio/                Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/top/u2_rev3/build_vaguely_works/u2_rev3_xdb/tmp/ise/__REGISTRY__/dumpngdio
+ regkeys                   Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/top/u2_rev3/build_vaguely_works/u2_rev3_xdb/tmp/ise/__REGISTRY__
+ vlogcomp/                 Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/top/u2_rev3/build_vaguely_works/u2_rev3_xdb/tmp/ise/__REGISTRY__/vlogcomp
+ regkeys                   Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/top/u2_rev3/build_vaguely_works/u2_rev3_xdb/tmp/ise/__REGISTRY__
+ ngcbuild/                 Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/top/u2_rev3/build_vaguely_works/u2_rev3_xdb/tmp/ise/__REGISTRY__/ngcbuild
+ regkeys                   Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/top/u2_rev3/build_vaguely_works/u2_rev3_xdb/tmp/ise/__REGISTRY__
+ common/                   Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/top/u2_rev3/build_vaguely_works/u2_rev3_xdb/tmp/ise/__REGISTRY__/common
+ regkeys                   Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/top/u2_rev3/build_vaguely_works/u2_rev3_xdb/tmp/ise/__REGISTRY__
+ ngdbuild/                 Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/top/u2_rev3/build_vaguely_works/u2_rev3_xdb/tmp/ise/__REGISTRY__/ngdbuild
+ regkeys                   Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/top/u2_rev3/build_vaguely_works/u2_rev3_xdb/tmp/ise/__REGISTRY__
+ XSLTProcess/              Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/top/u2_rev3/build_vaguely_works/u2_rev3_xdb/tmp/ise/__REGISTRY__/XSLTProcess
+ regkeys                   Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/top/u2_rev3/build_vaguely_works/u2_rev3_xdb/tmp/ise/__REGISTRY__
+ taengine/                 Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/top/u2_rev3/build_vaguely_works/u2_rev3_xdb/tmp/ise/__REGISTRY__/taengine
+ regkeys                   Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/top/u2_rev3/build_vaguely_works/u2_rev3_xdb/tmp/ise/__REGISTRY__
+ _ProjRepoInternal_/       Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/top/u2_rev3/build_vaguely_works/u2_rev3_xdb/tmp/ise/__REGISTRY__/_ProjRepoInternal_
+ regkeys                   Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/top/u2_rev3/build_vaguely_works/u2_rev3_xdb/tmp/ise/__REGISTRY__
+ STE/                      Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/top/u2_rev3/build_vaguely_works/u2_rev3_xdb/tmp/ise/__REGISTRY__/STE
+ par/                      Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/top/u2_rev3/build_vaguely_works/u2_rev3_xdb/tmp/ise/__REGISTRY__/STE/par
+ regkeys                   Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/top/u2_rev3/build_vaguely_works/u2_rev3_xdb/tmp/ise/__REGISTRY__/STE
+ bitgen/                   Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/top/u2_rev3/build_vaguely_works/u2_rev3_xdb/tmp/ise/__REGISTRY__/STE/bitgen
+ regkeys                   Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/top/u2_rev3/build_vaguely_works/u2_rev3_xdb/tmp/ise/__REGISTRY__/STE
+ ngdbuild/                 Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/top/u2_rev3/build_vaguely_works/u2_rev3_xdb/tmp/ise/__REGISTRY__/STE/ngdbuild
+ regkeys                   Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/top/u2_rev3/build_vaguely_works/u2_rev3_xdb/tmp/ise/__REGISTRY__/STE
+ regkeys                   Locally Removed            15 
+ map/                      Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/top/u2_rev3/build_vaguely_works/u2_rev3_xdb/tmp/ise/__REGISTRY__/STE/map
+ regkeys                   Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/top/u2_rev3/build_vaguely_works/u2_rev3_xdb/tmp/ise/__REGISTRY__/STE
+ trce/                     Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/top/u2_rev3/build_vaguely_works/u2_rev3_xdb/tmp/ise/__REGISTRY__/STE/trce
+ regkeys                   Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/top/u2_rev3/build_vaguely_works/u2_rev3_xdb/tmp/ise/__REGISTRY__/STE
+ xst/                      Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/top/u2_rev3/build_vaguely_works/u2_rev3_xdb/tmp/ise/__REGISTRY__/STE/xst
+ regkeys                   Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/top/u2_rev3/build_vaguely_works/u2_rev3_xdb/tmp/ise/__REGISTRY__
+ Autonym/                  Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/top/u2_rev3/build_vaguely_works/u2_rev3_xdb/tmp/ise/__REGISTRY__/Autonym
+ regkeys                   Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/top/u2_rev3/build_vaguely_works/u2_rev3_xdb/tmp/ise/__REGISTRY__
+ trce/                     Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/top/u2_rev3/build_vaguely_works/u2_rev3_xdb/tmp/ise/__REGISTRY__/trce
+ regkeys                   Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/top/u2_rev3/build_vaguely_works/u2_rev3_xdb/tmp/ise/__REGISTRY__
+ xpwr/                     Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/top/u2_rev3/build_vaguely_works/u2_rev3_xdb/tmp/ise/__REGISTRY__/xpwr
+ regkeys                   Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/top/u2_rev3/build_vaguely_works/u2_rev3_xdb/tmp/ise/__REGISTRY__
+ fuse/                     Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/top/u2_rev3/build_vaguely_works/u2_rev3_xdb/tmp/ise/__REGISTRY__/fuse
+ regkeys                   Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/top/u2_rev3/build_vaguely_works/u2_rev3_xdb/tmp/ise/__REGISTRY__
+ hprep6/                   Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/top/u2_rev3/build_vaguely_works/u2_rev3_xdb/tmp/ise/__REGISTRY__/hprep6
+ regkeys                   Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/top/u2_rev3/build_vaguely_works/u2_rev3_xdb/tmp/ise/__REGISTRY__
+ Cs/                       Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/top/u2_rev3/build_vaguely_works/u2_rev3_xdb/tmp/ise/__REGISTRY__/Cs
+ regkeys                   Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/top/u2_rev3/build_vaguely_works/u2_rev3_xdb/tmp/ise/__REGISTRY__
+ bitgen/                   Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/top/u2_rev3/build_vaguely_works/u2_rev3_xdb/tmp/ise/__REGISTRY__/bitgen
+ regkeys                   Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/top/u2_rev3/build_vaguely_works/u2_rev3_xdb/tmp/ise/__REGISTRY__
+ HierarchicalDesign/       Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/top/u2_rev3/build_vaguely_works/u2_rev3_xdb/tmp/ise/__REGISTRY__/HierarchicalDesign
+ HDProject/                Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/top/u2_rev3/build_vaguely_works/u2_rev3_xdb/tmp/ise/__REGISTRY__/HierarchicalDesign/HDProject
+ regkeys                   Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/top/u2_rev3/build_vaguely_works/u2_rev3_xdb/tmp/ise/__REGISTRY__/HierarchicalDesign
+ regkeys                   Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/top/u2_rev3/build_vaguely_works/u2_rev3_xdb/tmp/ise/__REGISTRY__
+ runner/                   Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/top/u2_rev3/build_vaguely_works/u2_rev3_xdb/tmp/ise/__REGISTRY__/runner
+ regkeys                   Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/top/u2_rev3/build_vaguely_works/u2_rev3_xdb/tmp/ise/__REGISTRY__
+ SrcCtrl/                  Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/top/u2_rev3/build_vaguely_works/u2_rev3_xdb/tmp/ise/__REGISTRY__/SrcCtrl
+ regkeys                   Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/top/u2_rev3/build_vaguely_works/u2_rev3_xdb/tmp/ise/__REGISTRY__
+ tsim/                     Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/top/u2_rev3/build_vaguely_works/u2_rev3_xdb/tmp/ise/__REGISTRY__/tsim
+ regkeys                   Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/top/u2_rev3/build_vaguely_works/u2_rev3_xdb/tmp/ise/__REGISTRY__
+ vhpcomp/                  Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/top/u2_rev3/build_vaguely_works/u2_rev3_xdb/tmp/ise/__REGISTRY__/vhpcomp
+ regkeys                   Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/top/u2_rev3/build_vaguely_works/u2_rev3_xdb/tmp/ise/__REGISTRY__
+ map/                      Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/top/u2_rev3/build_vaguely_works/u2_rev3_xdb/tmp/ise/__REGISTRY__/map
+ regkeys                   Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/top/u2_rev3/build_vaguely_works/u2_rev3_xdb/tmp/ise/__REGISTRY__
+ idem/                     Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/top/u2_rev3/build_vaguely_works/u2_rev3_xdb/tmp/ise/__REGISTRY__/idem
+ regkeys                   Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/top/u2_rev3/build_vaguely_works/u2_rev3_xdb/tmp/ise/__REGISTRY__
+ xst/                      Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/top/u2_rev3/build_vaguely_works/u2_rev3_xdb/tmp/ise/__REGISTRY__/xst
+ regkeys                   Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/top/u2_rev3/build_vaguely_works/u2_rev3_xdb/tmp/ise
+ version                   Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/top/u2_rev3/build_vaguely_works/u2_rev3_xdb/tmp
+ ise.lock                  Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/top/u2_rev3/build_vaguely_works/u2_rev3_xdb
+ cst.xbcd                  Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/top/u2_rev3/build_vaguely_works
+ u2_rev3.xpi               Locally Removed            15 
+ u2_rev3_map.psr           Locally Removed            15 
+ u2_rev3_prev_built.ngd    Locally Removed            15 
+ u2_rev3.pad               Locally Removed            15 
+ u2_rev3.ncd               Locally Removed            15 
+ u2_rev3_ngdbuild.xrpt     Locally Removed            15 
+ u2_rev3.bgn               Locally Removed            15 
+ u2_rev3.ngc               Locally Removed            15 
+ u2_rev3.ntrc_log          Locally Removed            15 
+ u2_rev3.ngd               Locally Removed            15 
+ u2_rev3.pcf               Locally Removed            15 
+ u2_rev3.bin               Locally Removed            15 
+ u2_rev3.stx               Locally Removed            15 
+ u2_rev3.bit               Locally Removed            15 
+ u2_rev3.ise               Locally Removed            15 
+ u2_rev3.par               Locally Removed            15 
+ u2_rev3.restore           Locally Removed            15 
+ u2_rev3.unroutes          Locally Removed            15 
+ u2_rev3.ngr               Locally Removed            15 
+ u2_rev3_map.mrp           Locally Removed            15 
+ u2_rev3.lso               Locally Removed            15 
+ _ngo/                     Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/top/u2_rev3/build_vaguely_works/_ngo
+ netlist.lst               Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/top/u2_rev3/build_vaguely_works
+ u2_rev3_par.xrpt          Locally Removed            15 
+ u2_rev3_map.ncd           Locally Removed            15 
+ u2_rev3.bld               Locally Removed            15 
+ fifo_xlnx_16x19_2clk.ngc  Locally Removed            15 
+ u2_rev3.ptwx              Locally Removed            15 
+ fifo_xlnx_64x36_2clk.ngc  Locally Removed            15 
+ u2_rev3_pad.txt           Locally Removed            15 
+ u2_rev3.cmd_log           Locally Removed            15 
+ u2_rev3.drc               Locally Removed            15 
+ templates/                Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/top/u2_rev3/build_vaguely_works/templates
+ coregen.xml               Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/top/u2_rev3/build_vaguely_works
+ icon.ngc                  Locally Removed            15 
+ u2_rev3_map.map           Locally Removed            15 
+ _xmsgs/                   Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/top/u2_rev3/build_vaguely_works/_xmsgs
+ par.xmsgs                 Locally Removed            15 
+ bitgen.xmsgs              Locally Removed            15 
+ ngdbuild.xmsgs            Locally Removed            15 
+ map.xmsgs                 Locally Removed            15 
+ trce.xmsgs                Locally Removed            15 
+ xst.xmsgs                 Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/top/u2_rev3/build_vaguely_works
+ u2_rev3.twr               Locally Removed            15 
+ u2_rev3.syr               Locally Removed            15 
+ u2_rev3_summary.xml       Locally Removed            15 
+ u2_rev3.xst               Locally Removed            15 
+ u2_rev3_map.ngm           Locally Removed            15 
+ u2_rev3_pad.csv           Locally Removed            15 
+ fifo_xlnx_512x36_2clk.ngc Locally Removed            15 
+ u2_rev3_guide.ncd         Locally Removed            15 
+ u2_rev3.twx               Locally Removed            15 
+ u2_rev3_usage.xml         Locally Removed            15 
+ fifo_xlnx_2Kx36_2clk.ngc  Locally Removed            15 
+ ila.ngc                   Locally Removed            15 
+ u2_rev3.ut                Locally Removed            15 
+ xst/                      Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/top/u2_rev3/build_vaguely_works/xst
+ dump.xst/                 Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/top/u2_rev3/build_vaguely_works/xst/dump.xst
+ u2_rev3.prj/              Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/top/u2_rev3/build_vaguely_works/xst/dump.xst/u2_rev3.prj
+ ngx/                      Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/top/u2_rev3/build_vaguely_works/xst/dump.xst/u2_rev3.prj/ngx
+ opt/                      Locally Removed            15 
+ notopt/                   Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/top/u2_rev3/build_vaguely_works/xst/dump.xst/u2_rev3.prj
+ ntrc.scr                  Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/top/u2_rev3/build_vaguely_works/xst
+ work/                     Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/top/u2_rev3/build_vaguely_works/xst/work
+ vlg4C/                    Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/top/u2_rev3/build_vaguely_works/xst/work/vlg4C
+ add2__and__round.bin      Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/top/u2_rev3/build_vaguely_works/xst/work
+ vlg4D/                    Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/top/u2_rev3/build_vaguely_works/xst/work/vlg4D
+ _sync_f_i_f_o.bin         Locally Removed            15 
+ hb__dec.bin               Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/top/u2_rev3/build_vaguely_works/xst/work
+ vlg4E/                    Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/top/u2_rev3/build_vaguely_works/xst/work/vlg4E
+ atr__controller.bin       Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/top/u2_rev3/build_vaguely_works/xst/work
+ vlg12/                    Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/top/u2_rev3/build_vaguely_works/xst/work/vlg12
+ dsp__core__rx__old.bin    Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/top/u2_rev3/build_vaguely_works/xst/work
+ vlg50/                    Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/top/u2_rev3/build_vaguely_works/xst/work/vlg50
+ tx__control.bin           Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/top/u2_rev3/build_vaguely_works/xst/work
+ vlg53/                    Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/top/u2_rev3/build_vaguely_works/xst/work/vlg53
+ decoder__3__8.bin         Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/top/u2_rev3/build_vaguely_works/xst/work
+ vlg17/                    Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/top/u2_rev3/build_vaguely_works/xst/work/vlg17
+ time__sync.bin            Locally Removed            15 
+ cordic__z24.bin           Locally Removed            15 
+ fifo__short.bin           Locally Removed            15 
+ time__receiver.bin        Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/top/u2_rev3/build_vaguely_works/xst/work
+ vlg56/                    Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/top/u2_rev3/build_vaguely_works/xst/work/vlg56
+ settings__bus.bin         Locally Removed            15 
+ ae_m_b__ibuf.bin          Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/top/u2_rev3/build_vaguely_works/xst/work
+ vlg57/                    Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/top/u2_rev3/build_vaguely_works/xst/work/vlg57
+ ram__harv__cache.bin      Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/top/u2_rev3/build_vaguely_works/xst/work
+ vlg58/                    Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/top/u2_rev3/build_vaguely_works/xst/work/vlg58
+ small__hb__int.bin        Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/top/u2_rev3/build_vaguely_works/xst/work
+ vlg1D/                    Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/top/u2_rev3/build_vaguely_works/xst/work/vlg1D
+ ae_m_b__edk32.bin         Locally Removed            15 
+ small__hb__dec.bin        Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/top/u2_rev3/build_vaguely_works/xst/work
+ vlg5A/                    Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/top/u2_rev3/build_vaguely_works/xst/work/vlg5A
+ cic__dec__shifter.bin     Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/top/u2_rev3/build_vaguely_works/xst/work
+ vlg5C/                    Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/top/u2_rev3/build_vaguely_works/xst/work/vlg5C
+ i2c__master__byte__ctrl.bin Locally Removed            15 
+ dcache.bin                Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/top/u2_rev3/build_vaguely_works/xst/work
+ vlg5D/                    Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/top/u2_rev3/build_vaguely_works/xst/work/vlg5D
+ spi__shift.bin            Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/top/u2_rev3/build_vaguely_works/xst/work
+ vlg5E/                    Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/top/u2_rev3/build_vaguely_works/xst/work/vlg5E
+ medfifo.bin               Locally Removed            15 
+ wb__readback__mux.bin     Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/top/u2_rev3/build_vaguely_works/xst/work
+ vlg5F/                    Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/top/u2_rev3/build_vaguely_works/xst/work/vlg5F
+ setting__reg.bin          Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/top/u2_rev3/build_vaguely_works/xst/work
+ vlg21/                    Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/top/u2_rev3/build_vaguely_works/xst/work/vlg21
+ round__reg.bin            Locally Removed            15 
+ ae_m_b__ctrl.bin          Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/top/u2_rev3/build_vaguely_works/xst/work
+ vlg22/                    Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/top/u2_rev3/build_vaguely_works/xst/work/vlg22
+ ram__loader.bin           Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/top/u2_rev3/build_vaguely_works/xst/work
+ vlg60/                    Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/top/u2_rev3/build_vaguely_works/xst/work/vlg60
+ pic.bin                   Locally Removed            15 
+ clip.bin                  Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/top/u2_rev3/build_vaguely_works/xst/work
+ vlg61/                    Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/top/u2_rev3/build_vaguely_works/xst/work/vlg61
+ srl.bin                   Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/top/u2_rev3/build_vaguely_works/xst/work
+ vlg62/                    Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/top/u2_rev3/build_vaguely_works/xst/work/vlg62
+ fifo__xlnx__16x40__2clk.bin Locally Removed            15 
+ dsp__core__tx.bin         Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/top/u2_rev3/build_vaguely_works/xst/work
+ vlg63/                    Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/top/u2_rev3/build_vaguely_works/xst/work/vlg63
+ settings__bus__crossclock.bin Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/top/u2_rev3/build_vaguely_works/xst/work
+ vlg28/                    Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/top/u2_rev3/build_vaguely_works/xst/work/vlg28
+ decode__8b10b.bin         Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/top/u2_rev3/build_vaguely_works/xst/work
+ vlg65/                    Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/top/u2_rev3/build_vaguely_works/xst/work/vlg65
+ icache.bin                Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/top/u2_rev3/build_vaguely_works/xst/work
+ vlg29/                    Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/top/u2_rev3/build_vaguely_works/xst/work/vlg29
+ ae_m_b__xecu.bin          Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/top/u2_rev3/build_vaguely_works/xst/work
+ vlg66/                    Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/top/u2_rev3/build_vaguely_works/xst/work/vlg66
+ simple__uart__rx.bin      Locally Removed            15 
+ spi__top.bin              Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/top/u2_rev3/build_vaguely_works/xst/work
+ vlg67/                    Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/top/u2_rev3/build_vaguely_works/xst/work/vlg67
+ i2c__master__top.bin      Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/top/u2_rev3/build_vaguely_works/xst/work
+ vlg68/                    Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/top/u2_rev3/build_vaguely_works/xst/work/vlg68
+ sign__extend.bin          Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/top/u2_rev3/build_vaguely_works/xst/work
+ vlg2A/                    Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/top/u2_rev3/build_vaguely_works/xst/work/vlg2A
+ sd__spi.bin               Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/top/u2_rev3/build_vaguely_works/xst/work
+ vlg2B/                    Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/top/u2_rev3/build_vaguely_works/xst/work/vlg2B
+ fifo__cascade.bin         Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/top/u2_rev3/build_vaguely_works/xst/work
+ vlg2C/                    Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/top/u2_rev3/build_vaguely_works/xst/work/vlg2C
+ mk_f_i_f_o16to32_to_c_c.bin Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/top/u2_rev3/build_vaguely_works/xst/work
+ vlg2F/                    Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/top/u2_rev3/build_vaguely_works/xst/work/vlg2F
+ cordic__stage.bin         Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/top/u2_rev3/build_vaguely_works/xst/work
+ vlg6E/                    Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/top/u2_rev3/build_vaguely_works/xst/work/vlg6E
+ u2__rev3.bin              Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/top/u2_rev3/build_vaguely_works/xst/work
+ vlg6F/                    Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/top/u2_rev3/build_vaguely_works/xst/work/vlg6F
+ hb__interp.bin            Locally Removed            15 
+ time__sender.bin          Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/top/u2_rev3/build_vaguely_works/xst/work
+ vlg31/                    Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/top/u2_rev3/build_vaguely_works/xst/work/vlg31
+ simple__uart.bin          Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/top/u2_rev3/build_vaguely_works/xst/work
+ vlg32/                    Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/top/u2_rev3/build_vaguely_works/xst/work/vlg32
+ mux4.bin                  Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/top/u2_rev3/build_vaguely_works/xst/work
+ vlg33/                    Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/top/u2_rev3/build_vaguely_works/xst/work/vlg33
+ u2__core.bin              Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/top/u2_rev3/build_vaguely_works/xst/work
+ vlg70/                    Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/top/u2_rev3/build_vaguely_works/xst/work/vlg70
+ simple__uart__tx.bin      Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/top/u2_rev3/build_vaguely_works/xst/work
+ vlg71/                    Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/top/u2_rev3/build_vaguely_works/xst/work/vlg71
+ add2__and__round__reg.bin Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/top/u2_rev3/build_vaguely_works/xst/work
+ vlg35/                    Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/top/u2_rev3/build_vaguely_works/xst/work/vlg35
+ cic__int__shifter.bin     Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/top/u2_rev3/build_vaguely_works/xst/work
+ vlg36/                    Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/top/u2_rev3/build_vaguely_works/xst/work/vlg36
+ mux8.bin                  Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/top/u2_rev3/build_vaguely_works/xst/work
+ vlg73/                    Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/top/u2_rev3/build_vaguely_works/xst/work/vlg73
+ mk_f_i_f_o1to2_to_c_c.bin Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/top/u2_rev3/build_vaguely_works/xst/work
+ vlg38/                    Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/top/u2_rev3/build_vaguely_works/xst/work/vlg38
+ cic__decim.bin            Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/top/u2_rev3/build_vaguely_works/xst/work
+ vlg39/                    Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/top/u2_rev3/build_vaguely_works/xst/work/vlg39
+ dpram32.bin               Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/top/u2_rev3/build_vaguely_works/xst/work
+ hdllib.ref                Locally Removed            15 
+ vlg3B/                    Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/top/u2_rev3/build_vaguely_works/xst/work/vlg3B
+ _sized_f_i_f_o.bin        Locally Removed            15 
+ fifo__long.bin            Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/top/u2_rev3/build_vaguely_works/xst/work
+ vlg3C/                    Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/top/u2_rev3/build_vaguely_works/xst/work/vlg3C
+ add2__reg.bin             Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/top/u2_rev3/build_vaguely_works/xst/work
+ vlg3E/                    Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/top/u2_rev3/build_vaguely_works/xst/work/vlg3E
+ ila.bin                   Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/top/u2_rev3/build_vaguely_works/xst/work
+ vlg3F/                    Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/top/u2_rev3/build_vaguely_works/xst/work/vlg3F
+ rx__dcoffset.bin          Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/top/u2_rev3/build_vaguely_works/xst/work
+ vlg7C/                    Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/top/u2_rev3/build_vaguely_works/xst/work/vlg7C
+ buffer__int.bin           Locally Removed            15 
+ round.bin                 Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/top/u2_rev3/build_vaguely_works/xst/work
+ vlg7E/                    Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/top/u2_rev3/build_vaguely_works/xst/work/vlg7E
+ ae_m_b__bpcu.bin          Locally Removed            15 
+ sd__spi__wb.bin           Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/top/u2_rev3/build_vaguely_works/xst/work
+ vlg7F/                    Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/top/u2_rev3/build_vaguely_works/xst/work/vlg7F
+ wb__bridge__16__32.bin    Locally Removed            15 
+ ae_m_b__core___b_e.bin    Locally Removed            15 
+ cic__strober.bin          Locally Removed            15 
+ priority__enc.bin         Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/top/u2_rev3/build_vaguely_works/xst/work
+ vlg00/                    Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/top/u2_rev3/build_vaguely_works/xst/work/vlg00
+ wb__zbt16__b.bin          Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/top/u2_rev3/build_vaguely_works/xst/work
+ vlg03/                    Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/top/u2_rev3/build_vaguely_works/xst/work/vlg03
+ fifo__in__32__out__16.bin Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/top/u2_rev3/build_vaguely_works/xst/work
+ vlg40/                    Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/top/u2_rev3/build_vaguely_works/xst/work/vlg40
+ nsgpio.bin                Locally Removed            15 
+ ae_m_b__regf.bin          Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/top/u2_rev3/build_vaguely_works/xst/work
+ vlg04/                    Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/top/u2_rev3/build_vaguely_works/xst/work/vlg04
+ my__serdes__rx.bin        Locally Removed            15 
+ spi__clgen.bin            Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/top/u2_rev3/build_vaguely_works/xst/work
+ vlg06/                    Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/top/u2_rev3/build_vaguely_works/xst/work/vlg06
+ rx__control.bin           Locally Removed            15 
+ ram__2port.bin            Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/top/u2_rev3/build_vaguely_works/xst/work
+ vlg43/                    Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/top/u2_rev3/build_vaguely_works/xst/work/vlg43
+ buffer__pool.bin          Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/top/u2_rev3/build_vaguely_works/xst/work
+ vlg07/                    Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/top/u2_rev3/build_vaguely_works/xst/work/vlg07
+ i2c__master__bit__ctrl.bin Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/top/u2_rev3/build_vaguely_works/xst/work
+ vlg45/                    Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/top/u2_rev3/build_vaguely_works/xst/work/vlg45
+ clip__reg.bin             Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/top/u2_rev3/build_vaguely_works/xst/work
+ vlg09/                    Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/top/u2_rev3/build_vaguely_works/xst/work/vlg09
+ icon.bin                  Locally Removed            15 
+ timer.bin                 Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/top/u2_rev3/build_vaguely_works/xst/work
+ vlg46/                    Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/top/u2_rev3/build_vaguely_works/xst/work/vlg46
+ encode__8b10b.bin         Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/top/u2_rev3/build_vaguely_works/xst/work
+ vlg47/                    Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/top/u2_rev3/build_vaguely_works/xst/work/vlg47
+ add2.bin                  Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/top/u2_rev3/build_vaguely_works/xst/work
+ vlg49/                    Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/top/u2_rev3/build_vaguely_works/xst/work/vlg49
+ wb__1master.bin           Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/top/u2_rev3/build_vaguely_works/xst/work
+ vlg0C/                    Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/top/u2_rev3/build_vaguely_works/xst/work/vlg0C
+ cic__interp.bin           Locally Removed            15 
+ shortfifo.bin             Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/top/u2_rev3/build_vaguely_works/xst/work
+ vlg0D/                    Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/top/u2_rev3/build_vaguely_works/xst/work/vlg0D
+ system__control.bin       Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/top/u2_rev3/build_vaguely_works/xst/work
+ vlg0E/                    Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/top/u2_rev3/build_vaguely_works/xst/work/vlg0E
+ my__serdes__tx.bin        Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/top/u2_rev3/build_vaguely_works/xst/work
+ vlg4B/                    Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/top/u2_rev3/build_vaguely_works/xst/work/vlg4B
+ acc.bin                   Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/top/u2_rev3/build_vaguely_works/xst
+ projnav.tmp/              Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/top/u2_rev3/build_vaguely_works
+ u2_rev3_map.xrpt          Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/top/u2_rev3
+ u2_rev3.ucf               Locally Removed            15 
+ u2_core.v                 Locally Removed            15 
+ u2_rev3_conv.sdc          Locally Removed            15 
+ Makefile.udp              Locally Removed            15 
+ .gitignore                Locally Removed            15 
+ u2_rev3.v                 Locally Removed            15 
+ u2_rev3_unsupported.ucf   Locally Removed            15 
+ u2_core_udp.v             Locally Removed            15 
+ _impact.log               Locally Removed            15 
+ Makefile                  Locally Removed            15 
+ make.log                  Locally Removed            15 
+ _impact.cmd               Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/top
+ .gitignore                Locally Removed            15 
+ u2plus/                   Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/top/u2plus
+ u2plus.ucf                Locally Removed            15 
+ u2plus.v                  Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/top
+ u2_rev3_2rx_iad/          Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/top/u2_rev3_2rx_iad
+ impulse.v                 Locally Removed            15 
+ u2_core.v                 Locally Removed            15 
+ cmdfile                   Locally Removed            15 
+ dsp_core_tb.v             Locally Removed            15 
+ dsp_core_rx.v             Locally Removed            15 
+ dsp_core_tb.sav           Locally Removed            15 
+ wave.sh                   Locally Removed            15 
+ Makefile                  Locally Removed            15 
+ README                    Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain
+ boot_cpld/                Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/boot_cpld
+ boot_cpld.ucf             Locally Removed            15 
+ boot_cpld.ipf             Locally Removed            15 
+ boot_cpld.ise             Locally Removed            15 
+ .gitignore                Locally Removed            15 
+ boot_cpld.lfp             Locally Removed            15 
+ boot_cpld.v               Locally Removed            15 
+ _impact.cmd               Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain
+ control_lib/              Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/control_lib
+ byte_align.v              Locally Removed            15 
+ bin2gray.v                Locally Removed            15 
+ wb_readback_mux.v         Locally Removed            15 
+ wb_sim.v                  Locally Removed            15 
+ SizedFIFO.v               Locally Removed            15 
+ wb_output_pins32.v        Locally Removed            15 
+ clock_control.v           Locally Removed            15 
+ simple_uart_rx.v          Locally Removed            15 
+ mux4.v                    Locally Removed            15 
+ mux8.v                    Locally Removed            15 
+ mkFIFO16to32ToCC.v        Locally Removed            15 
+ sd_spi_tb.v               Locally Removed            15 
+ dpram32.v                 Locally Removed            15 
+ wb_semaphore.v            Locally Removed            15 
+ gray2bin.v                Locally Removed            15 
+ reset_sync.v              Locally Removed            15 
+ ram_wb_harvard.v          Locally Removed            15 
+ sd_spi.v                  Locally Removed            15 
+ simple_uart.v             Locally Removed            15 
+ icon.ngc                  Locally Removed            15 
+ cmdfile                   Locally Removed            15 
+ wb_1master.v              Locally Removed            15 
+ my_serdes_tx.v            Locally Removed            15 
+ sd_spi_wb.v               Locally Removed            15 
+ pic.v                     Locally Removed            15 
+ icache.v                  Locally Removed            15 
+ decoder_3_8.v             Locally Removed            15 
+ traffic_cop.v             Locally Removed            15 
+ clock_control_tb.v        Locally Removed            15 
+ SyncFIFO.v                Locally Removed            15 
+ mkFIFO1to2.v              Locally Removed            15 
+ ss_rcvr.v                 Locally Removed            15 
+ Makefile.srcs             Locally Removed            15 
+ CRC16_D16.v               Locally Removed            15 
+ icon.v                    Locally Removed            15 
+ bootrom.mem               Locally Removed            15 
+ wb_bridge_16_32.v         Locally Removed            15 
+ simple_uart_tx.v          Locally Removed            15 
+ wb_regfile_2clock.v       Locally Removed            15 
+ ram_loader.v              Locally Removed            15 
+ clock_bootstrap_rom.v     Locally Removed            15 
+ ila.v                     Locally Removed            15 
+ dcache.v                  Locally Removed            15 
+ settings_bus.v            Locally Removed            15 
+ medfifo.v                 Locally Removed            15 
+ setting_reg.v             Locally Removed            15 
+ gray_send.v               Locally Removed            15 
+ wb_bus_writer.v           Locally Removed            15 
+ wb_ram_block.v            Locally Removed            15 
+ ram_harv_cache.v          Locally Removed            15 
+ system_control.v          Locally Removed            15 
+ atr_controller.v          Locally Removed            15 
+ oneshot_2clk.v            Locally Removed            15 
+ mkFIFO16to32.v            Locally Removed            15 
+ mkFIFO1to2ToCC.v          Locally Removed            15 
+ wb_ram_dist.v             Locally Removed            15 
+ spi.v                     Locally Removed            15 
+ settings_bus_crossclock.v Locally Removed            15 
+ nsgpio.v                  Locally Removed            15 
+ srl.v                     Locally Removed            15 
+ mux_32_4.v                Locally Removed            15 
+ .gitignore                Locally Removed            15 
+ my_serdes_rx.v            Locally Removed            15 
+ shortfifo.v               Locally Removed            15 
+ longfifo.v                Locally Removed            15 
+ ram_2port.v               Locally Removed            15 
+ priority_enc.v            Locally Removed            15 
+ ila.ngc                   Locally Removed            15 
+ fifo_tb.v                 Locally Removed            15 
+ system_control_tb.v       Locally Removed            15 
+ fifo_in_32_out_16.v       Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain
+ vrt/                      Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/vrt
+ vita_rx_control.v         Locally Removed            15 
+ vita_tx_control.v         Locally Removed            15 
+ .gitignore                Locally Removed            15 
+ vita_rx_tb.v              Locally Removed            15 
+ Makefile.srcs             Locally Removed            15 
+ vita_tx_deframer.v        Locally Removed            15 
+ vita_tx_tb.v              Locally Removed            15 
+ vita_rx.build             Locally Removed            15 
+ vita_rx_framer.v          Locally Removed            15 
+ vita_tx.build             Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain
+ sdr_lib/                  Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/sdr_lib
+ duc.v                     Locally Removed            15 
+ dsp_core_rx_udp.v         Locally Removed            15 
+ clip_and_round.v          Locally Removed            15 
+ rssi.v                    Locally Removed            15 
+ small_hb_dec_tb.v         Locally Removed            15 
+ Makefile.srcs             Locally Removed            15 
+ integrate.v               Locally Removed            15 
+ halfband_tb.v             Locally Removed            15 
+ round_reg.v               Locally Removed            15 
+ hb/                       Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/sdr_lib/hb
+ ram16_2port.v             Locally Removed            15 
+ ram16_2sum.v              Locally Removed            15 
+ hbd_tb/                   Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/sdr_lib/hb/hbd_tb
+ really_golden             Locally Removed            15 
+ regression                Locally Removed            15 
+ test_hbd.v                Locally Removed            15 
+ run_hbd                   Locally Removed            15 
+ HBD                       Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/sdr_lib/hb
+ coeff_rom.v               Locally Removed            15 
+ halfband_decim.v          Locally Removed            15 
+ halfband_interp.v         Locally Removed            15 
+ mac.v                     Locally Removed            15 
+ coeff_ram.v               Locally Removed            15 
+ mult.v                    Locally Removed            15 
+ acc.v                     Locally Removed            15 
+ ram32_2sum.v              Locally Removed            15 
+
+Directory modules/platforms-usrp/tx-chain/sdr_lib
+ cordic_stage.v            Locally Removed            15 
+ clip.v                    Locally Removed            15 
+ hb_dec_tb.v               Locally Removed            15 
+ rx_control.v              Locally Removed            15 
+ ddc.v                     Locally Removed            15 
+ rx_dcoffset_tb.v          Locally Removed            15 
+ tx_control.v              Locally Removed            15 
+ cic_int_shifter.v         Locally Removed            15 
+ cic_dec_shifter.v         Locally Removed            15 
+ hb_interp_tb.v            Locally Removed            15 
+ input.dat                 Locally Removed            15 
+ cordic.v                  Locally Removed            15 
+ add2_and_round.v          Locally Removed            15 
+ dummy_rx.v                Locally Removed            15 
+ add2.v                    Locally Removed            15 
+ clip_and_round_reg.v      Locally Removed            15 
+ HB.sav                    Locally Removed            15 
+ hb_tb.v                   Locally Removed            15 
+ cic_interp.v              Locally Removed            15 
+ small_hb_int_tb.v         Locally Removed            15 
+ clip_reg.v                Locally Removed            15 
+ acc.v                     Locally Removed            15 
+ round.v                   Locally Removed            15 
+ med_hb_int.v              Locally Removed            15 
+ small_hb_int.v            Locally Removed            15 
+ small_hb_dec.v            Locally Removed            15 
+ halfband_ideal.v          Locally Removed            15 
+ cic_strober.v             Locally Removed            15 
+ cic_decim.v               Locally Removed            15 
+ add2_and_round_reg.v      Locally Removed            15 
+ .gitignore                Locally Removed            15 
+ cordic_z24.v              Locally Removed            15 
+ output.dat                Locally Removed            15 
+ hb_dec.v                  Locally Removed            15 
+ dsp_core_rx_old.v         Locally Removed            15 
+ SMALL_HB.sav              Locally Removed            15 
+ rx_dcoffset.v             Locally Removed            15 
+ dsp_core_rx.v             Locally Removed            15 
+ add2_reg.v                Locally Removed            15 
+ sign_extend.v             Locally Removed            15 
+ gen_cordic_consts.py      Locally Removed            15 
+ dsp_core_tx.v             Locally Removed            15 
+ hb_interp.v               Locally Removed            15 
+
+Directory modules/platforms-usrp
+ usrp2/                    Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2
+ testbench/                Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/testbench
+ cmdfile                   Locally Removed            15 
+ .gitignore                Locally Removed            15 
+ Makefile                  Locally Removed            15 
+ README                    Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2
+ coregen/                  Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/coregen
+ fifo_xlnx_16x40_2clk.ngc  Locally Removed            15 
+ fifo_xlnx_512x36_2clk_prog_full.xise Locally Removed            15 
+ icon.veo                  Locally Removed            15 
+ icon.asy                  Locally Removed            15 
+ fifo_xlnx_64x36_2clk.v    Locally Removed            15 
+ fifo_xlnx_512x36_2clk.xco Locally Removed            15 
+ fifo_xlnx_512x36_2clk_18to36.ncf Locally Removed            15 
+ fifo_xlnx_512x36_2clk_36to18.ncf Locally Removed            15 
+ fifo_xlnx_512x36_2clk_18to36.ngc Locally Removed            15 
+ fifo_xlnx_512x36_2clk_36to18.ngc Locally Removed            15 
+ coregen.cgp               Locally Removed            15 
+ fifo_xlnx_512x36_2clk_36to18.xise Locally Removed            15 
+ fifo_xlnx_512x36_2clk_readme.txt Locally Removed            15 
+ fifo_xlnx_512x36_2clk_18to36.xise Locally Removed            15 
+ fifo_xlnx_16x40_2clk_fifo_generator_v4_3_xst_1.ngc_xst.xrpt Locally Removed            15 
+ fifo_xlnx_2Kx36_2clk.veo  Locally Removed            15 
+ ila.xco                   Locally Removed            15 
+ fifo_xlnx_512x36_2clk_prog_full.gise Locally Removed            15 
+ fifo_xlnx_2Kx36_2clk.asy  Locally Removed            15 
+ fifo_xlnx_64x36_2clk_fifo_generator_v4_3_xst_1.lso Locally Removed            15 
+ fifo_xlnx_16x40_2clk.xco  Locally Removed            15 
+ fifo_xlnx_32x36_2clk.veo  Locally Removed            15 
+ ila_xmdf.tcl              Locally Removed            15 
+ fifo_xlnx_512x36_2clk.sym Locally Removed            15 
+ fifo_xlnx_16x40_2clk_xmdf.tcl Locally Removed            15 
+ fifo_xlnx_512x36_2clk_18to36.gise Locally Removed            15 
+ fifo_xlnx_512x36_2clk_36to18.gise Locally Removed            15 
+ fifo_xlnx_512x36_2clk_18to36.xco Locally Removed            15 
+ fifo_xlnx_512x36_2clk_36to18.xco Locally Removed            15 
+ fifo_xlnx_512x36_2clk_36to18_readme.txt Locally Removed            15 
+ fifo_xlnx_512x36_2clk_18to36_readme.txt Locally Removed            15 
+ fifo_xlnx_512x36_2clk.vhd Locally Removed            15 
+ fifo_generator_release_notes.txt Locally Removed            15 
+ icon_readme.txt           Locally Removed            15 
+ ila.vhd                   Locally Removed            15 
+ fifo_xlnx_64x36_2clk.ngc  Locally Removed            15 
+ icon_xmdf.tcl             Locally Removed            15 
+ fifo_xlnx_512x36_2clk.vho Locally Removed            15 
+ icon.ncf                  Locally Removed            15 
+ fifo_xlnx_16x19_2clk_flist.txt Locally Removed            15 
+ icon.ngc                  Locally Removed            15 
+ fifo_xlnx_2Kx36_2clk_readme.txt Locally Removed            15 
+ fifo_xlnx_512x36_2clk_prog_full.veo Locally Removed            15 
+ ila.vho                   Locally Removed            15 
+ fifo_xlnx_16x19_2clk_fifo_generator_v4_3_xst_1.ngc_xst.xrpt Locally Removed            15 
+ fifo_xlnx_2Kx36_2clk_xmdf.tcl Locally Removed            15 
+ fifo_xlnx_64x36_2clk_fifo_generator_v4_3_xst_1.ngc_xst.xrpt Locally Removed            15 
+ fifo_xlnx_32x36_2clk_readme.txt Locally Removed            15 
+ fifo_xlnx_16x19_2clk.veo  Locally Removed            15 
+ icon_flist.txt            Locally Removed            15 
+ fifo_xlnx_64x36_2clk.xco  Locally Removed            15 
+ fifo_xlnx_2Kx36_2clk.ngc  Locally Removed            15 
+ fifo_xlnx_32x36_2clk_xmdf.tcl Locally Removed            15 
+ ila.xise                  Locally Removed            15 
+ fifo_xlnx_16x19_2clk_xmdf.tcl Locally Removed            15 
+ fifo_xlnx_512x36_2clk_flist.txt Locally Removed            15 
+ fifo_xlnx_64x36_2clk_xmdf.tcl Locally Removed            15 
+ icon.xco                  Locally Removed            15 
+ fifo_xlnx_32x36_2clk.ncf  Locally Removed            15 
+ fifo_xlnx_512x36_2clk_fifo_generator_v4_3_xst_1.ngc_xst.xrpt Locally Removed            15 
+ fifo_xlnx_32x36_2clk.ngc  Locally Removed            15 
+ fifo_xlnx_16x19_2clk.v    Locally Removed            15 
+ fifo_xlnx_2Kx36_2clk_flist.txt Locally Removed            15 
+ ila_flist.txt             Locally Removed            15 
+ Makefile.srcs             Locally Removed            15 
+ fifo_xlnx_512x36_2clk.veo Locally Removed            15 
+ fifo_xlnx_16x40_2clk_flist.txt Locally Removed            15 
+ fifo_generator_ug175.pdf  Locally Removed            15 
+ fifo_xlnx_512x36_2clk.asy Locally Removed            15 
+ fifo_xlnx_32x36_2clk_flist.txt Locally Removed            15 
+ ila.gise                  Locally Removed            15 
+ fifo_xlnx_2Kx36_2clk.xco  Locally Removed            15 
+ icon.v                    Locally Removed            15 
+ fifo_xlnx_16x19_2clk_fifo_generator_v4_3_xst_1.lso Locally Removed            15 
+ ila.cdc                   Locally Removed            15 
+ ila.veo                   Locally Removed            15 
+ fifo_xlnx_512x36_2clk_xmdf.tcl Locally Removed            15 
+ icon.xise                 Locally Removed            15 
+ ila.asy                   Locally Removed            15 
+ ila_readme.txt            Locally Removed            15 
+ fifo_xlnx_16x40_2clk.veo  Locally Removed            15 
+ fifo_xlnx_512x36_2clk_18to36_flist.txt Locally Removed            15 
+ fifo_xlnx_512x36_2clk_36to18_flist.txt Locally Removed            15 
+ fifo_xlnx_512x36_2clk.v   Locally Removed            15 
+ fifo_xlnx_512x36_2clk_prog_full_readme.txt Locally Removed            15 
+ fifo_xlnx_32x36_2clk.xco  Locally Removed            15 
+ fifo_xlnx_16x40_2clk_readme.txt Locally Removed            15 
+ fifo_xlnx_512x36_2clk_prog_full_xmdf.tcl Locally Removed            15 
+ fifo_xlnx_2Kx36_2clk.v    Locally Removed            15 
+ icon.vhd                  Locally Removed            15 
+ ila.v                     Locally Removed            15 
+ fifo_xlnx_512x36_2clk_18to36.veo Locally Removed            15 
+ fifo_xlnx_2Kx36_2clk.sym  Locally Removed            15 
+ fifo_xlnx_512x36_2clk_36to18.veo Locally Removed            15 
+ chipscope/                Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/coregen/chipscope
+ icon.xco                  Locally Removed            15 
+ icon.veo                  Locally Removed            15 
+ icon_readme.txt           Locally Removed            15 
+ icon.vho                  Locally Removed            15 
+ icon.asy                  Locally Removed            15 
+ ila_flist.txt             Locally Removed            15 
+ ila.vhd                   Locally Removed            15 
+ icon_xmdf.tcl             Locally Removed            15 
+ coregen.cgp               Locally Removed            15 
+ ila.gise                  Locally Removed            15 
+ icon.v                    Locally Removed            15 
+ ila.veo                   Locally Removed            15 
+ ila.xco                   Locally Removed            15 
+ ila.cdc                   Locally Removed            15 
+ icon.ngc                  Locally Removed            15 
+ icon.xise                 Locally Removed            15 
+ tmp/                      Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/coregen/chipscope/tmp
+ _cg/                      Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/coregen/chipscope
+ _xmsgs/                   Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/coregen/chipscope/_xmsgs
+ netgen.xmsgs              Locally Removed            15 
+ pn_parser.xmsgs           Locally Removed            15 
+ xst.xmsgs                 Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/coregen/chipscope
+ ila.asy                   Locally Removed            15 
+ ila.vho                   Locally Removed            15 
+ ila_readme.txt            Locally Removed            15 
+ coregen.log               Locally Removed            15 
+ ila_xmdf.tcl              Locally Removed            15 
+ icon_flist.txt            Locally Removed            15 
+ icon.vhd                  Locally Removed            15 
+ ila.v                     Locally Removed            15 
+ ila.ngc                   Locally Removed            15 
+ ila.xise                  Locally Removed            15 
+ coregen.cgc               Locally Removed            15 
+ icon.gise                 Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/coregen
+ fifo_xlnx_16x40_2clk.v    Locally Removed            15 
+ fifo_xlnx_512x36_2clk_fifo_generator_v4_3_xst_1.lso Locally Removed            15 
+ fifo_xlnx_512x36_2clk_prog_full.ncf Locally Removed            15 
+ fifo_xlnx_512x36_2clk_prog_full.ngc Locally Removed            15 
+ icon.gise                 Locally Removed            15 
+ fifo_xlnx_32x36_2clk.v    Locally Removed            15 
+ fifo_xlnx_2Kx36_2clk_fifo_generator_v4_3_xst_1.lso Locally Removed            15 
+ fifo_xlnx_512x36_2clk_18to36_xmdf.tcl Locally Removed            15 
+ fifo_xlnx_512x36_2clk_36to18_xmdf.tcl Locally Removed            15 
+ fifo_xlnx_32x36_2clk.xise Locally Removed            15 
+ icon.vho                  Locally Removed            15 
+ fifo_xlnx_2Kx36_2clk.vhd  Locally Removed            15 
+ fifo_xlnx_16x19_2clk.ngc  Locally Removed            15 
+ fifo_xlnx_2Kx36_2clk_fifo_generator_v4_3_xst_1.ngc_xst.xrpt Locally Removed            15 
+ fifo_xlnx_512x36_2clk_18to36.v Locally Removed            15 
+ fifo_xlnx_512x36_2clk_36to18.v Locally Removed            15 
+ fifo_xlnx_512x36_2clk_prog_full_flist.txt Locally Removed            15 
+ fifo_xlnx_2Kx36_2clk.vho  Locally Removed            15 
+ _xmsgs/                   Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/coregen/_xmsgs
+ pn_parser.xmsgs           Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/coregen
+ fifo_xlnx_512x36_2clk_prog_full.xco Locally Removed            15 
+ fifo_xlnx_64x36_2clk_flist.txt Locally Removed            15 
+ fifo_xlnx_32x36_2clk.gise Locally Removed            15 
+ fifo_xlnx_512x36_2clk.ngc Locally Removed            15 
+ .gitignore                Locally Removed            15 
+ fifo_xlnx_16x19_2clk.xco  Locally Removed            15 
+ fifo_xlnx_64x36_2clk.veo  Locally Removed            15 
+ fifo_xlnx_16x19_2clk_readme.txt Locally Removed            15 
+ ila.ncf                   Locally Removed            15 
+ ila.ngc                   Locally Removed            15 
+ fifo_xlnx_512x36_2clk_prog_full.v Locally Removed            15 
+ fifo_xlnx_64x36_2clk_readme.txt Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2
+ models/                   Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/models
+ miim_model.v              Locally Removed            15 
+ SRL16E.v                  Locally Removed            15 
+ RAMB16_S36_S36.v          Locally Removed            15 
+ MULT18X18S.v              Locally Removed            15 
+ SRLC16E.v                 Locally Removed            15 
+ BUFG.v                    Locally Removed            15 
+ CY7C1356C/                Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/models/CY7C1356C
+ cy1356.inp                Locally Removed            15 
+ testbench.v               Locally Removed            15 
+ readme.txt                Locally Removed            15 
+ cy1356.v                  Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/models
+ FIFO_GENERATOR_V4_3.v     Locally Removed            15 
+ uart_rx.v                 Locally Removed            15 
+ M24LC02B.v                Locally Removed            15 
+ xlnx_glbl.v               Locally Removed            15 
+ idt71v65603s150.v         Locally Removed            15 
+ math_real.v               Locally Removed            15 
+ gpmc_model_sync.v         Locally Removed            15 
+ cpld_model.v              Locally Removed            15 
+ gpmc_model_async.v        Locally Removed            15 
+ serdes_model.v            Locally Removed            15 
+ adc_model.v               Locally Removed            15 
+ phy_sim.v                 Locally Removed            15 
+ M24LC024B.v               Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2
+ fifo/                     Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/fifo
+ fifo36_to_fifo19.v        Locally Removed            15 
+ fifo19_to_fifo36.v        Locally Removed            15 
+ fifo36_to_ll8.v           Locally Removed            15 
+ ll8_to_fifo36.v           Locally Removed            15 
+ fifo19_to_ll8.v           Locally Removed            15 
+ ll8_to_fifo19.v           Locally Removed            15 
+ splitter36.v              Locally Removed            15 
+ fifo_2clock.v             Locally Removed            15 
+ Makefile.srcs             Locally Removed            15 
+ ll8_shortfifo.v           Locally Removed            15 
+ buffer_int.v              Locally Removed            15 
+ fifo_2clock_cascade.v     Locally Removed            15 
+ fifo36_mux.v              Locally Removed            15 
+ fifo_cascade.v            Locally Removed            15 
+ valve36.v                 Locally Removed            15 
+ crossbar36.v              Locally Removed            15 
+ buffer_pool_tb.v          Locally Removed            15 
+ dsp_framer36.v            Locally Removed            15 
+ fifo_19to36_tb.v          Locally Removed            15 
+ fifo36_demux.v            Locally Removed            15 
+ .gitignore                Locally Removed            15 
+ buffer_pool.v             Locally Removed            15 
+ fifo_long.v               Locally Removed            15 
+ fifo_short.v              Locally Removed            15 
+ buffer_int2.v             Locally Removed            15 
+ fifo_spec.txt             Locally Removed            15 
+ packet_router.v           Locally Removed            15 
+ buffer_int_tb.v           Locally Removed            15 
+ fifo_tb.v                 Locally Removed            15 
+ fifo18_to_fifo36.v        Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2
+ simple_gemac/             Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/simple_gemac
+ simple_gemac_wb.v         Locally Removed            15 
+ simple_gemac_wrapper.build Locally Removed            15 
+ test_packet.mem           Locally Removed            15 
+ Makefile.srcs             Locally Removed            15 
+ simple_gemac_wrapper19_tb.v Locally Removed            15 
+ simple_gemac.v            Locally Removed            15 
+ eth_tasks.v               Locally Removed            15 
+ simple_gemac_wrapper.v    Locally Removed            15 
+ address_filter_promisc.v  Locally Removed            15 
+ miim/                     Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/simple_gemac/miim
+ eth_miim.v                Locally Removed            15 
+ eth_shiftreg.v            Locally Removed            15 
+ eth_outputcontrol.v       Locally Removed            15 
+ eth_clockgen.v            Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/simple_gemac
+ simple_gemac_wrapper_f36_tb.v Locally Removed            15 
+ simple_gemac_wrapper19.build Locally Removed            15 
+ address_filter.v          Locally Removed            15 
+ rxmac_to_ll8.v            Locally Removed            15 
+ ll8_to_txmac.v            Locally Removed            15 
+ simple_gemac_rx.v         Locally Removed            15 
+ simple_gemac_wrapper19.v  Locally Removed            15 
+ simple_gemac_tx.v         Locally Removed            15 
+ .gitignore                Locally Removed            15 
+ eth_tasks_f36.v           Locally Removed            15 
+ flow_ctrl_rx.v            Locally Removed            15 
+ eth_tasks_f19.v           Locally Removed            15 
+ delay_line.v              Locally Removed            15 
+ flow_ctrl_tx.v            Locally Removed            15 
+ crc.v                     Locally Removed            15 
+ simple_gemac_tb.v         Locally Removed            15 
+ simple_gemac_wrapper_tb.v Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2
+ serdes/                   Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/serdes
+ serdes_rx.v               Locally Removed            15 
+ serdes_tx.v               Locally Removed            15 
+ Makefile.srcs             Locally Removed            15 
+ serdes.v                  Locally Removed            15 
+ serdes_fc_rx.v            Locally Removed            15 
+ serdes_fc_tx.v            Locally Removed            15 
+ serdes_tb.v               Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2
+ gpmc/                     Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/gpmc
+ burst_data_write.txt      Locally Removed            15 
+ gpmc_wb.v                 Locally Removed            15 
+ single_data_read.txt      Locally Removed            15 
+ gpmc_sync.v               Locally Removed            15 
+ Makefile.srcs             Locally Removed            15 
+ gpmc_async.v              Locally Removed            15 
+ ram_to_fifo.v             Locally Removed            15 
+ dbsm.v                    Locally Removed            15 
+ gpmc_to_fifo_sync.v       Locally Removed            15 
+ fifo_to_gpmc_sync.v       Locally Removed            15 
+ gpmc_to_fifo_async.v      Locally Removed            15 
+ fifo_to_gpmc_async.v      Locally Removed            15 
+ single_data_write.txt     Locally Removed            15 
+ fifo_watcher.v            Locally Removed            15 
+ edge_sync.v               Locally Removed            15 
+ .gitignore                Locally Removed            15 
+ make_timing_diag          Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2
+ timing/                   Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/timing
+ time_sender.v             Locally Removed            15 
+ timer.v                   Locally Removed            15 
+ .gitignore                Locally Removed            15 
+ Makefile.srcs             Locally Removed            15 
+ time_receiver.v           Locally Removed            15 
+ time_compare.v            Locally Removed            15 
+ time_64bit.v              Locally Removed            15 
+ time_transfer_tb.v        Locally Removed            15 
+ simple_timer.v            Locally Removed            15 
+ time_sync.v               Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2
+ udp/                      Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/udp
+ add_onescomp.v            Locally Removed            15 
+ prot_eng_tx_tb.v          Locally Removed            15 
+ Makefile.srcs             Locally Removed            15 
+ prot_eng_rx.v             Locally Removed            15 
+ fifo19_rxrealign.v        Locally Removed            15 
+ prot_eng_tx.v             Locally Removed            15 
+ udp_wrapper.v             Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2
+ opencores/                Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/opencores
+ aemb/                     Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/opencores/aemb
+ rtl/                      Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/opencores/aemb/rtl
+ verilog/                  Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/opencores/aemb/rtl/verilog
+ aeMB_core.v               Locally Removed            15 
+ aeMB_edk32.v              Locally Removed            15 
+ aeMB_sim.v                Locally Removed            15 
+ aeMB_bpcu.v               Locally Removed            15 
+ .gitignore                Locally Removed            15 
+ aeMB_core_BE.v            Locally Removed            15 
+ aeMB_regf.v               Locally Removed            15 
+ aeMB_ctrl.v               Locally Removed            15 
+ aeMB_xecu.v               Locally Removed            15 
+ aeMB_ibuf.v               Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/opencores/aemb
+ doc/                      Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/opencores/aemb/doc
+ aeMB_datasheet.pdf        Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/opencores/aemb
+ sim/                      Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/opencores/aemb/sim
+ .gitignore                Locally Removed            15 
+ verilog/                  Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/opencores/aemb/sim/verilog
+ aemb2.v                   Locally Removed            15 
+ edk32.v                   Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/opencores/aemb/sim
+ CODE_DEBUG.sav            Locally Removed            15 
+ cversim                   Locally Removed            15 
+ iversim                   Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/opencores/aemb
+ sw/                       Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/opencores/aemb/sw
+ c/                        Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/opencores/aemb/sw/c
+ libaemb.h                 Locally Removed            15 
+ aeMB_testbench.c          Locally Removed            15 
+ endian-test.c             Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/opencores/aemb/sw
+ gccrom                    Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/opencores
+ simple_pic/               Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/opencores/simple_pic
+ rtl/                      Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/opencores/simple_pic/rtl
+ simple_pic.v              Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/opencores
+ Makefile.srcs             Locally Removed            15 
+ simple_gpio/              Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/opencores/simple_gpio
+ rtl/                      Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/opencores/simple_gpio/rtl
+ simple_gpio.v             Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/opencores
+ wb_zbt/                   Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/opencores/wb_zbt
+ wb_zbt.v                  Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/opencores
+ spi/                      Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/opencores/spi
+ bench/                    Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/opencores/spi/bench
+ verilog/                  Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/opencores/spi/bench/verilog
+ tb_spi_top.v              Locally Removed            15 
+ wb_master_model.v         Locally Removed            15 
+ spi_slave_model.v         Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/opencores/spi
+ rtl/                      Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/opencores/spi/rtl
+ verilog/                  Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/opencores/spi/rtl/verilog
+ spi_top.v                 Locally Removed            15 
+ spi_clgen.v               Locally Removed            15 
+ spi_top16.v               Locally Removed            15 
+ spi_defines.v             Locally Removed            15 
+ spi_shift.v               Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/opencores/spi
+ doc/                      Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/opencores/spi/doc
+ spi.pdf                   Locally Removed            15 
+ src/                      Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/opencores/spi/doc/src
+ spi.doc                   Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/opencores/spi
+ sim/                      Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/opencores/spi/sim
+ rtl_sim/                  Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/opencores/spi/sim/rtl_sim
+ run/                      Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/opencores/spi/sim/rtl_sim/run
+ rtl.fl                    Locally Removed            15 
+ sim.fl                    Locally Removed            15 
+ run_sim                   Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/opencores
+ 8b10b/                    Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/opencores/8b10b
+ decode_8b10b.v            Locally Removed            15 
+ .gitignore                Locally Removed            15 
+ 8b10b_a.mem               Locally Removed            15 
+ validate_8b10b.v          Locally Removed            15 
+ README                    Locally Removed            15 
+ encode_8b10b.v            Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/opencores
+ i2c/                      Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/opencores/i2c
+ bench/                    Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/opencores/i2c/bench
+ verilog/                  Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/opencores/i2c/bench/verilog
+ tst_bench_top.v           Locally Removed            15 
+ wb_master_model.v         Locally Removed            15 
+ spi_slave_model.v         Locally Removed            15 
+ i2c_slave_model.v         Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/opencores/i2c
+ rtl/                      Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/opencores/i2c/rtl
+ verilog/                  Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/opencores/i2c/rtl/verilog
+ i2c_master_byte_ctrl.v    Locally Removed            15 
+ i2c_master_defines.v      Locally Removed            15 
+ timescale.v               Locally Removed            15 
+ i2c_master_bit_ctrl.v     Locally Removed            15 
+ i2c_master_top.v          Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/opencores/i2c/rtl
+ vhdl/                     Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/opencores/i2c/rtl/vhdl
+ i2c_master_byte_ctrl.vhd  Locally Removed            15 
+ i2c_master_bit_ctrl.vhd   Locally Removed            15 
+ i2c_master_top.vhd        Locally Removed            15 
+ tst_ds1621.vhd            Locally Removed            15 
+ I2C.VHD                   Locally Removed            15 
+ readme                    Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/opencores/i2c
+ doc/                      Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/opencores/i2c/doc
+ i2c_specs.pdf             Locally Removed            15 
+ src/                      Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/opencores/i2c/doc/src
+ I2C_specs.doc             Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/opencores/i2c
+ sim/                      Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/opencores/i2c/sim
+ i2c_verilog/              Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/opencores/i2c/sim/i2c_verilog
+ run/                      Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/opencores/i2c/sim/i2c_verilog/run
+ ncverilog.key             Locally Removed            15 
+ run                       Locally Removed            15 
+ bench.vcd                 Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/opencores/i2c
+ software/                 Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/opencores/i2c/software
+ include/                  Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/opencores/i2c/software/include
+ oc_i2c_master.h           Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/opencores
+ README                    Locally Removed            15 
+ spi_boot/                 Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/opencores/spi_boot
+ bench/                    Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/opencores/spi_boot/bench
+ vhdl/                     Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/opencores/spi_boot/bench/vhdl
+ tb_pack-p.vhd             Locally Removed            15 
+ tb_elem-mmc-c.vhd         Locally Removed            15 
+ tb_rl-c.vhd               Locally Removed            15 
+ tb_rl.vhd                 Locally Removed            15 
+ tb-c.vhd                  Locally Removed            15 
+ tb.vhd                    Locally Removed            15 
+ tb_elem-full-c.vhd        Locally Removed            15 
+ tb_elem.vhd               Locally Removed            15 
+ card-c.vhd                Locally Removed            15 
+ card.vhd                  Locally Removed            15 
+ tb_elem-minimal-c.vhd     Locally Removed            15 
+ tb_elem-sd-c.vhd          Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/opencores/spi_boot
+ rtl/                      Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/opencores/spi_boot/rtl
+ vhdl/                     Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/opencores/spi_boot/rtl/vhdl
+ chip-full-a.vhd           Locally Removed            15 
+ sample/                   Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/opencores/spi_boot/rtl/vhdl/sample
+ ram_loader-c.vhd          Locally Removed            15 
+ ram_loader.vhd            Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/opencores/spi_boot/rtl/vhdl
+ chip-full-c.vhd           Locally Removed            15 
+ chip-sd-a.vhd             Locally Removed            15 
+ chip-e.vhd                Locally Removed            15 
+ chip-sd-c.vhd             Locally Removed            15 
+ spi_boot_pack-p.vhd       Locally Removed            15 
+ spi_counter-c.vhd         Locally Removed            15 
+ chip-mmc-a.vhd            Locally Removed            15 
+ chip-mmc-c.vhd            Locally Removed            15 
+ spi_boot.vhd              Locally Removed            15 
+ chip-minimal-a.vhd        Locally Removed            15 
+ chip-minimal-c.vhd        Locally Removed            15 
+ spi_counter.vhd           Locally Removed            15 
+ spi_boot-c.vhd            Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/opencores/spi_boot
+ COMPILE_LIST              Locally Removed            15 
+ doc/                      Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/opencores/spi_boot/doc
+ spi_boot.pdf              Locally Removed            15 
+ spi_boot_schematic.pdf    Locally Removed            15 
+ src/                      Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/opencores/spi_boot/doc/src
+ memory_organization.fig   Locally Removed            15 
+ memory_organization.eps   Locally Removed            15 
+ architecture.fig          Locally Removed            15 
+ architecture.eps          Locally Removed            15 
+ transfer.fig              Locally Removed            15 
+ transfer.eps              Locally Removed            15 
+ initialization.fig        Locally Removed            15 
+ initialization.eps        Locally Removed            15 
+ spi_boot.sxw              Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/opencores/spi_boot
+ sim/                      Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/opencores/spi_boot/sim
+ rtl_sim/                  Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/opencores/spi_boot/sim/rtl_sim
+ Makefile                  Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/opencores/spi_boot
+ COPYING                   Locally Removed            15 
+ sw/                       Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/opencores/spi_boot/sw
+ misc/                     Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/opencores/spi_boot/sw/misc
+ bit_reverse.c             Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/opencores/spi_boot
+ KNOWN_BUGS                Locally Removed            15 
+ README                    Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/opencores
+ zpu/                      Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/opencores/zpu
+ zpu_top_pkg.vhd           Locally Removed            15 
+ core/                     Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/opencores/zpu/core
+ zpupkg.vhd                Locally Removed            15 
+ zpu_config.vhd            Locally Removed            15 
+ zpu_core.vhd              Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/opencores/zpu
+ zpu_wb_top.vhd            Locally Removed            15 
+ wishbone/                 Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/opencores/zpu/wishbone
+ wishbone_pkg.vhd          Locally Removed            15 
+ zpu_system.vhd            Locally Removed            15 
+ zpu_wb_bridge.vhd         Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2
+ extram/                   Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/extram
+ wb_zbt16_b.v              Locally Removed            15 
+ extram_interface.v        Locally Removed            15 
+ .gitignore                Locally Removed            15 
+ Makefile.srcs             Locally Removed            15 
+ extram_wb.v               Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2
+ top/                      Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/top
+ eth_test/                 Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/top/eth_test
+ .gitignore                Locally Removed            15 
+ eth_tb.v                  Locally Removed            15 
+ eth_sim_top.v             Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/top
+ python/                   Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/top/python
+ check_inout.py            Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/top
+ tcl/                      Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/top/tcl
+ ise_helper.tcl            Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/top
+ u1e_passthru/             Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/top/u1e_passthru
+ build/                    Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/top/u1e_passthru/build
+ passthru.drc              Locally Removed            15 
+ passthru_map.map          Locally Removed            15 
+ passthru_bitgen.xwbt      Locally Removed            15 
+ passthru.twr              Locally Removed            15 
+ passthru.syr              Locally Removed            15 
+ passthru_summary.xml      Locally Removed            15 
+ passthru.xst              Locally Removed            15 
+ passthru_map.ngm          Locally Removed            15 
+ passthru_pad.csv          Locally Removed            15 
+ passthru_guide.ncd        Locally Removed            15 
+ passthru.twx              Locally Removed            15 
+ passthru_usage.xml        Locally Removed            15 
+ passthru.ut               Locally Removed            15 
+ passthru_map.xrpt         Locally Removed            15 
+ passthru_xst.xrpt         Locally Removed            15 
+ passthru.prj              Locally Removed            15 
+ passthru.xpi              Locally Removed            15 
+ passthru_map.psr          Locally Removed            15 
+ webtalk.log               Locally Removed            15 
+ .lso                      Locally Removed            15 
+ passthru.ncd              Locally Removed            15 
+ passthru.pad              Locally Removed            15 
+ passthru_ngdbuild.xrpt    Locally Removed            15 
+ passthru.bgn              Locally Removed            15 
+ passthru.ngc              Locally Removed            15 
+ passthru.bin              Locally Removed            15 
+ passthru.ngd              Locally Removed            15 
+ passthru.pcf              Locally Removed            15 
+ passthru.xise             Locally Removed            15 
+ _ngo/                     Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/top/u1e_passthru/build/_ngo
+ netlist.lst               Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/top/u1e_passthru/build
+ webtalk_pn.xml            Locally Removed            15 
+ passthru.stx              Locally Removed            15 
+ passthru.bit              Locally Removed            15 
+ passthru.par              Locally Removed            15 
+ usage_statistics_webtalk.html Locally Removed            15 
+ passthru.unroutes         Locally Removed            15 
+ xlnx_auto_0_xdb/          Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/top/u1e_passthru/build/xlnx_auto_0_xdb
+ cst.xbcd                  Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/top/u1e_passthru/build
+ passthru.ngr              Locally Removed            15 
+ passthru.gise             Locally Removed            15 
+ _xmsgs/                   Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/top/u1e_passthru/build/_xmsgs
+ par.xmsgs                 Locally Removed            15 
+ bitgen.xmsgs              Locally Removed            15 
+ ngdbuild.xmsgs            Locally Removed            15 
+ pn_parser.xmsgs           Locally Removed            15 
+ map.xmsgs                 Locally Removed            15 
+ trce.xmsgs                Locally Removed            15 
+ xst.xmsgs                 Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/top/u1e_passthru/build
+ passthru_map.mrp          Locally Removed            15 
+ passthru.lso              Locally Removed            15 
+ passthru_par.xrpt         Locally Removed            15 
+ passthru.bld              Locally Removed            15 
+ passthru_map.ncd          Locally Removed            15 
+ passthru.ptwx             Locally Removed            15 
+ passthru_pad.txt          Locally Removed            15 
+ passthru.cmd_log          Locally Removed            15 
+ xst/                      Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/top/u1e_passthru/build/xst
+ dump.xst/                 Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/top/u1e_passthru/build/xst/dump.xst
+ passthru.prj/             Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/top/u1e_passthru/build/xst/dump.xst/passthru.prj
+ ngx/                      Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/top/u1e_passthru/build/xst/dump.xst/passthru.prj/ngx
+ opt/                      Locally Removed            15 
+ notopt/                   Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/top/u1e_passthru/build/xst
+ work/                     Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/top/u1e_passthru/build/xst/work
+ vlg26/                    Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/top/u1e_passthru/build/xst/work/vlg26
+ passthru.bin              Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/top/u1e_passthru/build/xst/work
+ hdllib.ref                Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/top/u1e_passthru/build/xst
+ projnav.tmp/              Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/top/u1e_passthru
+ .gitignore                Locally Removed            15 
+ passthru.ucf              Locally Removed            15 
+ Makefile                  Locally Removed            15 
+ passthru.v                Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/top
+ u2_rev3_rx_probe/         Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/top/u2_rev3_rx_probe
+ u2_rev3.ucf               Locally Removed            15 
+ u2_core.v                 Locally Removed            15 
+ .gitignore                Locally Removed            15 
+ SizedFIFO.v               Locally Removed            15 
+ my_serdes_tx.v            Locally Removed            15 
+ u2_rev3.v                 Locally Removed            15 
+ Makefile                  Locally Removed            15 
+ fifo_in_32_out_16.v       Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/top
+ u2_rev3/                  Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/top/u2_rev3
+ u2_rev3.ucf               Locally Removed            15 
+ u2_core.v                 Locally Removed            15 
+ .gitignore                Locally Removed            15 
+ u2_rev3.v                 Locally Removed            15 
+ Makefile                  Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/top
+ u2_rev3_no_serdes/        Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/top/u2_rev3_no_serdes
+ u2_rev3.ucf               Locally Removed            15 
+ u2_core.v                 Locally Removed            15 
+ .gitignore                Locally Removed            15 
+ u2_rev3.v                 Locally Removed            15 
+ Makefile                  Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/top
+ safe_u2plus/              Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/top/safe_u2plus
+ .gitignore                Locally Removed            15 
+ u2plus.ucf                Locally Removed            15 
+ safe_u2plus.v             Locally Removed            15 
+ Makefile                  Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/top
+ u1e/                      Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/top/u1e
+ build/                    Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/top/u1e/build
+ u1e.ngr                   Locally Removed            15 
+ u1e.ut                    Locally Removed            15 
+ u1e_map.xrpt              Locally Removed            15 
+ u1e_map.mrp               Locally Removed            15 
+ u1e_xst.xrpt              Locally Removed            15 
+ u1e.lso                   Locally Removed            15 
+ u1e.bld                   Locally Removed            15 
+ u1e_map.ncd               Locally Removed            15 
+ u1e_pad.txt               Locally Removed            15 
+ u1e.cmd_log               Locally Removed            15 
+ u1e.drc                   Locally Removed            15 
+ u1e.xise                  Locally Removed            15 
+ u1e_map.map               Locally Removed            15 
+ u1e.twr                   Locally Removed            15 
+ u1e_bitgen.xwbt           Locally Removed            15 
+ u1e.syr                   Locally Removed            15 
+ u1e_summary.xml           Locally Removed            15 
+ u1e.xst                   Locally Removed            15 
+ u1e_map.ngm               Locally Removed            15 
+ u1e_pad.csv               Locally Removed            15 
+ webtalk.log               Locally Removed            15 
+ u1e_guide.ncd             Locally Removed            15 
+ u1e.twx                   Locally Removed            15 
+ .lso                      Locally Removed            15 
+ u1e.unroutes              Locally Removed            15 
+ u1e_usage.xml             Locally Removed            15 
+ u1e.gise                  Locally Removed            15 
+ _ngo/                     Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/top/u1e/build/_ngo
+ netlist.lst               Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/top/u1e/build
+ u1e.prj                   Locally Removed            15 
+ webtalk_pn.xml            Locally Removed            15 
+ u1e_par.xrpt              Locally Removed            15 
+ u1e.xpi                   Locally Removed            15 
+ u1e_map.psr               Locally Removed            15 
+ usage_statistics_webtalk.html Locally Removed            15 
+ u1e.ptwx                  Locally Removed            15 
+ xlnx_auto_0_xdb/          Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/top/u1e/build/xlnx_auto_0_xdb
+ cst.xbcd                  Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/top/u1e/build
+ u1e.ncd                   Locally Removed            15 
+ u1e.pad                   Locally Removed            15 
+ u1e_ngdbuild.xrpt         Locally Removed            15 
+ u1e.bgn                   Locally Removed            15 
+ _xmsgs/                   Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/top/u1e/build/_xmsgs
+ par.xmsgs                 Locally Removed            15 
+ bitgen.xmsgs              Locally Removed            15 
+ ngdbuild.xmsgs            Locally Removed            15 
+ pn_parser.xmsgs           Locally Removed            15 
+ map.xmsgs                 Locally Removed            15 
+ trce.xmsgs                Locally Removed            15 
+ xst.xmsgs                 Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/top/u1e/build
+ u1e.ngc                   Locally Removed            15 
+ u1e.pcf                   Locally Removed            15 
+ u1e.bin                   Locally Removed            15 
+ u1e.ngd                   Locally Removed            15 
+ u1e.stx                   Locally Removed            15 
+ u1e.bit                   Locally Removed            15 
+ u1e.par                   Locally Removed            15 
+ xst/                      Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/top/u1e/build/xst
+ dump.xst/                 Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/top/u1e/build/xst/dump.xst
+ u1e.prj/                  Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/top/u1e/build/xst/dump.xst/u1e.prj
+ ngx/                      Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/top/u1e/build/xst/dump.xst/u1e.prj/ngx
+ opt/                      Locally Removed            15 
+ notopt/                   Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/top/u1e/build/xst
+ work/                     Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/top/u1e/build/xst/work
+ vlg4C/                    Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/top/u1e/build/xst/work/vlg4C
+ add2__and__round.bin      Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/top/u1e/build/xst/work
+ vlg2E/                    Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/top/u1e/build/xst/work/vlg2E
+ trigger__context__pkt.bin Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/top/u1e/build/xst/work
+ vlg4D/                    Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/top/u1e/build/xst/work/vlg4D
+ hb__dec.bin               Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/top/u1e/build/xst/work
+ vlg2F/                    Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/top/u1e/build/xst/work/vlg2F
+ cordic__stage.bin         Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/top/u1e/build/xst/work
+ vlg6F/                    Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/top/u1e/build/xst/work/vlg6F
+ hb__interp.bin            Locally Removed            15 
+ time__sender.bin          Locally Removed            15 
+ u1e__core.bin             Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/top/u1e/build/xst/work
+ vlg11/                    Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/top/u1e/build/xst/work/vlg11
+ fifo__watcher.bin         Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/top/u1e/build/xst/work
+ vlg31/                    Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/top/u1e/build/xst/work/vlg31
+ settings__bus__16_l_e.bin Locally Removed            15 
+ simple__uart.bin          Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/top/u1e/build/xst/work
+ vlg14/                    Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/top/u1e/build/xst/work/vlg14
+ fifo19__to__fifo36.bin    Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/top/u1e/build/xst/work
+ vlg34/                    Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/top/u1e/build/xst/work/vlg34
+ gpmc__async.bin           Locally Removed            15 
+ nsgpio16_l_e.bin          Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/top/u1e/build/xst/work
+ vlg70/                    Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/top/u1e/build/xst/work/vlg70
+ simple__uart__tx.bin      Locally Removed            15 
+ vita__tx__deframer.bin    Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/top/u1e/build/xst/work
+ vlg35/                    Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/top/u1e/build/xst/work/vlg35
+ cic__int__shifter.bin     Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/top/u1e/build/xst/work
+ vlg17/                    Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/top/u1e/build/xst/work/vlg17
+ cordic__z24.bin           Locally Removed            15 
+ fifo__short.bin           Locally Removed            15 
+ time__receiver.bin        Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/top/u1e/build/xst/work
+ vlg71/                    Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/top/u1e/build/xst/work/vlg71
+ add2__and__round__reg.bin Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/top/u1e/build/xst/work
+ vlg19/                    Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/top/u1e/build/xst/work/vlg19
+ time__compare.bin         Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/top/u1e/build/xst/work
+ vlg38/                    Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/top/u1e/build/xst/work/vlg38
+ cic__decim.bin            Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/top/u1e/build/xst/work
+ vlg58/                    Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/top/u1e/build/xst/work/vlg58
+ small__hb__int.bin        Locally Removed            15 
+ dsp__core__rx.bin         Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/top/u1e/build/xst/work
+ vlg59/                    Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/top/u1e/build/xst/work/vlg59
+ wb__readback__mux__16_l_e.bin Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/top/u1e/build/xst/work
+ vlg77/                    Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/top/u1e/build/xst/work/vlg77
+ reset__sync.bin           Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/top/u1e/build/xst/work
+ vlg78/                    Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/top/u1e/build/xst/work/vlg78
+ gen__context__pkt.bin     Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/top/u1e/build/xst/work
+ hdllib.ref                Locally Removed            15 
+ vlg3B/                    Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/top/u1e/build/xst/work/vlg3B
+ fifo__long.bin            Locally Removed            15 
+ time__64bit.bin           Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/top/u1e/build/xst/work
+ vlg1D/                    Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/top/u1e/build/xst/work/vlg1D
+ small__hb__dec.bin        Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/top/u1e/build/xst/work
+ vlg3C/                    Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/top/u1e/build/xst/work/vlg3C
+ add2__reg.bin             Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/top/u1e/build/xst/work
+ vlg5A/                    Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/top/u1e/build/xst/work/vlg5A
+ cic__dec__shifter.bin     Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/top/u1e/build/xst/work
+ vlg5C/                    Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/top/u1e/build/xst/work/vlg5C
+ fifo36__to__fifo19.bin    Locally Removed            15 
+ i2c__master__byte__ctrl.bin Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/top/u1e/build/xst/work
+ vlg3F/                    Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/top/u1e/build/xst/work/vlg3F
+ gpmc__wb.bin              Locally Removed            15 
+ rx__dcoffset.bin          Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/top/u1e/build/xst/work
+ vlg5D/                    Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/top/u1e/build/xst/work/vlg5D
+ vita__rx__framer.bin      Locally Removed            15 
+ spi__shift.bin            Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/top/u1e/build/xst/work
+ vlg5E/                    Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/top/u1e/build/xst/work/vlg5E
+ medfifo.bin               Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/top/u1e/build/xst/work
+ vlg7C/                    Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/top/u1e/build/xst/work/vlg7C
+ round.bin                 Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/top/u1e/build/xst/work
+ vlg5F/                    Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/top/u1e/build/xst/work/vlg5F
+ setting__reg.bin          Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/top/u1e/build/xst/work
+ vlg7F/                    Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/top/u1e/build/xst/work/vlg7F
+ cic__strober.bin          Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/top/u1e/build/xst/work
+ vlg21/                    Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/top/u1e/build/xst/work/vlg21
+ round__reg.bin            Locally Removed            15 
+ spi__top16.bin            Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/top/u1e/build/xst/work
+ vlg04/                    Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/top/u1e/build/xst/work/vlg04
+ spi__clgen.bin            Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/top/u1e/build/xst/work
+ vlg06/                    Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/top/u1e/build/xst/work/vlg06
+ ram__2port.bin            Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/top/u1e/build/xst/work
+ vlg60/                    Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/top/u1e/build/xst/work/vlg60
+ clip.bin                  Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/top/u1e/build/xst/work
+ vlg07/                    Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/top/u1e/build/xst/work/vlg07
+ i2c__master__bit__ctrl.bin Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/top/u1e/build/xst/work
+ vlg61/                    Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/top/u1e/build/xst/work/vlg61
+ vita__rx__control.bin     Locally Removed            15 
+ srl.bin                   Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/top/u1e/build/xst/work
+ vlg62/                    Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/top/u1e/build/xst/work/vlg62
+ dsp__core__tx.bin         Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/top/u1e/build/xst/work
+ vlg45/                    Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/top/u1e/build/xst/work/vlg45
+ clip__reg.bin             Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/top/u1e/build/xst/work
+ vlg46/                    Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/top/u1e/build/xst/work/vlg46
+ encode__8b10b.bin         Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/top/u1e/build/xst/work
+ vlg28/                    Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/top/u1e/build/xst/work/vlg28
+ decode__8b10b.bin         Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/top/u1e/build/xst/work
+ vlg47/                    Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/top/u1e/build/xst/work/vlg47
+ add2.bin                  Locally Removed            15 
+ u1e.bin                   Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/top/u1e/build/xst/work
+ vlg66/                    Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/top/u1e/build/xst/work/vlg66
+ simple__uart__rx.bin      Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/top/u1e/build/xst/work
+ vlg49/                    Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/top/u1e/build/xst/work/vlg49
+ vita__tx__chain.bin       Locally Removed            15 
+ atr__controller16.bin     Locally Removed            15 
+ wb__1master.bin           Locally Removed            15 
+ fifo__to__gpmc__async.bin Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/top/u1e/build/xst/work
+ vlg67/                    Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/top/u1e/build/xst/work/vlg67
+ i2c__master__top.bin      Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/top/u1e/build/xst/work
+ vlg68/                    Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/top/u1e/build/xst/work/vlg68
+ sign__extend.bin          Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/top/u1e/build/xst/work
+ vlg69/                    Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/top/u1e/build/xst/work/vlg69
+ gpmc__to__fifo__async.bin Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/top/u1e/build/xst/work
+ vlg0A/                    Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/top/u1e/build/xst/work/vlg0A
+ fifo36__mux.bin           Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/top/u1e/build/xst/work
+ vlg0C/                    Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/top/u1e/build/xst/work/vlg0C
+ cic__interp.bin           Locally Removed            15 
+ shortfifo.bin             Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/top/u1e/build/xst/work
+ vlg2B/                    Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/top/u1e/build/xst/work/vlg2B
+ vita__tx__control.bin     Locally Removed            15 
+ fifo__cascade.bin         Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/top/u1e/build/xst/work
+ vlg4B/                    Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/top/u1e/build/xst/work/vlg4B
+ acc.bin                   Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/top/u1e/build/xst
+ projnav.tmp/              Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/top/u1e
+ cmdfile                   Locally Removed            15 
+ tb_u1e.v                  Locally Removed            15 
+ timing.ucf                Locally Removed            15 
+ make.sim                  Locally Removed            15 
+ .gitignore                Locally Removed            15 
+ u1e.ucf                   Locally Removed            15 
+ u1e_core.v                Locally Removed            15 
+ Makefile                  Locally Removed            15 
+ README                    Locally Removed            15 
+ u1e.v                     Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/top
+ u2plus/                   Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/top/u2plus
+ build/                    Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/top/u2plus/build
+ u2plus.ngr                Locally Removed            15 
+ u2plus.ut                 Locally Removed            15 
+ u2plus_map.xrpt           Locally Removed            15 
+ u2plus_map.mrp            Locally Removed            15 
+ u2plus_xst.xrpt           Locally Removed            15 
+ u2plus.lso                Locally Removed            15 
+ u2plus.bld                Locally Removed            15 
+ u2plus_map.ncd            Locally Removed            15 
+ u2plus_pad.txt            Locally Removed            15 
+ u2plus.cmd_log            Locally Removed            15 
+ u2plus.drc                Locally Removed            15 
+ u2plus.xise               Locally Removed            15 
+ u2plus_map.map            Locally Removed            15 
+ u2plus.twr                Locally Removed            15 
+ u2plus_bitgen.xwbt        Locally Removed            15 
+ u2plus.syr                Locally Removed            15 
+ u2plus_summary.xml        Locally Removed            15 
+ u2plus.xst                Locally Removed            15 
+ u2plus_map.ngm            Locally Removed            15 
+ u2plus_pad.csv            Locally Removed            15 
+ webtalk.log               Locally Removed            15 
+ u2plus_guide.ncd          Locally Removed            15 
+ u2plus.twx                Locally Removed            15 
+ .lso                      Locally Removed            15 
+ u2plus.unroutes           Locally Removed            15 
+ u2plus_usage.xml          Locally Removed            15 
+ u2plus.gise               Locally Removed            15 
+ _ngo/                     Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/top/u2plus/build/_ngo
+ netlist.lst               Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/top/u2plus/build
+ u2plus.prj                Locally Removed            15 
+ webtalk_pn.xml            Locally Removed            15 
+ u2plus_par.xrpt           Locally Removed            15 
+ u2plus.xpi                Locally Removed            15 
+ u2plus_map.psr            Locally Removed            15 
+ usage_statistics_webtalk.html Locally Removed            15 
+ u2plus.ptwx               Locally Removed            15 
+ xlnx_auto_0_xdb/          Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/top/u2plus/build/xlnx_auto_0_xdb
+ cst.xbcd                  Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/top/u2plus/build
+ u2plus.ncd                Locally Removed            15 
+ u2plus.pad                Locally Removed            15 
+ u2plus_ngdbuild.xrpt      Locally Removed            15 
+ u2plus.bgn                Locally Removed            15 
+ _xmsgs/                   Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/top/u2plus/build/_xmsgs
+ par.xmsgs                 Locally Removed            15 
+ bitgen.xmsgs              Locally Removed            15 
+ ngdbuild.xmsgs            Locally Removed            15 
+ pn_parser.xmsgs           Locally Removed            15 
+ map.xmsgs                 Locally Removed            15 
+ trce.xmsgs                Locally Removed            15 
+ xst.xmsgs                 Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/top/u2plus/build
+ u2plus.ngc                Locally Removed            15 
+ u2plus.pcf                Locally Removed            15 
+ u2plus.bin                Locally Removed            15 
+ u2plus.ngd                Locally Removed            15 
+ u2plus.stx                Locally Removed            15 
+ u2plus.bit                Locally Removed            15 
+ u2plus.par                Locally Removed            15 
+ xst/                      Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/top/u2plus/build/xst
+ dump.xst/                 Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/top/u2plus/build/xst/dump.xst
+ u2plus.prj/               Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/top/u2plus/build/xst/dump.xst/u2plus.prj
+ ngx/                      Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/top/u2plus/build/xst/dump.xst/u2plus.prj/ngx
+ opt/                      Locally Removed            15 
+ notopt/                   Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/top/u2plus/build/xst
+ work/                     Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/top/u2plus/build/xst/work
+ vlg4C/                    Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/top/u2plus/build/xst/work/vlg4C
+ add2__and__round.bin      Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/top/u2plus/build/xst/work
+ vlg4D/                    Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/top/u2plus/build/xst/work/vlg4D
+ hb__dec.bin               Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/top/u2plus/build/xst/work
+ vlg4E/                    Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/top/u2plus/build/xst/work/vlg4E
+ atr__controller.bin       Locally Removed            15 
+ fifo__xlnx__64x36__2clk.bin Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/top/u2plus/build/xst/work
+ sub00/                    Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/top/u2plus/build/xst/work/sub00
+ vhpl00.vho                Locally Removed            15 
+ vhpl01.vho                Locally Removed            15 
+ vhpl10.vho                Locally Removed            15 
+ vhpl02.vho                Locally Removed            15 
+ vhpl11.vho                Locally Removed            15 
+ vhpl03.vho                Locally Removed            15 
+ vhpl04.vho                Locally Removed            15 
+ vhpl05.vho                Locally Removed            15 
+ vhpl06.vho                Locally Removed            15 
+ vhpl07.vho                Locally Removed            15 
+ vhpl08.vho                Locally Removed            15 
+ vhpl09.vho                Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/top/u2plus/build/xst/work
+ vlg11/                    Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/top/u2plus/build/xst/work/vlg11
+ nobl__if.bin              Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/top/u2plus/build/xst/work
+ vlg14/                    Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/top/u2plus/build/xst/work/vlg14
+ fifo19__to__fifo36.bin    Locally Removed            15 
+ crossbar36.bin            Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/top/u2plus/build/xst/work
+ vlg16/                    Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/top/u2plus/build/xst/work/vlg16
+ simple__timer.bin         Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/top/u2plus/build/xst/work
+ vlg17/                    Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/top/u2plus/build/xst/work/vlg17
+ cordic__z24.bin           Locally Removed            15 
+ fifo__short.bin           Locally Removed            15 
+ time__receiver.bin        Locally Removed            15 
+ valve36.bin               Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/top/u2plus/build/xst/work
+ vlg54/                    Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/top/u2plus/build/xst/work/vlg54
+ eth__shiftreg.bin         Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/top/u2plus/build/xst/work
+ vlg55/                    Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/top/u2plus/build/xst/work/vlg55
+ _c_r_c16___d16.bin        Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/top/u2plus/build/xst/work
+ vlg19/                    Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/top/u2plus/build/xst/work/vlg19
+ time__compare.bin         Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/top/u2plus/build/xst/work
+ vlg56/                    Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/top/u2plus/build/xst/work/vlg56
+ settings__bus.bin         Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/top/u2plus/build/xst/work
+ vlg58/                    Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/top/u2plus/build/xst/work/vlg58
+ small__hb__int.bin        Locally Removed            15 
+ dsp__core__rx.bin         Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/top/u2plus/build/xst/work
+ vlg1B/                    Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/top/u2plus/build/xst/work/vlg1B
+ s3a__icap__wb.bin         Locally Removed            15 
+ u2plus__core.bin          Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/top/u2plus/build/xst/work
+ vlg1C/                    Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/top/u2plus/build/xst/work/vlg1C
+ refill__randomizer.bin    Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/top/u2plus/build/xst/work
+ vlg1D/                    Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/top/u2plus/build/xst/work/vlg1D
+ small__hb__dec.bin        Locally Removed            15 
+ fifo__2clock.bin          Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/top/u2plus/build/xst/work
+ vlg5A/                    Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/top/u2plus/build/xst/work/vlg5A
+ cic__dec__shifter.bin     Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/top/u2plus/build/xst/work
+ vlg1E/                    Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/top/u2plus/build/xst/work/vlg1E
+ buffer__int2.bin          Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/top/u2plus/build/xst/work
+ vlg1F/                    Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/top/u2plus/build/xst/work/vlg1F
+ fifo19__to__ll8.bin       Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/top/u2plus/build/xst/work
+ vlg5C/                    Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/top/u2plus/build/xst/work/vlg5C
+ fifo36__to__fifo19.bin    Locally Removed            15 
+ i2c__master__byte__ctrl.bin Locally Removed            15 
+ splitter36.bin            Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/top/u2plus/build/xst/work
+ vlg5D/                    Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/top/u2plus/build/xst/work/vlg5D
+ fifo__xlnx__32x36__2clk.bin Locally Removed            15 
+ vita__rx__framer.bin      Locally Removed            15 
+ spi__shift.bin            Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/top/u2plus/build/xst/work
+ vlg5E/                    Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/top/u2plus/build/xst/work/vlg5E
+ medfifo.bin               Locally Removed            15 
+ wb__readback__mux.bin     Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/top/u2plus/build/xst/work
+ vlg5F/                    Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/top/u2plus/build/xst/work/vlg5F
+ setting__reg.bin          Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/top/u2plus/build/xst/work
+ vlg21/                    Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/top/u2plus/build/xst/work/vlg21
+ round__reg.bin            Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/top/u2plus/build/xst/work
+ vlg22/                    Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/top/u2plus/build/xst/work/vlg22
+ delay__line.bin           Locally Removed            15 
+ eth__clockgen.bin         Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/top/u2plus/build/xst/work
+ vlg60/                    Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/top/u2plus/build/xst/work/vlg60
+ pic.bin                   Locally Removed            15 
+ fifo__xlnx__512x36__2clk.bin Locally Removed            15 
+ clip.bin                  Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/top/u2plus/build/xst/work
+ vlg24/                    Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/top/u2plus/build/xst/work/vlg24
+ fifo__xlnx__16x19__2clk.bin Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/top/u2plus/build/xst/work
+ vlg61/                    Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/top/u2plus/build/xst/work/vlg61
+ vita__rx__control.bin     Locally Removed            15 
+ srl.bin                   Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/top/u2plus/build/xst/work
+ vlg62/                    Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/top/u2plus/build/xst/work/vlg62
+ fifo__xlnx__16x40__2clk.bin Locally Removed            15 
+ dsp__core__tx.bin         Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/top/u2plus/build/xst/work
+ vlg63/                    Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/top/u2plus/build/xst/work/vlg63
+ settings__bus__crossclock.bin Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/top/u2plus/build/xst/work
+ vlg28/                    Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/top/u2plus/build/xst/work/vlg28
+ dsp__framer36.bin         Locally Removed            15 
+ decode__8b10b.bin         Locally Removed            15 
+ packet__router.bin        Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/top/u2plus/build/xst/work
+ vlg66/                    Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/top/u2plus/build/xst/work/vlg66
+ simple__uart__rx.bin      Locally Removed            15 
+ spi__top.bin              Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/top/u2plus/build/xst/work
+ vlg67/                    Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/top/u2plus/build/xst/work/vlg67
+ i2c__master__top.bin      Locally Removed            15 
+ ll8__shortfifo.bin        Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/top/u2plus/build/xst/work
+ vlg68/                    Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/top/u2plus/build/xst/work/vlg68
+ rxmac__to__ll8.bin        Locally Removed            15 
+ ext__fifo.bin             Locally Removed            15 
+ sign__extend.bin          Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/top/u2plus/build/xst/work
+ vlg69/                    Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/top/u2plus/build/xst/work/vlg69
+ fifo19__rxrealign.bin     Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/top/u2plus/build/xst/work
+ vlg2B/                    Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/top/u2plus/build/xst/work/vlg2B
+ vita__tx__control.bin     Locally Removed            15 
+ fifo__cascade.bin         Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/top/u2plus/build/xst/work
+ vlg2C/                    Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/top/u2plus/build/xst/work/vlg2C
+ fifo__2clock__cascade.bin Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/top/u2plus/build/xst/work
+ vlg2E/                    Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/top/u2plus/build/xst/work/vlg2E
+ trigger__context__pkt.bin Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/top/u2plus/build/xst/work
+ vlg6A/                    Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/top/u2plus/build/xst/work/vlg6A
+ nobl__fifo.bin            Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/top/u2plus/build/xst/work
+ vlg2F/                    Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/top/u2plus/build/xst/work/vlg2F
+ serdes__fc__rx.bin        Locally Removed            15 
+ cordic__stage.bin         Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/top/u2plus/build/xst/work
+ vlg6F/                    Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/top/u2plus/build/xst/work/vlg6F
+ hb__interp.bin            Locally Removed            15 
+ time__sender.bin          Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/top/u2plus/build/xst/work
+ vlg33/                    Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/top/u2plus/build/xst/work/vlg33
+ simple__gemac__rx.bin     Locally Removed            15 
+ address__filter__promisc.bin Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/top/u2plus/build/xst/work
+ vlg70/                    Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/top/u2plus/build/xst/work/vlg70
+ simple__uart__tx.bin      Locally Removed            15 
+ vita__tx__deframer.bin    Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/top/u2plus/build/xst/work
+ vlg35/                    Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/top/u2plus/build/xst/work/vlg35
+ cic__int__shifter.bin     Locally Removed            15 
+ flow__ctrl__rx.bin        Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/top/u2plus/build/xst/work
+ vlg71/                    Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/top/u2plus/build/xst/work/vlg71
+ add2__and__round__reg.bin Locally Removed            15 
+ fifo__xlnx__2_kx36__2clk.bin Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/top/u2plus/build/xst/work
+ vlg36/                    Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/top/u2plus/build/xst/work/vlg36
+ simple__gemac__wb.bin     Locally Removed            15 
+ quad__uart.bin            Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/top/u2plus/build/xst/work
+ vlg73/                    Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/top/u2plus/build/xst/work/vlg73
+ ll8__to__fifo19.bin       Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/top/u2plus/build/xst/work
+ vlg38/                    Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/top/u2plus/build/xst/work/vlg38
+ cic__decim.bin            Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/top/u2plus/build/xst/work
+ vlg39/                    Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/top/u2plus/build/xst/work/vlg39
+ serdes__fc__tx.bin        Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/top/u2plus/build/xst/work
+ vlg77/                    Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/top/u2plus/build/xst/work/vlg77
+ reset__sync.bin           Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/top/u2plus/build/xst/work
+ vlg78/                    Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/top/u2plus/build/xst/work/vlg78
+ gen__context__pkt.bin     Locally Removed            15 
+ simple__gemac__wrapper19.bin Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/top/u2plus/build/xst/work
+ vlg79/                    Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/top/u2plus/build/xst/work/vlg79
+ prot__eng__tx.bin         Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/top/u2plus/build/xst/work
+ hdllib.ref                Locally Removed            15 
+ vlg3A/                    Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/top/u2plus/build/xst/work/vlg3A
+ eth__outputcontrol.bin    Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/top/u2plus/build/xst/work
+ vlg3B/                    Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/top/u2plus/build/xst/work/vlg3B
+ address__filter.bin       Locally Removed            15 
+ fifo__long.bin            Locally Removed            15 
+ time__64bit.bin           Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/top/u2plus/build/xst/work
+ vlg3C/                    Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/top/u2plus/build/xst/work/vlg3C
+ add2__reg.bin             Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/top/u2plus/build/xst/work
+ vlg3D/                    Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/top/u2plus/build/xst/work/vlg3D
+ simple__gemac__tx.bin     Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/top/u2plus/build/xst/work
+ vlg3E/                    Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/top/u2plus/build/xst/work/vlg3E
+ serdes.bin                Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/top/u2plus/build/xst/work
+ vlg3F/                    Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/top/u2plus/build/xst/work/vlg3F
+ serdes__rx.bin            Locally Removed            15 
+ flow__ctrl__tx.bin        Locally Removed            15 
+ rx__dcoffset.bin          Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/top/u2plus/build/xst/work
+ vlg7B/                    Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/top/u2plus/build/xst/work/vlg7B
+ oneshot__2clk.bin         Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/top/u2plus/build/xst/work
+ vlg7C/                    Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/top/u2plus/build/xst/work/vlg7C
+ round.bin                 Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/top/u2plus/build/xst/work
+ vlg7F/                    Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/top/u2plus/build/xst/work/vlg7F
+ cic__strober.bin          Locally Removed            15 
+ priority__enc.bin         Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/top/u2plus/build/xst/work
+ vlg40/                    Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/top/u2plus/build/xst/work/vlg40
+ add__onescomp.bin         Locally Removed            15 
+ eth__miim.bin             Locally Removed            15 
+ nsgpio.bin                Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/top/u2plus/build/xst/work
+ vlg04/                    Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/top/u2plus/build/xst/work/vlg04
+ spi__clgen.bin            Locally Removed            15 
+ bootram.bin               Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/top/u2plus/build/xst/work
+ vlg41/                    Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/top/u2plus/build/xst/work/vlg41
+ fifo__xlnx__512x36__2clk__prog__full.bin Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/top/u2plus/build/xst/work
+ vlg42/                    Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/top/u2plus/build/xst/work/vlg42
+ simple__gemac.bin         Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/top/u2plus/build/xst/work
+ vlg06/                    Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/top/u2plus/build/xst/work/vlg06
+ ram__2port.bin            Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/top/u2plus/build/xst/work
+ vlg43/                    Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/top/u2plus/build/xst/work/vlg43
+ u2plus.bin                Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/top/u2plus/build/xst/work
+ vlg07/                    Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/top/u2plus/build/xst/work/vlg07
+ i2c__master__bit__ctrl.bin Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/top/u2plus/build/xst/work
+ vlg44/                    Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/top/u2plus/build/xst/work/vlg44
+ fifo__xlnx__512x36__2clk__18to36.bin Locally Removed            15 
+ fifo__xlnx__512x36__2clk__36to18.bin Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/top/u2plus/build/xst/work
+ vlg45/                    Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/top/u2plus/build/xst/work/vlg45
+ clip__reg.bin             Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/top/u2plus/build/xst/work
+ vlg46/                    Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/top/u2plus/build/xst/work/vlg46
+ encode__8b10b.bin         Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/top/u2plus/build/xst/work
+ hdpdeps.ref               Locally Removed            15 
+ vlg47/                    Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/top/u2plus/build/xst/work/vlg47
+ add2.bin                  Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/top/u2plus/build/xst/work
+ vlg48/                    Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/top/u2plus/build/xst/work/vlg48
+ crc.bin                   Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/top/u2plus/build/xst/work
+ vlg49/                    Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/top/u2plus/build/xst/work/vlg49
+ vita__tx__chain.bin       Locally Removed            15 
+ serdes__tx.bin            Locally Removed            15 
+ wb__1master.bin           Locally Removed            15 
+ ram__harvard2.bin         Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/top/u2plus/build/xst/work
+ vlg0A/                    Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/top/u2plus/build/xst/work/vlg0A
+ fifo36__mux.bin           Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/top/u2plus/build/xst/work
+ vlg0C/                    Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/top/u2plus/build/xst/work/vlg0C
+ cic__interp.bin           Locally Removed            15 
+ shortfifo.bin             Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/top/u2plus/build/xst/work
+ vlg0D/                    Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/top/u2plus/build/xst/work/vlg0D
+ system__control.bin       Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/top/u2plus/build/xst/work
+ vlg4A/                    Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/top/u2plus/build/xst/work/vlg4A
+ wb__reg.bin               Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/top/u2plus/build/xst/work
+ vlg0E/                    Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/top/u2plus/build/xst/work/vlg0E
+ ll8__to__txmac.bin        Locally Removed            15 
+ bin2gray.bin              Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/top/u2plus/build/xst/work
+ vlg4B/                    Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/top/u2plus/build/xst/work/vlg4B
+ acc.bin                   Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/top/u2plus/build/xst
+ projnav.tmp/              Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/top/u2plus
+ bootloader.rmi            Locally Removed            15 
+ .gitignore                Locally Removed            15 
+ u2plus.ucf                Locally Removed            15 
+ u2plus_core.v             Locally Removed            15 
+ capture_ddrlvds.v         Locally Removed            15 
+ Makefile                  Locally Removed            15 
+ u2plus.v                  Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/top
+ u2_rev3_newMakeFile/      Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/top/u2_rev3_newMakeFile
+ u2_rev3.ucf               Locally Removed            15 
+ u2_core.v                 Locally Removed            15 
+ .gitignore                Locally Removed            15 
+ u2_rev3.v                 Locally Removed            15 
+ Makefile                  Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/top
+ u2_rev3_2rx_iad/          Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/top/u2_rev3_2rx_iad
+ impulse.v                 Locally Removed            15 
+ u2_core.v                 Locally Removed            15 
+ cmdfile                   Locally Removed            15 
+ dsp_core_tb.v             Locally Removed            15 
+ dsp_core_rx.v             Locally Removed            15 
+ dsp_core_tb.sav           Locally Removed            15 
+ wave.sh                   Locally Removed            15 
+ Makefile                  Locally Removed            15 
+ README                    Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/top
+ u2plus-rxtx/              Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/top/u2plus-rxtx
+ bootloader.rmi            Locally Removed            15 
+ byte_align.v              Locally Removed            15 
+ SyncFIFO.v                Locally Removed            15 
+ SizedFIFO.v               Locally Removed            15 
+ capture_ddrlvds.v         Locally Removed            15 
+ u2plus.v                  Locally Removed            15 
+ mkFIFO1to2ToCC.v          Locally Removed            15 
+ my_tx_control.v           Locally Removed            15 
+ .gitignore                Locally Removed            15 
+ u2plus_core.v             Locally Removed            15 
+ u2plus.ucf                Locally Removed            15 
+ my_serdes_rx.v            Locally Removed            15 
+ mkFIFO16to32ToCC.v        Locally Removed            15 
+ my_serdes_tx.v            Locally Removed            15 
+ Makefile                  Locally Removed            15 
+ fifo_in_32_out_16.v       Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/top
+ single_u2_sim/            Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/top/single_u2_sim
+ single_u2_sim.v           Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/top
+ u1e_ethdebug/             Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/top/u1e_ethdebug
+ .gitignore                Locally Removed            15 
+ u1e.ucf                   Locally Removed            15 
+ Makefile                  Locally Removed            15 
+ u1e.v                     Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/top
+ u2_rev3_iad/              Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/top/u2_rev3_iad
+ impulse.v                 Locally Removed            15 
+ cmdfile                   Locally Removed            15 
+ .gitignore                Locally Removed            15 
+ dsp_core_tb.v             Locally Removed            15 
+ dsp_core_rx.v             Locally Removed            15 
+ dsp_core_tb.sav           Locally Removed            15 
+ wave.sh                   Locally Removed            15 
+ Makefile                  Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/top
+ Makefile.common           Locally Removed            15 
+ .gitignore                Locally Removed            15 
+ u2_rev3_rxtx/             Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/top/u2_rev3_rxtx
+ byte_align.v              Locally Removed            15 
+ u2_rev3.ucf               Locally Removed            15 
+ u2_core.v                 Locally Removed            15 
+ SyncFIFO.v                Locally Removed            15 
+ my_tx_control.v           Locally Removed            15 
+ .gitignore                Locally Removed            15 
+ SizedFIFO.v               Locally Removed            15 
+ mkFIFO16to32ToCC.v        Locally Removed            15 
+ my_serdes_rx.v            Locally Removed            15 
+ my_serdes_tx.v            Locally Removed            15 
+ u2_rev3.v                 Locally Removed            15 
+ Makefile                  Locally Removed            15 
+ fifo_in_32_out_16.v       Locally Removed            15 
+ mkFIFO1to2ToCC.v          Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2
+ extramfifo/               Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/extramfifo
+ icon.xco                  Locally Removed            15 
+ fifo_extram36.v           Locally Removed            15 
+ ext_fifo_tb.sav           Locally Removed            15 
+ ext_fifo_tb.prj           Locally Removed            15 
+ test_sram_if.v            Locally Removed            15 
+ fifo_extram_tb.build      Locally Removed            15 
+ Makefile.srcs             Locally Removed            15 
+ ext_fifo_tb.cmd           Locally Removed            15 
+ icon.v                    Locally Removed            15 
+ fifo_extram_tb.v          Locally Removed            15 
+ ext_fifo_tb.v             Locally Removed            15 
+ ila.xco                   Locally Removed            15 
+ fifo_extram36_tb.build    Locally Removed            15 
+ ext_fifo_tb.sh            Locally Removed            15 
+ nobl_fifo.v               Locally Removed            15 
+ fifo_extram36_tb.v        Locally Removed            15 
+ .gitignore                Locally Removed            15 
+ fifo_extram.v             Locally Removed            15 
+ ext_fifo.v                Locally Removed            15 
+ ila.v                     Locally Removed            15 
+ refill_randomizer.v       Locally Removed            15 
+ nobl_if.v                 Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2
+ boot_cpld/                Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/boot_cpld
+ boot_cpld.ucf             Locally Removed            15 
+ boot_cpld.ipf             Locally Removed            15 
+ boot_cpld.ise             Locally Removed            15 
+ .gitignore                Locally Removed            15 
+ boot_cpld.lfp             Locally Removed            15 
+ boot_cpld.v               Locally Removed            15 
+ _impact.cmd               Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2
+ control_lib/              Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/control_lib
+ bin2gray.v                Locally Removed            15 
+ wb_readback_mux.v         Locally Removed            15 
+ v5icap_wb.v               Locally Removed            15 
+ wb_sim.v                  Locally Removed            15 
+ wb_output_pins32.v        Locally Removed            15 
+ clock_control.v           Locally Removed            15 
+ simple_uart_rx.v          Locally Removed            15 
+ mux4.v                    Locally Removed            15 
+ settings_bus_16LE.v       Locally Removed            15 
+ mux8.v                    Locally Removed            15 
+ sd_spi_tb.v               Locally Removed            15 
+ dpram32.v                 Locally Removed            15 
+ wb_semaphore.v            Locally Removed            15 
+ gray2bin.v                Locally Removed            15 
+ ram_wb_harvard.v          Locally Removed            15 
+ reset_sync.v              Locally Removed            15 
+ sd_spi.v                  Locally Removed            15 
+ simple_uart.v             Locally Removed            15 
+ quad_uart.v               Locally Removed            15 
+ cmdfile                   Locally Removed            15 
+ atr_controller16.v        Locally Removed            15 
+ wb_1master.v              Locally Removed            15 
+ wb_readback_mux_16LE.v    Locally Removed            15 
+ sd_spi_wb.v               Locally Removed            15 
+ pic.v                     Locally Removed            15 
+ icache.v                  Locally Removed            15 
+ decoder_3_8.v             Locally Removed            15 
+ traffic_cop.v             Locally Removed            15 
+ clock_control_tb.v        Locally Removed            15 
+ ss_rcvr.v                 Locally Removed            15 
+ Makefile.srcs             Locally Removed            15 
+ ram_harvard.v             Locally Removed            15 
+ nsgpio16LE.v              Locally Removed            15 
+ CRC16_D16.v               Locally Removed            15 
+ newfifo/                  Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/control_lib/newfifo
+ packet_tb.v               Locally Removed            15 
+ fifo_pacer.v              Locally Removed            15 
+ packet_generator.v        Locally Removed            15 
+ packet32_tb.v             Locally Removed            15 
+ packet_generator32.v      Locally Removed            15 
+ packet_verifier.v         Locally Removed            15 
+ packet_verifier32.v       Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/control_lib
+ ram_2port_mixed_width.v   Locally Removed            15 
+ bootrom.mem               Locally Removed            15 
+ wb_bridge_16_32.v         Locally Removed            15 
+ simple_uart_tx.v          Locally Removed            15 
+ wb_regfile_2clock.v       Locally Removed            15 
+ bootram.v                 Locally Removed            15 
+ ram_loader.v              Locally Removed            15 
+ clock_bootstrap_rom.v     Locally Removed            15 
+ dcache.v                  Locally Removed            15 
+ ram_harvard2.v            Locally Removed            15 
+ settings_bus.v            Locally Removed            15 
+ medfifo.v                 Locally Removed            15 
+ setting_reg.v             Locally Removed            15 
+ s3a_icap_wb.v             Locally Removed            15 
+ gray_send.v               Locally Removed            15 
+ wb_bus_writer.v           Locally Removed            15 
+ wb_ram_block.v            Locally Removed            15 
+ ram_harv_cache.v          Locally Removed            15 
+ system_control.v          Locally Removed            15 
+ atr_controller.v          Locally Removed            15 
+ wb_ram_dist.v             Locally Removed            15 
+ oneshot_2clk.v            Locally Removed            15 
+ spi.v                     Locally Removed            15 
+ settings_bus_crossclock.v Locally Removed            15 
+ nsgpio.v                  Locally Removed            15 
+ srl.v                     Locally Removed            15 
+ mux_32_4.v                Locally Removed            15 
+ .gitignore                Locally Removed            15 
+ shortfifo.v               Locally Removed            15 
+ longfifo.v                Locally Removed            15 
+ ram_2port.v               Locally Removed            15 
+ priority_enc.v            Locally Removed            15 
+ fifo_tb.v                 Locally Removed            15 
+ system_control_tb.v       Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2
+ vrt/                      Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/vrt
+ gen_context_pkt.v         Locally Removed            15 
+ vita_rx_control.v         Locally Removed            15 
+ vita_tx_control.v         Locally Removed            15 
+ vita_tx_chain.v           Locally Removed            15 
+ .gitignore                Locally Removed            15 
+ vita_rx_tb.v              Locally Removed            15 
+ Makefile.srcs             Locally Removed            15 
+ vita_tx_deframer.v        Locally Removed            15 
+ vita_tx_tb.v              Locally Removed            15 
+ trigger_context_pkt.v     Locally Removed            15 
+ vita_rx.build             Locally Removed            15 
+ vita_rx_framer.v          Locally Removed            15 
+ vita_tx.build             Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2
+ sdr_lib/                  Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/sdr_lib
+ duc.v                     Locally Removed            15 
+ dsp_core_rx_udp.v         Locally Removed            15 
+ clip_and_round.v          Locally Removed            15 
+ rssi.v                    Locally Removed            15 
+ small_hb_dec_tb.v         Locally Removed            15 
+ Makefile.srcs             Locally Removed            15 
+ integrate.v               Locally Removed            15 
+ halfband_tb.v             Locally Removed            15 
+ round_reg.v               Locally Removed            15 
+ hb/                       Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/sdr_lib/hb
+ ram16_2port.v             Locally Removed            15 
+ ram16_2sum.v              Locally Removed            15 
+ hbd_tb/                   Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/sdr_lib/hb/hbd_tb
+ really_golden             Locally Removed            15 
+ regression                Locally Removed            15 
+ test_hbd.v                Locally Removed            15 
+ run_hbd                   Locally Removed            15 
+ HBD                       Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/sdr_lib/hb
+ coeff_rom.v               Locally Removed            15 
+ halfband_decim.v          Locally Removed            15 
+ halfband_interp.v         Locally Removed            15 
+ mac.v                     Locally Removed            15 
+ coeff_ram.v               Locally Removed            15 
+ mult.v                    Locally Removed            15 
+ acc.v                     Locally Removed            15 
+ ram32_2sum.v              Locally Removed            15 
+
+Directory modules/platforms-usrp/usrp2/sdr_lib
+ cordic_stage.v            Locally Removed            15 
+ clip.v                    Locally Removed            15 
+ hb_dec_tb.v               Locally Removed            15 
+ rx_control.v              Locally Removed            15 
+ ddc.v                     Locally Removed            15 
+ rx_dcoffset_tb.v          Locally Removed            15 
+ tx_control.v              Locally Removed            15 
+ cic_int_shifter.v         Locally Removed            15 
+ cic_dec_shifter.v         Locally Removed            15 
+ hb_interp_tb.v            Locally Removed            15 
+ input.dat                 Locally Removed            15 
+ cordic.v                  Locally Removed            15 
+ add2_and_round.v          Locally Removed            15 
+ dummy_rx.v                Locally Removed            15 
+ add2.v                    Locally Removed            15 
+ clip_and_round_reg.v      Locally Removed            15 
+ HB.sav                    Locally Removed            15 
+ hb_tb.v                   Locally Removed            15 
+ cic_interp.v              Locally Removed            15 
+ small_hb_int_tb.v         Locally Removed            15 
+ clip_reg.v                Locally Removed            15 
+ acc.v                     Locally Removed            15 
+ round.v                   Locally Removed            15 
+ med_hb_int.v              Locally Removed            15 
+ small_hb_int.v            Locally Removed            15 
+ small_hb_dec.v            Locally Removed            15 
+ halfband_ideal.v          Locally Removed            15 
+ cic_strober.v             Locally Removed            15 
+ cic_decim.v               Locally Removed            15 
+ add2_and_round_reg.v      Locally Removed            15 
+ .gitignore                Locally Removed            15 
+ cordic_z24.v              Locally Removed            15 
+ output.dat                Locally Removed            15 
+ hb_dec.v                  Locally Removed            15 
+ dsp_core_rx_old.v         Locally Removed            15 
+ SMALL_HB.sav              Locally Removed            15 
+ rx_dcoffset.v             Locally Removed            15 
+ dsp_core_rx.v             Locally Removed            15 
+ add2_reg.v                Locally Removed            15 
+ sign_extend.v             Locally Removed            15 
+ gen_cordic_consts.py      Locally Removed            15 
+ dsp_core_tx.v             Locally Removed            15 
+ hb_interp.v               Locally Removed            15 
+
+Directory modules/platforms-usrp
+ firmware/                 Locally Removed            15 
+
+Directory modules/platforms-usrp/firmware
+ tx-chain/                 Locally Removed            15 
+
+Directory modules/platforms-usrp/firmware/tx-chain
+ tx_standalone.bin         Locally Removed            15 
+ u2_rev3.bin               Locally Removed            15 
+
+Directory modules/platforms-usrp
+ README                    Locally Removed            15 
+
+Directory .
+ Makefile.am               Locally Added               0 
+ aclocal.m4                Locally Added               0 
+ ./                        Locally Modified           15 
+
+Added intial build environment to install package. Moved firmware
+and related tools out of module directory and into tools
+area for proper a system install. Completed rename of
+package to leap-platforms-usrp.
