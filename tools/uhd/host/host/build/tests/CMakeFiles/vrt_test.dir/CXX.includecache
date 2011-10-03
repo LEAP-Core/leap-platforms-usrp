@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/uhd/config.hpp
+boost/config.hpp
+-
+ciso646
+-
+cstddef
+-
+
+../include/uhd/transport/vrt_if_packet.hpp
+uhd/config.hpp
+-
+boost/cstdint.hpp
+-
+cstddef
+-
+
+/home/kfleming/uhd/host/tests/vrt_test.cpp
+boost/test/unit_test.hpp
+-
+uhd/transport/vrt_if_packet.hpp
+-
+cstdlib
+-
+

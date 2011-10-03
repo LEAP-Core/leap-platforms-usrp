@@ -1,0 +1,29 @@
+hasim-fpga-ctrl: Enabling programming cable...
+Configuring XUPV5
+Hello from sever start
+id = 426c756573706563
+version = 100
+loopback = deadbeefdeadbeef
+bar1rpkt = 5
+bar1wpkt = 2
+
+in main
+PacketCheck:PacketsReceived:0:BER:0:Correct:0:Bytes:0:PacketDelta:0:CorrectDelta:0:BytesDelta:0:BER:nan:PER:nan
+RX: 11606905 TX: 0 Sent: 2322586 Dropped: 0 Realign: 0 Odd: 0 errors: 40517
+PacketCheck:PacketsReceived:0:BER:0:Correct:0:Bytes:0:PacketDelta:0:CorrectDelta:0:BytesDelta:0:BER:nan:PER:nan
+RX: 511689896 TX: 0 Sent: 102342081 Dropped: 0 Realign: 0 Odd: 0 errors: 40518
+PacketCheck:PacketsReceived:0:BER:0:Correct:0:Bytes:0:PacketDelta:0:CorrectDelta:0:BytesDelta:0:BER:nan:PER:nan
+RX: 1011837483 TX: 0 Sent: 202368514 Dropped: 0 Realign: 1 Odd: 0 errors: 40518
+PacketCheck:PacketsReceived:0:BER:0:Correct:0:Bytes:0:PacketDelta:0:CorrectDelta:0:BytesDelta:0:BER:nan:PER:nan
+RX: 1511965270 TX: 0 Sent: 302401536 Dropped: 0 Realign: 2 Odd: 0 errors: 40519
+PacketCheck:PacketsReceived:0:BER:0:Correct:0:Bytes:0:PacketDelta:0:CorrectDelta:0:BytesDelta:0:BER:nan:PER:nan
+RX: 2012087516 TX: 0 Sent: 402429358 Dropped: 0 Realign: 3 Odd: 0 errors: 40519
+PacketCheck:PacketsReceived:0:BER:0:Correct:0:Bytes:0:PacketDelta:0:CorrectDelta:0:BytesDelta:0:BER:nan:PER:nan
+RX: 2512204984 TX: 0 Sent: 502454496 Dropped: 0 Realign: 3 Odd: 0 errors: 40519
+PacketCheck:PacketsReceived:47:BER:315299:Correct:0:Bytes:78794:PacketDelta:47:CorrectDelta:0:BytesDelta:78794:BER:0.500195:PER:1.000000
+RX: 3012612263 TX: 0 Sent: 589612933 Dropped: 0 Realign: 3 Odd: 0 errors: 40519
+PacketCheck:PacketsReceived:47:BER:315299:Correct:0:Bytes:78794:PacketDelta:0:CorrectDelta:0:BytesDelta:0:BER:nan:PER:nan
+RX: 3512729287 TX: 0 Sent: 689639284 Dropped: 0 Realign: 3 Odd: 0 errors: 40519
+umf: message size too long: 131068
+Model exited with status 1
+hasim-fpga-ctrl: Disabling programming cable...

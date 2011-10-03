@@ -1,0 +1,142 @@
+Performing C++ SOURCE FILE Test HAVE_MACH_ABSOLUTE_TIME failed with the following output:
+Change Dir: /home/kfleming/uhd/host/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
+gmake[1]: Entering directory `/home/kfleming/uhd/host/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/kfleming/uhd/host/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec.dir/src.cxx.o
+/usr/bin/c++    -DHAVE_MACH_ABSOLUTE_TIME   -o CMakeFiles/cmTryCompileExec.dir/src.cxx.o -c /home/kfleming/uhd/host/build/CMakeFiles/CMakeTmp/src.cxx
+/home/kfleming/uhd/host/build/CMakeFiles/CMakeTmp/src.cxx:2:32: error: mach/mach_time.h: No such file or directory
+/home/kfleming/uhd/host/build/CMakeFiles/CMakeTmp/src.cxx: In function 'int main()':
+/home/kfleming/uhd/host/build/CMakeFiles/CMakeTmp/src.cxx:4: error: 'mach_timebase_info_data_t' was not declared in this scope
+/home/kfleming/uhd/host/build/CMakeFiles/CMakeTmp/src.cxx:4: error: expected ';' before 'info'
+/home/kfleming/uhd/host/build/CMakeFiles/CMakeTmp/src.cxx:5: error: 'info' was not declared in this scope
+/home/kfleming/uhd/host/build/CMakeFiles/CMakeTmp/src.cxx:5: error: 'mach_timebase_info' was not declared in this scope
+/home/kfleming/uhd/host/build/CMakeFiles/CMakeTmp/src.cxx:6: error: 'mach_absolute_time' was not declared in this scope
+gmake[1]: *** [CMakeFiles/cmTryCompileExec.dir/src.cxx.o] Error 1
+gmake[1]: Leaving directory `/home/kfleming/uhd/host/build/CMakeFiles/CMakeTmp'
+gmake: *** [cmTryCompileExec/fast] Error 2
+
+Source file was:
+
+    #include <mach/mach_time.h>
+    int main(){
+        mach_timebase_info_data_t info;
+        mach_timebase_info(&info);
+        mach_absolute_time();
+        return 0;
+    }
+    
+Performing C++ SOURCE FILE Test HAVE_QUERY_PERFORMANCE_COUNTER failed with the following output:
+Change Dir: /home/kfleming/uhd/host/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
+gmake[1]: Entering directory `/home/kfleming/uhd/host/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/kfleming/uhd/host/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec.dir/src.cxx.o
+/usr/bin/c++    -DHAVE_QUERY_PERFORMANCE_COUNTER   -o CMakeFiles/cmTryCompileExec.dir/src.cxx.o -c /home/kfleming/uhd/host/build/CMakeFiles/CMakeTmp/src.cxx
+/home/kfleming/uhd/host/build/CMakeFiles/CMakeTmp/src.cxx:2:25: error: Windows.h: No such file or directory
+/home/kfleming/uhd/host/build/CMakeFiles/CMakeTmp/src.cxx: In function 'int main()':
+/home/kfleming/uhd/host/build/CMakeFiles/CMakeTmp/src.cxx:4: error: 'LARGE_INTEGER' was not declared in this scope
+/home/kfleming/uhd/host/build/CMakeFiles/CMakeTmp/src.cxx:4: error: expected ';' before 'value'
+/home/kfleming/uhd/host/build/CMakeFiles/CMakeTmp/src.cxx:5: error: 'value' was not declared in this scope
+/home/kfleming/uhd/host/build/CMakeFiles/CMakeTmp/src.cxx:5: error: 'QueryPerformanceCounter' was not declared in this scope
+/home/kfleming/uhd/host/build/CMakeFiles/CMakeTmp/src.cxx:6: error: 'QueryPerformanceFrequency' was not declared in this scope
+gmake[1]: *** [CMakeFiles/cmTryCompileExec.dir/src.cxx.o] Error 1
+gmake[1]: Leaving directory `/home/kfleming/uhd/host/build/CMakeFiles/CMakeTmp'
+gmake: *** [cmTryCompileExec/fast] Error 2
+
+Source file was:
+
+    #include <Windows.h>
+    int main(){
+        LARGE_INTEGER value;
+        QueryPerformanceCounter(&value);
+        QueryPerformanceFrequency(&value);
+        return 0;
+    }
+    
+Determining if the include file arm_neon.h exists failed with the following output:
+Change Dir: /home/kfleming/uhd/host/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
+gmake[1]: Entering directory `/home/kfleming/uhd/host/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/kfleming/uhd/host/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++     -o CMakeFiles/cmTryCompileExec.dir/CheckIncludeFile.cxx.o -c /home/kfleming/uhd/host/build/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+/home/kfleming/uhd/host/build/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx:1:22: error: arm_neon.h: No such file or directory
+gmake[1]: Leaving directory `/home/kfleming/uhd/host/build/CMakeFiles/CMakeTmp'
+gmake[1]: *** [CMakeFiles/cmTryCompileExec.dir/CheckIncludeFile.cxx.o] Error 1
+gmake: *** [cmTryCompileExec/fast] Error 2
+
+
+Determining if the include file winsock2.h exists failed with the following output:
+Change Dir: /home/kfleming/uhd/host/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
+gmake[1]: Entering directory `/home/kfleming/uhd/host/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/kfleming/uhd/host/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++     -o CMakeFiles/cmTryCompileExec.dir/CheckIncludeFile.cxx.o -c /home/kfleming/uhd/host/build/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+/home/kfleming/uhd/host/build/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx:1:22: error: winsock2.h: No such file or directory
+gmake[1]: Leaving directory `/home/kfleming/uhd/host/build/CMakeFiles/CMakeTmp'
+gmake[1]: *** [CMakeFiles/cmTryCompileExec.dir/CheckIncludeFile.cxx.o] Error 1
+gmake: *** [cmTryCompileExec/fast] Error 2
+
+
+Performing C++ SOURCE FILE Test HAVE_WIN_SETTHREADPRIORITY failed with the following output:
+Change Dir: /home/kfleming/uhd/host/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
+gmake[1]: Entering directory `/home/kfleming/uhd/host/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/kfleming/uhd/host/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec.dir/src.cxx.o
+/usr/bin/c++    -DHAVE_WIN_SETTHREADPRIORITY   -o CMakeFiles/cmTryCompileExec.dir/src.cxx.o -c /home/kfleming/uhd/host/build/CMakeFiles/CMakeTmp/src.cxx
+/home/kfleming/uhd/host/build/CMakeFiles/CMakeTmp/src.cxx:2:25: error: windows.h: No such file or directory
+/home/kfleming/uhd/host/build/CMakeFiles/CMakeTmp/src.cxx: In function 'int main()':
+/home/kfleming/uhd/host/build/CMakeFiles/CMakeTmp/src.cxx:4: error: 'GetCurrentThread' was not declared in this scope
+/home/kfleming/uhd/host/build/CMakeFiles/CMakeTmp/src.cxx:4: error: 'SetThreadPriority' was not declared in this scope
+/home/kfleming/uhd/host/build/CMakeFiles/CMakeTmp/src.cxx:5: error: 'GetCurrentProcess' was not declared in this scope
+/home/kfleming/uhd/host/build/CMakeFiles/CMakeTmp/src.cxx:5: error: 'SetPriorityClass' was not declared in this scope
+gmake[1]: Leaving directory `/home/kfleming/uhd/host/build/CMakeFiles/CMakeTmp'
+gmake[1]: *** [CMakeFiles/cmTryCompileExec.dir/src.cxx.o] Error 1
+gmake: *** [cmTryCompileExec/fast] Error 2
+
+Source file was:
+
+    #include <windows.h>
+    int main(){
+        SetThreadPriority(GetCurrentThread(), 0);
+        SetPriorityClass(GetCurrentProcess(), 0);
+        return 0;
+    }
+    
+Performing C++ SOURCE FILE Test HAVE_LOAD_LIBRARY failed with the following output:
+Change Dir: /home/kfleming/uhd/host/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
+gmake[1]: Entering directory `/home/kfleming/uhd/host/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/kfleming/uhd/host/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec.dir/src.cxx.o
+/usr/bin/c++    -DHAVE_LOAD_LIBRARY   -o CMakeFiles/cmTryCompileExec.dir/src.cxx.o -c /home/kfleming/uhd/host/build/CMakeFiles/CMakeTmp/src.cxx
+/home/kfleming/uhd/host/build/CMakeFiles/CMakeTmp/src.cxx:2:25: error: windows.h: No such file or directory
+/home/kfleming/uhd/host/build/CMakeFiles/CMakeTmp/src.cxx: In function 'int main()':
+/home/kfleming/uhd/host/build/CMakeFiles/CMakeTmp/src.cxx:4: error: 'LoadLibrary' was not declared in this scope
+gmake[1]: *** [CMakeFiles/cmTryCompileExec.dir/src.cxx.o] Error 1
+gmake[1]: Leaving directory `/home/kfleming/uhd/host/build/CMakeFiles/CMakeTmp'
+gmake: *** [cmTryCompileExec/fast] Error 2
+
+Source file was:
+
+    #include <windows.h>
+    int main(){
+        LoadLibrary(0);
+        return 0;
+    }
+    

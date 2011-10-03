@@ -1,0 +1,29 @@
+hasim-fpga-ctrl: Enabling programming cable...
+Configuring XUPV5
+Hello from sever start
+id = 426c756573706563
+version = 100
+loopback = deadbeefdeadbeef
+bar1rpkt = 5
+bar1wpkt = 2
+
+in main
+PacketCheck:PacketsReceived:49:BER:3994:Correct:2:Bytes:1728:PacketDelta:49:CorrectDelta:2:BytesDelta:1728:BER:0.288918:PER:0.959184
+RX: 10286221 TX: 0 Sent: 2060915 Dropped: 0 Realign: 2 Odd: 0 errors: 4900
+PacketCheck:PacketsReceived:2456:BER:110188:Correct:48:Bytes:66673:PacketDelta:2407:CorrectDelta:46:BytesDelta:64945:BER:0.204392:PER:0.980889
+RX: 510381046 TX: 0 Sent: 102082940 Dropped: 0 Realign: 2 Odd: 0 errors: 4900
+PacketCheck:PacketsReceived:4888:BER:208000:Correct:100:Bytes:129935:PacketDelta:2432:CorrectDelta:52:BytesDelta:63262:BER:0.193268:PER:0.978618
+RX: 1010490160 TX: 0 Sent: 202104595 Dropped: 0 Realign: 2 Odd: 0 errors: 4901
+PacketCheck:PacketsReceived:7315:BER:330694:Correct:174:Bytes:199326:PacketDelta:2427:CorrectDelta:74:BytesDelta:69391:BER:0.221019:PER:0.969510
+RX: 1510596825 TX: 0 Sent: 302128409 Dropped: 0 Realign: 2 Odd: 0 errors: 4901
+PacketCheck:PacketsReceived:9750:BER:435655:Correct:229:Bytes:264823:PacketDelta:2435:CorrectDelta:55:BytesDelta:65497:BER:0.200316:PER:0.977413
+RX: 2010694447 TX: 0 Sent: 402153545 Dropped: 0 Realign: 2 Odd: 0 errors: 4901
+PacketCheck:PacketsReceived:12189:BER:579345:Correct:277:Bytes:339881:PacketDelta:2439:CorrectDelta:48:BytesDelta:75058:BER:0.239298:PER:0.980320
+RX: 2510798493 TX: 0 Sent: 502175310 Dropped: 0 Realign: 2 Odd: 0 errors: 4901
+PacketCheck:PacketsReceived:14046:BER:972056:Correct:314:Bytes:467604:PacketDelta:1857:CorrectDelta:37:BytesDelta:127723:BER:0.384339:PER:0.980075
+RX: 3010891540 TX: 0 Sent: 589269464 Dropped: 0 Realign: 2 Odd: 0 errors: 4902
+PacketCheck:PacketsReceived:16425:BER:1127593:Correct:366:Bytes:544994:PacketDelta:2379:CorrectDelta:52:BytesDelta:77390:BER:0.251223:PER:0.978142
+RX: 3511013709 TX: 0 Sent: 689294955 Dropped: 0 Realign: 2 Odd: 0 errors: 4903
+umf: message size too long: 131068
+Model exited with status 1
+hasim-fpga-ctrl: Disabling programming cable...

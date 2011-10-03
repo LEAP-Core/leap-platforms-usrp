@@ -1,0 +1,1 @@
+/usr/bin/c++   -O3 -DNDEBUG   CMakeFiles/addr_test.dir/addr_test.cpp.o  -o addr_test -rdynamic ../lib/libuhd.so.003 -lboost_date_time-mt -lboost_filesystem-mt -lboost_program_options-mt -lboost_regex-mt -lboost_system-mt -lboost_thread-mt -lboost_unit_test_framework-mt -lrt -ldl -Wl,-rpath,/home/kfleming/uhd/host/build/lib: 

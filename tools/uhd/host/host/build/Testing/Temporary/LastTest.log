@@ -1,0 +1,372 @@
+Start testing: Mar 11 20:42 EST
+----------------------------------------------------------
+1/14 Testing: addr_test
+1/14 Test: addr_test
+Command: "/home/kfleming/uhd/host/build/tests/addr_test"
+Directory: /home/kfleming/uhd/host/build/tests
+"addr_test" start time: Mar 11 20:42 EST
+Output:
+----------------------------------------------------------
+linux; GNU C++ version 4.4.3; Boost_104000; UHD_003.20110310224233.4c7cc6b
+
+Running 3 test cases...
+Testing mac addr...
+Input: 00:01:23:45:67:89
+Output: 00:01:23:45:67:89
+Testing device addr...
+Pretty Print: 
+Device Address:
+    key1: val1
+    key2: val2
+Args String: key1=val1,key2=val2
+Testing dboard id...
+Pretty Print: 
+
+*** No errors detected
+Unknown (0xffff)
+<end of output>
+Test time =   0.12 sec
+----------------------------------------------------------
+Test Passed.
+"addr_test" end time: Mar 11 20:42 EST
+"addr_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/14 Testing: buffer_test
+2/14 Test: buffer_test
+Command: "/home/kfleming/uhd/host/build/tests/buffer_test"
+Directory: /home/kfleming/uhd/host/build/tests
+"buffer_test" start time: Mar 11 20:42 EST
+Output:
+----------------------------------------------------------
+linux; GNU C++ version 4.4.3; Boost_104000; UHD_003.20110310224233.4c7cc6b
+
+Running 2 test cases...
+
+*** No errors detected
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"buffer_test" end time: Mar 11 20:42 EST
+"buffer_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/14 Testing: byteswap_test
+3/14 Test: byteswap_test
+Command: "/home/kfleming/uhd/host/build/tests/byteswap_test"
+Directory: /home/kfleming/uhd/host/build/tests
+"byteswap_test" start time: Mar 11 20:42 EST
+Output:
+----------------------------------------------------------
+linux; GNU C++ version 4.4.3; Boost_104000; UHD_003.20110310224233.4c7cc6b
+
+Running 3 test cases...
+
+*** No errors detected
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"byteswap_test" end time: Mar 11 20:42 EST
+"byteswap_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+4/14 Testing: convert_test
+4/14 Test: convert_test
+Command: "/home/kfleming/uhd/host/build/tests/convert_test"
+Directory: /home/kfleming/uhd/host/build/tests
+"convert_test" start time: Mar 11 20:42 EST
+Output:
+----------------------------------------------------------
+linux; GNU C++ version 4.4.3; Boost_104000; UHD_003.20110310224233.4c7cc6b
+
+Running 8 test cases...
+
+*** No errors detected
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"convert_test" end time: Mar 11 20:42 EST
+"convert_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+5/14 Testing: dict_test
+5/14 Test: dict_test
+Command: "/home/kfleming/uhd/host/build/tests/dict_test"
+Directory: /home/kfleming/uhd/host/build/tests
+"dict_test" start time: Mar 11 20:42 EST
+Output:
+----------------------------------------------------------
+linux; GNU C++ version 4.4.3; Boost_104000; UHD_003.20110310224233.4c7cc6b
+
+Running 4 test cases...
+
+*** No errors detected
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"dict_test" end time: Mar 11 20:42 EST
+"dict_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+6/14 Testing: error_test
+6/14 Test: error_test
+Command: "/home/kfleming/uhd/host/build/tests/error_test"
+Directory: /home/kfleming/uhd/host/build/tests
+"error_test" start time: Mar 11 20:42 EST
+Output:
+----------------------------------------------------------
+linux; GNU C++ version 4.4.3; Boost_104000; UHD_003.20110310224233.4c7cc6b
+
+Running 2 test cases...
+The output of the assert_has error:
+assertion failed:
+  1 is not a valid prime.
+  possible values are: [2, 3, 5].
+
+The output of the assert throw error:
+assertion failed: 2 + 2 == 5
+  in void test_assert_throw::test_method()
+  at /home/kfleming/uhd/host/tests/error_test.cpp:44
+
+
+*** No errors detected
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"error_test" end time: Mar 11 20:42 EST
+"error_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+7/14 Testing: gain_group_test
+7/14 Test: gain_group_test
+Command: "/home/kfleming/uhd/host/build/tests/gain_group_test"
+Directory: /home/kfleming/uhd/host/build/tests
+"gain_group_test" start time: Mar 11 20:42 EST
+Output:
+----------------------------------------------------------
+linux; GNU C++ version 4.4.3; Boost_104000; UHD_003.20110310224233.4c7cc6b
+
+Running 2 test cases...
+
+*** No errors detected
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"gain_group_test" end time: Mar 11 20:42 EST
+"gain_group_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+8/14 Testing: ranges_test
+8/14 Test: ranges_test
+Command: "/home/kfleming/uhd/host/build/tests/ranges_test"
+Directory: /home/kfleming/uhd/host/build/tests
+"ranges_test" start time: Mar 11 20:42 EST
+Output:
+----------------------------------------------------------
+linux; GNU C++ version 4.4.3; Boost_104000; UHD_003.20110310224233.4c7cc6b
+
+Running 2 test cases...
+
+*** No errors detected
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"ranges_test" end time: Mar 11 20:42 EST
+"ranges_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+9/14 Testing: subdev_spec_test
+9/14 Test: subdev_spec_test
+Command: "/home/kfleming/uhd/host/build/tests/subdev_spec_test"
+Directory: /home/kfleming/uhd/host/build/tests
+"subdev_spec_test" start time: Mar 11 20:42 EST
+Output:
+----------------------------------------------------------
+linux; GNU C++ version 4.4.3; Boost_104000; UHD_003.20110310224233.4c7cc6b
+
+Running 1 test case...
+Testing subdevice specification...
+Pretty Print: 
+Subdevice Specification:
+    Channel 0: Daughterboard A, Subdevice AB
+    Channel 1: Daughterboard B, Subdevice AB
+Markup String: A:AB B:AB
+
+*** No errors detected
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"subdev_spec_test" end time: Mar 11 20:42 EST
+"subdev_spec_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+10/14 Testing: time_spec_test
+10/14 Test: time_spec_test
+Command: "/home/kfleming/uhd/host/build/tests/time_spec_test"
+Directory: /home/kfleming/uhd/host/build/tests
+"time_spec_test" start time: Mar 11 20:42 EST
+Output:
+----------------------------------------------------------
+linux; GNU C++ version 4.4.3; Boost_104000; UHD_003.20110310224233.4c7cc6b
+
+Running 4 test cases...
+Testing time specification compare...
+Testing time specification arithmetic...
+Testing time specification parts...
+Testing time specification get system time...
+start: 122797
+stop: 122798
+diff: 0.500127
+
+*** No errors detected
+<end of output>
+Test time =   0.51 sec
+----------------------------------------------------------
+Test Passed.
+"time_spec_test" end time: Mar 11 20:42 EST
+"time_spec_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+11/14 Testing: tune_helper_test
+11/14 Test: tune_helper_test
+Command: "/home/kfleming/uhd/host/build/tests/tune_helper_test"
+Directory: /home/kfleming/uhd/host/build/tests
+"tune_helper_test" start time: Mar 11 20:42 EST
+Output:
+----------------------------------------------------------
+linux; GNU C++ version 4.4.3; Boost_104000; UHD_003.20110310224233.4c7cc6b
+
+Running 4 test cases...
+Testing tune helper RX automatic IF offset
+Tune Result:
+    Target Intermediate Freq: 2345.100000 (MHz)
+    Actual Intermediate Freq: 2345.000000 (MHz)
+    Target DSP Freq Shift:    -0.100000 (MHz)
+    Actual DSP Freq Shift:    -0.100000 (MHz)
+
+Testing tune helper TX automatic IF offset
+Tune Result:
+    Target Intermediate Freq: 2345.100000 (MHz)
+    Actual Intermediate Freq: 2345.000000 (MHz)
+    Target DSP Freq Shift:    0.100000 (MHz)
+    Actual DSP Freq Shift:    0.100000 (MHz)
+
+Testing tune helper RX dummy basic board
+Tune Result:
+    Target Intermediate Freq: 55.000000 (MHz)
+    Actual Intermediate Freq: 0.000000 (MHz)
+    Target DSP Freq Shift:    -55.000000 (MHz)
+    Actual DSP Freq Shift:    45.000000 (MHz)
+
+Testing tune helper RX automatic LO offset B >> fs
+Tune Result:
+    Target Intermediate Freq: 2452.000000 (MHz)
+    Actual Intermediate Freq: 2452.000000 (MHz)
+    Target DSP Freq Shift:    2.000000 (MHz)
+    Actual DSP Freq Shift:    2.000000 (MHz)
+
+Testing tune helper RX automatic LO offset B > fs
+Tune Result:
+    Target Intermediate Freq: 2457.500000 (MHz)
+    Actual Intermediate Freq: 2457.500000 (MHz)
+    Target DSP Freq Shift:    7.500000 (MHz)
+    Actual DSP Freq Shift:    7.500000 (MHz)
+
+Testing tune helper RX automatic LO offset B < fs
+Tune Result:
+    Target Intermediate Freq: 2450.000000 (MHz)
+    Actual Intermediate Freq: 2450.000000 (MHz)
+    Target DSP Freq Shift:    0.000000 (MHz)
+    Actual DSP Freq Shift:    0.000000 (MHz)
+
+
+*** No errors detected
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"tune_helper_test" end time: Mar 11 20:42 EST
+"tune_helper_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+12/14 Testing: vrt_test
+12/14 Test: vrt_test
+Command: "/home/kfleming/uhd/host/build/tests/vrt_test"
+Directory: /home/kfleming/uhd/host/build/tests
+"vrt_test" start time: Mar 11 20:42 EST
+Output:
+----------------------------------------------------------
+linux; GNU C++ version 4.4.3; Boost_104000; UHD_003.20110310224233.4c7cc6b
+
+Running 5 test cases...
+
+*** No errors detected
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"vrt_test" end time: Mar 11 20:42 EST
+"vrt_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+13/14 Testing: warning_test
+13/14 Test: warning_test
+Command: "/home/kfleming/uhd/host/build/tests/warning_test"
+Directory: /home/kfleming/uhd/host/build/tests
+"warning_test" start time: Mar 11 20:42 EST
+Output:
+----------------------------------------------------------
+linux; GNU C++ version 4.4.3; Boost_104000; UHD_003.20110310224233.4c7cc6b
+
+Running 1 test case...
+---begin print test ---
+
+Warning:
+    This is a test print for a warning message.
+    And this is the second line of the test print.
+---end print test ---
+
+*** No errors detected
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"warning_test" end time: Mar 11 20:42 EST
+"warning_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+14/14 Testing: wax_test
+14/14 Test: wax_test
+Command: "/home/kfleming/uhd/host/build/tests/wax_test"
+Directory: /home/kfleming/uhd/host/build/tests
+"wax_test" start time: Mar 11 20:42 EST
+Output:
+----------------------------------------------------------
+linux; GNU C++ version 4.4.3; Boost_104000; UHD_003.20110310224233.4c7cc6b
+
+Running 4 test cases...
+chain 1
+chain 2
+chain 3
+set and get all
+store proxy
+assign proxy
+
+*** No errors detected
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"wax_test" end time: Mar 11 20:42 EST
+"wax_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Mar 11 20:42 EST

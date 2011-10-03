@@ -1,0 +1,29 @@
+hasim-fpga-ctrl: Enabling programming cable...
+Configuring XUPV5
+Hello from sever start
+id = 426c756573706563
+version = 100
+loopback = deadbeefdeadbeef
+bar1rpkt = 5
+bar1wpkt = 2
+
+in main
+PacketCheck:PacketsReceived:277:BER:1673819:Correct:2:Bytes:430033:PacketDelta:277:CorrectDelta:2:BytesDelta:430033:BER:0.486538:PER:0.992780
+RX: 26374087 TX: 0 Sent: 5264982 Dropped: 10953 Realign: 0 Odd: 753 errors: 34978
+PacketCheck:PacketsReceived:4776:BER:30402240:Correct:20:Bytes:7599955:PacketDelta:4499:CorrectDelta:18:BytesDelta:7169922:BER:0.500850:PER:0.995999
+RX: 526437570 TX: 0 Sent: 105143516 Dropped: 147968 Realign: 7 Odd: 16061 errors: 34988
+PacketCheck:PacketsReceived:9271:BER:59279367:Correct:48:Bytes:14816816:PacketDelta:4495:CorrectDelta:28:BytesDelta:7216861:BER:0.500168:PER:0.993771
+RX: 1026499530 TX: 0 Sent: 204975582 Dropped: 331494 Realign: 12 Odd: 31321 errors: 35004
+PacketCheck:PacketsReceived:13966:BER:89283591:Correct:71:Bytes:22320393:PacketDelta:4695:CorrectDelta:23:BytesDelta:7503577:BER:0.499832:PER:0.995101
+RX: 1526563207 TX: 0 Sent: 304759061 Dropped: 563695 Realign: 15 Odd: 46581 errors: 35016
+PacketCheck:PacketsReceived:18515:BER:118409511:Correct:91:Bytes:29602757:PacketDelta:4549:CorrectDelta:20:BytesDelta:7282364:BER:0.499939:PER:0.995603
+RX: 2026626376 TX: 0 Sent: 404540070 Dropped: 798228 Realign: 22 Odd: 61843 errors: 35032
+PacketCheck:PacketsReceived:23012:BER:147233975:Correct:113:Bytes:36810116:PacketDelta:4497:CorrectDelta:22:BytesDelta:7207359:BER:0.499914:PER:0.995108
+RX: 2526690913 TX: 0 Sent: 504413397 Dropped: 940955 Realign: 26 Odd: 77103 errors: 35040
+PacketCheck:PacketsReceived:26849:BER:171917589:Correct:127:Bytes:42982035:PacketDelta:3837:CorrectDelta:14:BytesDelta:6171919:BER:0.499918:PER:0.996351
+RX: 3026754519 TX: 0 Sent: 591349799 Dropped: 1089671 Realign: 30 Odd: 92363 errors: 35049
+PacketCheck:PacketsReceived:31359:BER:200792320:Correct:155:Bytes:50201446:PacketDelta:4510:CorrectDelta:28:BytesDelta:7219411:BER:0.499950:PER:0.993792
+RX: 3526820984 TX: 0 Sent: 691108599 Dropped: 1347192 Realign: 31 Odd: 107623 errors: 35055
+umf: message size too long: 131068
+Model exited with status 1
+hasim-fpga-ctrl: Disabling programming cable...

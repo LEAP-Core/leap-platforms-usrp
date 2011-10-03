@@ -1,0 +1,11 @@
+prefix=/usr/local
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: UHD
+Description: Ettus Research - Universal Hardware Driver
+Requires:
+Version: 003.20110310224233.4c7cc6b
+Libs: -L${libdir} -luhd
+Cflags: -I${includedir}
