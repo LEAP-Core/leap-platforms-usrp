@@ -8,7 +8,7 @@
 <!-- Copyright (c) 1995-2010 Xilinx, Inc.  All rights reserved.    -->
 
 <messages>
-<msg type="info" file="ProjectMgmt" num="1648" ><arg fmt="%s" index="1">Analyzing Verilog file \&quot;/afs/csail.mit.edu/u/m/mcn02/airblue2_hw_sw/uhd/fpga/usrp2/coregen/icon.v\&quot; into library work</arg>
+<msg type="info" file="ProjectMgmt" num="1648" ><arg fmt="%s" index="1">Analyzing Verilog file \&quot;/home/kfleming/airblue-release/src/leap-platforms-usrp/tools/leap-platforms-usrp/usrp2/coregen/icon.v\&quot; into library work</arg>
 </msg>
 
 </messages>

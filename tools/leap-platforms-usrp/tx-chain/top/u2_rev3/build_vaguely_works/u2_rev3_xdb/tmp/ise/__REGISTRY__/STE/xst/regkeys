@@ -1,6 +1,0 @@
-CommandLine
-/afs/csail.mit.edu/group/csg/tools/tools_lx86/xilinx/10.1/ISE/bin/lin64/unwrapped/xst -ise /afs/csail.mit.edu/u/k/kfleming/fpgaTXStripped/usrp2/top/u2_rev3/build/u2_rev3.ise -intstyle ise -ifn /afs/csail.mit.edu/u/k/kfleming/fpgaTXStripped/usrp2/top/u2_rev3/build/u2_rev3.xst -ofn /afs/csail.mit.edu/u/k/kfleming/fpgaTXStripped/usrp2/top/u2_rev3/build/u2_rev3.syr -finalclean 1
-s
-FormatString
-xst [-ifn <InputFile>] [-ofn <OutputFile>] [-ise <iseProjectFile>] [--quiet] [-intstyle <Style>] [--deb <DebugLevel>] [--finalclean <Clean>] [--PcubeFlow] [--globOptFlow] [--XstNtrc]
-s

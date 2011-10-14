@@ -1,8 +1,0 @@
-/afs/csail.mit.edu/u/m/mcn02/airblue2_hw_sw/uhd/fpga/usrp2/top/u2plus/build/u2plus.ngc 1299898926
-../../../coregen/fifo_xlnx_16x40_2clk.ngc 1299869932
-../../../coregen/fifo_xlnx_2Kx36_2clk.ngc 1299869933
-../../../coregen/fifo_xlnx_16x19_2clk.ngc 1299869932
-../../../coregen/fifo_xlnx_512x36_2clk.ngc 1299869933
-../../../coregen/fifo_xlnx_512x36_2clk_prog_full.ngc 1299869933
-../../../coregen/fifo_xlnx_32x36_2clk.ngc 1299869933
-OK
