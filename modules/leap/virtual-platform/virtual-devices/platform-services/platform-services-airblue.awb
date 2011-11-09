@@ -1,0 +1,12 @@
+%name Airblue MultiFPGA Platform Services
+%desc Translates Virtual Devices into Soft Connections
+
+%provides platform_services
+
+%attributes leap
+
+%public platform-services-airblue.bsv
+
+%requires  starter_service common_services 
+%requires  multifpga_router_service
+

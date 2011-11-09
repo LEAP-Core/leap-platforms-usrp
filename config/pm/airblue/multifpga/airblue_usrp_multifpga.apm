@@ -1,0 +1,277 @@
+
+[Global]
+SaveParameters=0
+Description=has strange module alingments
+File=airblue_usrp_multifpga
+Version=2.2
+Name=Multifpga synthesis test 
+DefaultBenchmark=
+Type=Leap
+Class=Asim::Model
+DefaultRunOpts=
+RootName=HW/SW Hybrid Multifpga Project Foundation
+RootProvides=model
+
+[Model]
+DefaultAttributes=function_as_boundary traffic_light demo connected slave hybrid project exe
+model=HW/SW Hybrid Multifpga Project Foundation
+
+[HW/SW Hybrid Multifpga Project Foundation/Requires]
+connected_application=Airblue application
+environment_description=Airblue USRP XUPV5 Dual FPGA Environment
+build_pipeline=multiFPGA Build Pipeline
+fpga_mapping=Airblue Dual XUPV5 Mapping
+
+[HW/SW Hybrid Multifpga Project Foundation]
+File=modules/leap/build-support/project/project-multifpga.awb
+Packagehint=multifpga
+
+[multiFPGA Build Pipeline]
+File=modules/leap/build-support/build-pipelines/pipelines/multifpga/multifpga-build-pipeline.awb
+Packagehint=multifpga
+
+[multiFPGA Build Pipeline/Requires]
+multi_fpga_connect=MultiFPGA Communication Complex Generator
+multi_fpga_generate_bitfile=multiFPGA Generate bitfle
+multi_fpga_log_generator=multiFPGA Log Generation
+
+[MultiFPGA Communication Complex Generator]
+File=modules/leap/build-support/build-pipelines/stages/multi_fpga_connect/multi-fpga-connect.awb
+Packagehint=multifpga
+
+[FPGAMap]
+File=modules/leap/build-support/build-pipelines/stages/wrapper_gen/fpgamap_parser.awb
+Packagehint=multifpga
+
+[MultiFPGA Communication Complex Generator/Requires]
+fpgamap_parser=FPGAMap
+
+[multiFPGA Generate bitfle]
+File=modules/leap/build-support/build-pipelines/stages/multifpga-generate-bitfile/multifpga-generate-bitfile.awb
+Packagehint=multifpga
+
+[multiFPGA Log Generation]
+File=modules/leap/build-support/build-pipelines/stages/multifpga/multi_fpga_parse.awb
+Packagehint=leap
+
+[FPGA Environment Datatype]
+File=modules/leap/build-support/build-pipelines/stages/multifpga/fpgaenvironment.awb
+Packagehint=leap
+
+[multiFPGA Log Generation/Requires]
+fpga_environment_parser=FPGA Environment Datatype
+
+[multiFPGA Log Generation/Params]
+GENERATE_ROUTER_STATS=1
+
+[Airblue types (no SoftHints)]
+File=modules/airblue/lib/Types/airblue_types.awb
+Packagehint=airblue
+
+[Airblue Shared Libraries]
+File=modules/airblue/lib/airblue_shared.awb
+Packagehint=airblue
+
+[WiFi Transmitter Pipeline]
+File=modules/airblue/Phy/WiFi/tx/airblue_transmitter.awb
+Packagehint=airblue
+
+[Airblue cyclic prefix insertion]
+File=modules/airblue/lib/CPInsert/src/airblue_cyclic_prefix_insert.awb
+Packagehint=airblue
+
+[Airblue USRP XUPV5 Dual FPGA Environment]
+File=modules/leap-platforms/fpga-environments/xupv5/xupv5_airblue_fpga_env.awb
+Packagehint=multifpga
+
+[Airblue application]
+File=modules/airblue/lib/Drivers/ConnectedApp/airblue-driver.awb
+Packagehint=airblue
+
+[Airblue WiFi parameters (with standard null SHIM)]
+File=modules/airblue/parameters/WiFi/airblue_wifi_parameters_no_shim.awb
+Packagehint=airblue
+
+[Airblue Special FIFOs]
+File=modules/airblue/lib/FIFOs/src/airblue_special_fifos.awb
+Packagehint=airblue
+
+[Airblue Shifted Registers FPGA-optimized]
+File=modules/airblue/lib/ShiftRegs/src/airblue_shift_regs_new.awb
+Packagehint=airblue
+
+[Airblue Mapper]
+File=modules/airblue/lib/Mapper/src/airblue_mapper.awb
+Packagehint=airblue
+
+[Airblue Shared Libraries/Requires]
+airblue_common=Airblue common library
+airblue_special_fifos=Airblue Special FIFOs
+airblue_shift_regs=Airblue Shifted Registers FPGA-optimized
+
+[Airblue common library]
+File=modules/airblue/lib/Common/airblue_common.awb
+Packagehint=airblue
+
+[Airblue Convolutional Encoder]
+File=modules/airblue/lib/ConvEncoder/src/airblue_convolutional_encoder.awb
+Packagehint=airblue
+
+[WiFi Phy Only/Requires]
+airblue_phy=WiFi Phy Transceiver
+airblue_types=Airblue types (no SoftHints)
+airblue_shared=Airblue Shared Libraries
+airblue_parameters=Airblue WiFi parameters (with standard null SHIM)
+airblue_phy_packet_check=Airblue Phy RX RRR Packet Check
+airblue_phy_packet_gen=Airblue Phy NULL PacketGen
+
+[Airblue Puncturer]
+File=modules/airblue/lib/Puncturer/src/airblue_puncturer.awb
+Packagehint=airblue
+
+[WiFi Shared FFT/Requires]
+airblue_fft_library=Airblue Folded FFT/IFFT
+
+[WiFi Phy Transceiver/Requires]
+airblue_transmitter=WiFi Transmitter Pipeline
+airblue_receiver=WiFi Receiver Pipeline
+airblue_fft=WiFi Shared FFT
+
+[Airblue application/Requires]
+hw_only_application=WiFi Phy Only
+airblue_driver_application=RX USRP Test Driver
+
+[WiFi Shared FFT]
+File=modules/airblue/Phy/WiFi/fft/airblue_fft.awb
+Packagehint=airblue
+
+[WiFi Transmitter Pipeline/Requires]
+airblue_cyclic_prefix_insert=Airblue cyclic prefix insertion
+airblue_convolutional_encoder=Airblue Convolutional Encoder
+airblue_mapper=Airblue Mapper
+airblue_interleaver=Airblue Interleaver
+airblue_scrambler=Airblue Scrambler
+airblue_puncturer=Airblue Puncturer
+airblue_pilot_insert=Airblue Pilot Insert
+
+[WiFi Phy Only]
+File=modules/airblue/PhyOnly/WiFi/airblue_wifi_phyonly.awb
+Packagehint=airblue
+
+[WiFi Phy Transceiver]
+File=modules/airblue/Phy/WiFi/airblue_wifi_phy.awb
+Packagehint=airblue
+
+[WiFi Receiver Pipeline/Params]
+MAGIC_DESCRAMBLE_SEED=0
+
+[WiFi Receiver Pipeline]
+File=modules/airblue/Phy/WiFi/rx/airblue_receiver.awb
+Packagehint=airblue
+
+[Airblue Interleaver]
+File=modules/airblue/lib/Interleaver/src/airblue_interleaver.awb
+Packagehint=airblue
+
+[Airblue Pilot Insert]
+File=modules/airblue/lib/PilotInsert/src/airblue_pilot_insert.awb
+Packagehint=airblue
+
+[Airblue Scrambler]
+File=modules/airblue/lib/Scrambler/src/airblue_scrambler.awb
+Packagehint=airblue
+
+[Airblue Folded FFT/IFFT]
+File=modules/airblue/lib/FFT/src/airblue_folded_fft.awb
+Packagehint=airblue
+
+[Airblue Descrambler]
+File=modules/airblue/lib/Scrambler/src/airblue_descrambler.awb
+Packagehint=airblue
+
+[Airblue Phy NULL PacketGen]
+File=modules/airblue/lib/PacketGen/src/PacketOutput/airblue_phy_packet_gen_rx.awb
+Packagehint=airblue
+
+[RX USRP Test Driver/Requires]
+airblue_soft_mac=Airblue Soft MAC
+airblue_environment=Airblue Environment
+
+[Airblue Magnitude Estimator]
+File=modules/airblue/lib/MagnitudeEstimator/src/airblue_magnitude_estimator.awb
+Packagehint=airblue
+
+[Airblue Deinterleaver]
+File=modules/airblue/lib/Interleaver/src/airblue_deinterleaver.awb
+Packagehint=airblue
+
+[WiFi Receiver Pipeline/Requires]
+airblue_depuncturer=Airblue Depuncturer
+airblue_descrambler=Airblue Descrambler
+airblue_channel_estimator=Airblue Channel Estimator
+airblue_synchronizer=Airblue Synchronizer
+airblue_deinterleaver=Airblue Deinterleaver
+airblue_convolutional_decoder=Airblue Viterbi (no SoftHints)
+airblue_demapper=Airblue Demapper
+airblue_unserializer=Airblue Unserializer
+
+[Airblue Inverse Square Root/Requires]
+airblue_magnitude_estimator=Airblue Magnitude Estimator
+
+[Airblue Viterbi (no SoftHints)]
+File=modules/airblue/lib/ConvDecoder/Viterbi/src/airblue_viterbi.awb
+Packagehint=airblue
+
+[Airblue Inverse Square Root]
+File=modules/airblue/lib/NewtonRaphson/InverseSqRoot/src/airblue_inverse_sq_root.awb
+Packagehint=airblue
+
+[Airblue Demapper]
+File=modules/airblue/lib/Mapper/src/airblue_demapper.awb
+Packagehint=airblue
+
+[Airblue Depuncturer]
+File=modules/airblue/lib/Puncturer/src/airblue_depuncturer.awb
+Packagehint=airblue
+
+[Airblue Viterbi (no SoftHints)/Requires]
+airblue_convolutional_decoder_common=Airblue Convolutional Decoder Common
+
+[Airblue Unserializer]
+File=modules/airblue/lib/Unserializer/src/airblue_unserializer.awb
+Packagehint=airblue
+
+[Airblue Phy RX RRR Packet Check]
+File=modules/airblue/lib/PacketGen/src/PacketOutput/airblue_phy_packet_check_rx.awb
+Packagehint=airblue
+
+[Airblue Environment]
+File=modules/airblue/lib/HostControl/Environment/airblue_environment.awb
+Packagehint=airblue
+
+[Airblue Channel Estimator]
+File=modules/airblue/lib/ChannelEstimator/src/airblue_channel_estimator.awb
+Packagehint=airblue
+
+[RX USRP Test Driver]
+File=modules/airblue/lib/Drivers/RXTest/rx-test-usrp.awb
+Packagehint=airblue
+
+[Airblue Soft MAC]
+File=modules/airblue/MAC/WiFi/softMAC/airblue-softmac.awb
+Packagehint=airblue
+
+[Airblue Synchronizer]
+File=modules/airblue/lib/Synchronizer/src/airblue_synchronizer.awb
+Packagehint=airblue
+
+[Airblue Convolutional Decoder Common]
+File=modules/airblue/lib/ConvDecoder/common/src/airblue_convolutional_decoder_common.awb
+Packagehint=airblue
+
+[Airblue Channel Estimator/Requires]
+airblue_inverse_sq_root=Airblue Inverse Square Root
+
+[Airblue Dual XUPV5 Mapping]
+File=modules/multifpga/mapping/airblue_map.awb
+Packagehint=leap-platforms-usrp
