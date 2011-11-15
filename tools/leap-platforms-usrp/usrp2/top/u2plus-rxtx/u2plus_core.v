@@ -356,10 +356,8 @@ module u2plus_core
 
    wire [31:0] router_debug;
 
-   wire        ser_out_tie, dsp_out_tie;
+   wire ser_out_tie, dsp_out_tie;
 
-   
-   
    packet_router #(.BUF_SIZE(9), .UDP_BASE(SR_UDP_SM), .CTRL_BASE(SR_BUF_POOL)) packet_router
      (.wb_clk_i(wb_clk),.wb_rst_i(wb_rst),
       .wb_we_i(s1_we),.wb_stb_i(s1_stb),.wb_adr_i(s1_adr),.wb_dat_i(s1_dat_o),
@@ -370,13 +368,12 @@ module u2plus_core
       .stream_clk(dsp_clk), .stream_rst(dsp_rst), .stream_clr(1'b0),
 
       .status(status), .sys_int_o(buffer_int), .debug(router_debug),
-
       
       .ser_inp_data(), .ser_inp_valid(0), .ser_inp_ready(),
       .dsp_inp_data(), .dsp_inp_valid(0), .dsp_inp_ready(),
       .eth_inp_data({wr2_flags, wr2_dat}), .eth_inp_valid(wr2_ready_i), .eth_inp_ready(wr2_ready_o),
-      .err_inp_data(), .err_inp_ready(0), .err_inp_valid(),
-
+      .err_inp_data(), .err_inp_ready(), .err_inp_valid(0),
+      
       .ser_out_data(), .ser_out_valid(ser_out_tie), .ser_out_ready(ser_out_tie),
       .dsp_out_data(), .dsp_out_valid(dsp_out_tie), .dsp_out_ready(dsp_out_tie),
       .eth_out_data({rd2_flags, rd2_dat}), .eth_out_valid(rd2_ready_o), .eth_out_ready(rd2_ready_i)
