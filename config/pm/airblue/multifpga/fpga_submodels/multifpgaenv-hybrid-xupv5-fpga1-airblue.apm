@@ -2,7 +2,7 @@
 [Global]
 SaveParameters=0
 Description=Uses a single sata link to communicate between FPGAs
-File=multifpgaenv-hybrid-xupv5-rf
+File=multifpgaenv-hybrid-xupv5-fpga1-airblue
 Version=2.2
 Type=HAsim
 Name=XUPV5 FPGA 1 (USRP RF)
@@ -31,7 +31,7 @@ Packagehint=leap
 virtual_devices=Null Standard Virtual Devices
 low_level_platform_interface=Low Level Platform Interface Hybrid
 umf=Little-Endian Unified Message Format
-platform_services=Airblue MultiFPGA NULL Platform Services
+platform_services=MultiFPGA Subordinate Platform Services
 
 [FPGA Environment]
 File=modules/leap/virtual-platform/fpga-environment.awb
@@ -46,20 +46,12 @@ File=modules/leap/virtual-platform/low-level-platform-interface/hybrid-llpi.awb
 Packagehint=leap
 
 [Low Level Platform Interface Hybrid/Requires]
-physical_platform=XUP Virtex 5 PCIE SATA AURORA
 channelio=Null Channel IO Module
 rrr=RRR Clients and Servers
 physical_platform_debugger=Null Physical Platform Debugger
 local_mem=NULL Local Memory Interface
 remote_memory=Null Remote Memory
-
-[Single-Ended Crystal Clocks Device]
-File=modules/bluespec/common/fpgaenv/physical-platform/physical-devices/clocks/single-ended/single-ended-clocks-device.awb
-Packagehint=leap-platforms
-
-[Common Physical Platform Utilities]
-File=modules/bluespec/common/fpgaenv/physical-platform/utils/utils.awb
-Packagehint=leap-platforms
+physical_platform=XUP Virtex 5 PCIE SATA AURORA
 
 [Null Physical Platform Debugger]
 File=modules/bluespec/common/fpgaenv/physical-platform/debuggers/null/null-debugger.awb
@@ -100,7 +92,7 @@ Packagehint=leap
 [Null Standard Virtual Devices/Requires]
 starter_device=Null Starter Virtual Device
 central_cache=NULL Central Cache
-scratchpad_memory=Hybrid Scratchpad Memory Device (MultiFPGA)
+scratchpad_memory=Local Memory Scratchpad Memory Device
 shared_memory=Null Shared Memory
 common_utility_devices=Null Base Common Devices
 local_memory_device=Soft Connection Local Memory Device
@@ -215,6 +207,9 @@ Packagehint=leap
 File=modules/leap/build-support/build-pipelines/stages/xilinx/xilinx-map.awb
 Packagehint=leap
 
+[BSV Build Tool MultiFPGA/Params]
+BUILD_LOGS_ONLY=1
+
 [FPGA Platform Build Pipeline]
 File=modules/leap/build-support/pipelines/multifpga_platform/fpga-platform-build-pipeline.awb
 Packagehint=multifpga
@@ -240,12 +235,57 @@ physical_channel=Null Physical Channel
 File=modules/leap/virtual-platform/channelio/null/null-channelio.awb
 Packagehint=leap
 
-[Single-Ended Crystal Clocks Device/Params]
-CRYSTAL_CLOCK_FREQ=100
+[Synplify/XST Synthesis Tool]
+File=modules/leap/build-support/build-pipelines/stages/synplify/synplify-sub.awb
+Packagehint=leap
+
+[NULL Central Cache]
+File=modules/leap/virtual-platform/virtual-devices/devices/central-cache/null-central-cache.awb
+Packagehint=leap
+
+[Null Starter Virtual Device]
+File=modules/leap/virtual-platform/virtual-devices/devices/starter/null/null-starter-device.awb
+Packagehint=leap
+
+[Local Memory Scratchpad Memory Device]
+File=modules/leap/virtual-platform/virtual-devices/devices/scratchpad-memory/local/local-mem-scratch.awb
+Packagehint=leap
+
+[Local Memory Scratchpad Memory Device/Requires]
+scratchpad_memory_common=Scratchpad Memory Common Definitions
+
+[Soft Services for MultiFPGA Submodel]
+File=config/pm/leap/submodels/common/multifpga-soft-services.apm
+Packagehint=multifpga
+
+[MultiFPGA Subordinate Platform Services]
+File=config/pm/leap/submodels/platform-services/multifpga-platform-services-subordinate.apm
+Packagehint=multifpga
+
+[Soft Services for MultiFPGA Submodel/Params]
+CON_CWIDTH=128
+
+[MultiFPGA Subordinate Platform Services/Params]
+SCRATCHPAD_STD_PVT_CACHE_ENTRIES=4096
+
+[Soft Connection Local Memory Device]
+File=modules/leap/virtual-platform/virtual-devices/devices/local-memory/soft/local-memory-device-soft.awb
+Packagehint=leap
 
 [XUP Virtex 5 PCIE SATA AURORA]
 File=modules/bluespec/common/fpgaenv/physical-platform/xilinx_xupV5/pcie-sata-aurora/xilinx-xup-pcie-sata.awb
 Packagehint=leap-platforms-usrp
+
+[Single-Ended Crystal Clocks Device]
+File=modules/bluespec/common/fpgaenv/physical-platform/physical-devices/clocks/single-ended/single-ended-clocks-device.awb
+Packagehint=leap-platforms
+
+[Common Physical Platform Utilities]
+File=modules/bluespec/common/fpgaenv/physical-platform/utils/utils.awb
+Packagehint=leap-platforms
+
+[Single-Ended Crystal Clocks Device/Params]
+CRYSTAL_CLOCK_FREQ=100
 
 [XUP Virtex 5 PCIE SATA AURORA/Requires]
 clocks_device=Single-Ended Crystal Clocks Device
@@ -257,91 +297,6 @@ aurora_device=Aurora Device, Single Lane, 3.125gbps (SMA)
 File=modules/bluespec/common/fpgaenv/physical-platform/physical-devices/sata-usrp/sata-bluespec.awb
 Packagehint=leap-platforms
 
-[NULL Central Cache]
-File=modules/leap/virtual-platform/virtual-devices/devices/central-cache/null-central-cache.awb
-Packagehint=leap
-
-[Hybrid Scratchpad Memory Device (MultiFPGA)/Requires]
-scratchpad_memory_common=Scratchpad Memory Common Definitions
-
-[Hybrid Scratchpad Memory Device (MultiFPGA)]
-File=modules/leap/virtual-platform/virtual-devices/devices/scratchpad-memory/hybrid/hybrid-mem-scratch-multi.awb
-Packagehint=leap
-
-[Null Starter Virtual Device]
-File=modules/leap/virtual-platform/virtual-devices/devices/starter/null/null-starter-device.awb
-Packagehint=leap
-
-[Synplify/XST Synthesis Tool]
-File=modules/leap/build-support/build-pipelines/stages/synplify/synplify-sub.awb
-Packagehint=leap
-
 [Aurora Device, Single Lane, 3.125gbps (SMA)]
 File=modules/bluespec/common/fpgaenv/physical-platform/physical-devices/sata-aurora-3.125gbps/sata-aurora.awb
 Packagehint=leap-platforms
-
-[Soft Services for MultiFPGA Submodel/Params]
-CON_CWIDTH=128
-
-[Soft Services for MultiFPGA Submodel]
-File=config/pm/leap/submodels/common/multifpga-soft-services.apm
-Packagehint=multifpga
-
-[Soft Connection Local Memory Device]
-File=modules/leap/virtual-platform/virtual-devices/devices/local-memory/soft/local-memory-device-soft.awb
-Packagehint=leap
-
-[Debug Scan Services Null]
-File=modules/leap/libraries/platform-services/common-services/debug-scan-service/debug-scan-service-null.awb
-Packagehint=leap
-
-[Assertions Service Null]
-File=modules/leap/libraries/platform-services/common-services/assertions-service/assertions-service-null.awb
-Packagehint=leap
-
-[Common Services Null]
-File=modules/leap/libraries/platform-services/common-services/common-services-standard-null.awb
-Packagehint=leap
-
-[Airblue MultiFPGA NULL Platform Services/Requires]
-common_services=Common Services Null
-airblue_service=Airblue Service (USRP)
-multifpga_router_service=MultiFPGA Router Service
-
-[Airblue MultiFPGA NULL Platform Services]
-File=modules/leap/virtual-platform/virtual-devices/platform-services/platform-services-null-airblue.awb
-Packagehint=leap-platforms-usrp
-
-[Stats Service Null]
-File=modules/leap/libraries/platform-services/common-services/stats-service/stats-service-null.awb
-Packagehint=leap
-
-[MultiFPGA Router Service/Requires]
-multifpga_switch=MultiFPGA Switch with Flowcontrol
-
-[Common Services Null/Requires]
-stats_service=Stats Service Null
-assertions_service=Assertions Service Null
-debug_scan_service=Debug Scan Services Null
-streams_service=Streams Service Null
-dynamic_parameters_service=Dynamic Parameter Service Null
-
-[Airblue Service (USRP)]
-File=modules/airblue/device/deviceServices/airblue-service/usrp/airblue-service.awb
-Packagehint=airblue
-
-[Streams Service Null]
-File=modules/leap/libraries/platform-services/common-services/streams-service/streams-service-null.awb
-Packagehint=leap
-
-[Dynamic Parameter Service Null]
-File=modules/leap/libraries/platform-services/common-services/dynamic-parameters-service/dynamic-parameters-service-null.awb
-Packagehint=leap
-
-[MultiFPGA Router Service]
-File=modules/leap/virtual-platform/virtual-devices/devices/multifpga_router_service/multifpga-router-service.awb
-Packagehint=multifpga
-
-[MultiFPGA Switch with Flowcontrol]
-File=modules/leap/virtual-platform/virtual-devices/devices/multifpga_router_service/flowcontrol/flowcontrol-switch.awb
-Packagehint=multifpga
