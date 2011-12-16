@@ -100,7 +100,6 @@ Packagehint=leap
 [Null Standard Virtual Devices/Requires]
 starter_device=Null Starter Virtual Device
 central_cache=NULL Central Cache
-scratchpad_memory=Hybrid Scratchpad Memory Device (MultiFPGA)
 shared_memory=Null Shared Memory
 common_utility_devices=Null Base Common Devices
 local_memory_device=Soft Connection Local Memory Device
@@ -134,10 +133,6 @@ Packagehint=leap
 
 [Null Standard Virtual Devices]
 File=modules/leap/virtual-platform/virtual-devices/virtual-device-sets/std/std-virtual-devices-null.awb
-Packagehint=leap
-
-[Scratchpad Memory Common Definitions]
-File=modules/leap/virtual-platform/virtual-devices/devices/scratchpad-memory/common/mem-scratch-common.awb
 Packagehint=leap
 
 [Null Shared Memory]
@@ -259,13 +254,6 @@ Packagehint=leap-platforms
 
 [NULL Central Cache]
 File=modules/leap/virtual-platform/virtual-devices/devices/central-cache/null-central-cache.awb
-Packagehint=leap
-
-[Hybrid Scratchpad Memory Device (MultiFPGA)/Requires]
-scratchpad_memory_common=Scratchpad Memory Common Definitions
-
-[Hybrid Scratchpad Memory Device (MultiFPGA)]
-File=modules/leap/virtual-platform/virtual-devices/devices/scratchpad-memory/hybrid/hybrid-mem-scratch-multi.awb
 Packagehint=leap
 
 [Null Starter Virtual Device]
