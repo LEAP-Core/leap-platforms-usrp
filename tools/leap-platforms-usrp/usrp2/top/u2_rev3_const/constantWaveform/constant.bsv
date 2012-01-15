@@ -60,7 +60,7 @@ module mkConstantWaveform (ConstantWaveform);
 
   rule scale;
     Complex#(FixedPoint#(2,14)) sample = unpack(dataFIFO.first);
-    Complex#(FixedPoint#(2,14)) mul = Complex{img: 0, rel:fromReal(0.9)}; // Change scale here
+    Complex#(FixedPoint#(2,14)) mul = Complex{img: 0, rel:fromReal(0.7)}; // Change scale here
     dataFIFO.deq;
     scaleDataFIFO.enq(pack(mul * sample));
   endrule
