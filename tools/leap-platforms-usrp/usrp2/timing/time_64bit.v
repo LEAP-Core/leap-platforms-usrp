@@ -111,10 +111,10 @@ module time_64bit
 	  seconds <= mimo_secs;
 	  ticks <= mimo_ticks;
        end
-     else if(ticks_plus_one == ticks_per_sec_reg)
+     else if(ticks == ticks_per_sec_reg)
        begin
 	  seconds <= seconds + 1;
-	  ticks <= 0;
+	  ticks <= 1;
        end
      else
        ticks <= ticks_plus_one;
