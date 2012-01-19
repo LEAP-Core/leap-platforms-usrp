@@ -4,6 +4,7 @@ import Samples::*;
 import GetPut::*;
 import Complex::*;
 import FixedPoint::*;
+import Vector::*;
 
 interface ConstantWaveform;
   interface Get#(Bit#(32)) data;
@@ -23,7 +24,6 @@ module mkBRAMWaveform (BRAMWaveform);
     readValue <= samples[addr];
   endmethod
 
-
   method Bit#(32) readRsp();
     return readValue;
   endmethod
@@ -37,7 +37,6 @@ module mkConstantWaveform (ConstantWaveform);
   FIFOF#(Bit#(1))  tokenFIFO <- mkSizedFIFOF(4);
   FIFOF#(Bit#(32)) dataFIFO <- mkSizedFIFOF(4);
   FIFOF#(Bit#(32)) scaleDataFIFO <- mkSizedFIFOF(4);
-  FIFOF#(Bit#(32)) scaleDataFIFO2 <- mkSizedFIFOF(4);
   Reg#(Bit#(16))  counter <- mkReg(0);
   BRAMWaveform waveform <- mkBRAMWaveform;
 
@@ -58,19 +57,7 @@ module mkConstantWaveform (ConstantWaveform);
     end
   endrule
 
-  rule scale;
-    Complex#(FixedPoint#(2,14)) sample = unpack(dataFIFO.first);
-    Complex#(FixedPoint#(2,14)) mul = Complex{img: 0, rel:fromReal(0.7)}; // Change scale here
-    dataFIFO.deq;
-    scaleDataFIFO.enq(pack(mul * sample));
-  endrule
-
-  rule oneToTwo;
-    scaleDataFIFO.deq;
-    scaleDataFIFO2.enq(scaleDataFIFO.first);
-  endrule
-
-  interface data = toGet(scaleDataFIFO2);
+  interface data = toGet(dataFIFO);
   interface token = toGet(tokenFIFO);  
 
 endmodule
@@ -81,7 +68,10 @@ module mkTest();
   rule show;
      let data <- wave.data.get;
      let tag <- wave.token.get;
+     FixedPoint#(2,14) i = unpack(data[31:16]);
+     FixedPoint#(2,14) q = unpack(data[15:0]);
      $display("Data: %h, tag: %h",data,tag);
+     $write("I/Q: "); fxptWrite(4,i); $write(", "); fxptWrite(4,q); $display("");
   endrule
 
 endmodule
