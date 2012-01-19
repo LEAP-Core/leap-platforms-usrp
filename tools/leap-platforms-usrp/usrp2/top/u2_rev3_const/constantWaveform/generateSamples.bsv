@@ -1,7 +1,9 @@
-import BaseSamples::*;
-import FixedPoint::*;
+//Uncomment the wafeform you want
+import BaseSamplesLong::*;
+//import BaseSamples::*;
 
-typedef 722 PacketLength;
+
+import FixedPoint::*;
 
 /*Putting a multiplier in the design is too expensive, so we just
 use bluespec to do the multiplication and then use an array in the multiplier*/
@@ -11,13 +13,18 @@ module mkTb();
   rule count;
     counter <= counter + 1;
     if (counter == 0)
-      $display("Bit#(32) samples[1024] = {");
-    if(counter < 1023)
+	  begin
+	    $display("typedef %d NumSamples;", valueOf(NumSamples));
+	    $display("typedef %d PacketLength;", valueOf(PacketLength));
+	    $display("");
+        $display("Bit#(32) samples[%d] = {", valueOf(NumSamples));
+      end
+	if(counter < fromInteger(valueOf(NumSamples)-1))
       begin
         //Scale the data and get the correct endianess for the IQ data
         FixedPoint#(2,14) first_byte = unpack(samples[counter][15:0]);
         FixedPoint#(2,14) second_byte = unpack(samples[counter][31:16]);
-        FixedPoint#(2,14) scale = 0.7; //CHANGE SCALE HERE
+        FixedPoint#(2,14) scale = 1.0; //CHANGE SCALE HERE
         if(counter >= fromInteger(valueOf(PacketLength)) || counter < 3) 
           scale = 1.0;
 

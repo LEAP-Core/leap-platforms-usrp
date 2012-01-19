@@ -1,3 +1,6 @@
+typedef 1024 NumSamples;
+typedef 722 PacketLength;
+
 Bit#(32) samples[1024] = {
 32'hdeaddead,
 32'hcafecafe,

@@ -29,7 +29,9 @@ module mkBRAMWaveform (BRAMWaveform);
   endmethod
 
 endmodule
-typedef 722 PacketLength;
+
+//Define this in the waveform file
+//typedef 722 PacketLength;
 
 (*synthesize*)
 module mkConstantWaveform (ConstantWaveform);
