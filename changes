@@ -6211,3 +6211,13 @@ Directory tools/uhd/host/examples
 
 Added uhd driver code.  I need to figure out how to invoke their
 shared library from our code. 
+
+----------
+emer        Date: Thu Jan 26 13:55:38 EST 2012  CSN: CSN-leap-platforms-usrp-33
+                  Thu Jan 26 18:55:38 UTC 2012
+
+
+Directory admin/packages
+ leap-platforms-usrp       Locally Modified           32 
+
+Mark package as a 'prerelease'.
