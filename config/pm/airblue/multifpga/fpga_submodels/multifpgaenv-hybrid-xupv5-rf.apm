@@ -28,7 +28,7 @@ File=modules/leap/virtual-platform/std-virtual-platform.awb
 Packagehint=leap
 
 [Standard Virtual Platform/Requires]
-virtual_devices=Null Standard Virtual Devices
+virtual_devices=Standard Virtual Devices (No Memory Service)
 low_level_platform_interface=Low Level Platform Interface Hybrid
 umf=Little-Endian Unified Message Format
 platform_services=Airblue MultiFPGA NULL Platform Services
@@ -89,23 +89,10 @@ File=modules/leap/virtual-platform/low-level-platform-interface/local-mem/local-
 Packagehint=leap
 
 [NULL Local Memory Interface/Params]
-LOCAL_MEM_WORDS_PER_LINE=4
-LOCAL_MEM_WORD_BITS=64
 LOCAL_MEM_ADDR_BITS=26
 
 [RL Bluespec Library Submodel]
 File=config/pm/leap/submodels/common/librl-bsv.apm
-Packagehint=leap
-
-[Null Standard Virtual Devices/Requires]
-starter_device=Null Starter Virtual Device
-central_cache=NULL Central Cache
-shared_memory=Null Shared Memory
-common_utility_devices=Null Base Common Devices
-local_memory_device=Soft Connection Local Memory Device
-
-[Null Base Common Devices]
-File=modules/leap/virtual-platform/virtual-devices/devices/common/common-utility-devices-null.awb
 Packagehint=leap
 
 [Hybrid Streams Device]
@@ -120,23 +107,8 @@ Packagehint=leap
 File=modules/leap/virtual-platform/virtual-devices/devices/common/debug-scan-device/debug-scan-device.awb
 Packagehint=leap
 
-[Null Base Common Devices/Requires]
-stats_device=Stats Device
-dynamic_parameters_device=Dynamic Parameters Device
-streams_device=Hybrid Streams Device
-assertions_device=Assertions Device
-debug_scan_device=Debug Scan Device
-
 [Dynamic Parameters Device]
 File=modules/leap/virtual-platform/virtual-devices/devices/common/dynamic-parameters-device/dynamic-parameters-device.awb
-Packagehint=leap
-
-[Null Standard Virtual Devices]
-File=modules/leap/virtual-platform/virtual-devices/virtual-device-sets/std/std-virtual-devices-null.awb
-Packagehint=leap
-
-[Null Shared Memory]
-File=modules/leap/virtual-platform/virtual-devices/devices/shared-memory/null/null-shared-memory.awb
 Packagehint=leap
 
 [Stats Device]
@@ -252,14 +224,6 @@ aurora_device=Aurora Device, Single Lane, 3.125gbps (SMA)
 File=modules/bluespec/common/fpgaenv/physical-platform/physical-devices/sata-usrp/sata-bluespec.awb
 Packagehint=leap-platforms
 
-[NULL Central Cache]
-File=modules/leap/virtual-platform/virtual-devices/devices/central-cache/null-central-cache.awb
-Packagehint=leap
-
-[Null Starter Virtual Device]
-File=modules/leap/virtual-platform/virtual-devices/devices/starter/null/null-starter-device.awb
-Packagehint=leap
-
 [Synplify/XST Synthesis Tool]
 File=modules/leap/build-support/build-pipelines/stages/synplify/synplify-sub.awb
 Packagehint=leap
@@ -268,16 +232,9 @@ Packagehint=leap
 File=modules/bluespec/common/fpgaenv/physical-platform/physical-devices/sata-aurora-3.125gbps/sata-aurora.awb
 Packagehint=leap-platforms
 
-[Soft Services for MultiFPGA Submodel/Params]
-CON_CWIDTH=128
-
 [Soft Services for MultiFPGA Submodel]
 File=config/pm/leap/submodels/common/multifpga-soft-services.apm
 Packagehint=multifpga
-
-[Soft Connection Local Memory Device]
-File=modules/leap/virtual-platform/virtual-devices/devices/local-memory/soft/local-memory-device-soft.awb
-Packagehint=leap
 
 [Debug Scan Services Null]
 File=modules/leap/libraries/platform-services/common-services/debug-scan-service/debug-scan-service-null.awb
@@ -333,3 +290,31 @@ Packagehint=multifpga
 [MultiFPGA Switch with Flowcontrol]
 File=modules/leap/virtual-platform/virtual-devices/devices/multifpga_router_service/flowcontrol/flowcontrol-switch.awb
 Packagehint=multifpga
+
+[Standard Virtual Devices (No Memory Service)/Requires]
+starter_device=Starter Virtual Device
+common_utility_devices=Base Common Devices
+front_panel=Hybrid Front Panel
+
+[Hybrid Front Panel]
+File=modules/leap/virtual-platform/virtual-devices/devices/front-panel/hybrid/hybrid-fp.awb
+Packagehint=leap
+
+[Standard Virtual Devices (No Memory Service)]
+File=modules/leap/virtual-platform/virtual-devices/virtual-device-sets/std/std-virtual-devices-null-mem.awb
+Packagehint=leap
+
+[Starter Virtual Device]
+File=modules/leap/virtual-platform/virtual-devices/devices/starter/hybrid/starter-device.awb
+Packagehint=leap
+
+[Base Common Devices/Requires]
+stats_device=Stats Device
+dynamic_parameters_device=Dynamic Parameters Device
+streams_device=Hybrid Streams Device
+assertions_device=Assertions Device
+debug_scan_device=Debug Scan Device
+
+[Base Common Devices]
+File=modules/leap/virtual-platform/virtual-devices/devices/common/common-utility-devices.awb
+Packagehint=leap
